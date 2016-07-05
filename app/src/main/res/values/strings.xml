@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AustinAllergyAlert</string>
+    <string name="settings">Settings</string>>
+    <string name="calendar">Calendar</string>
+    <string name="aboutUs">About Us</string>
+    <string name="contact">Contact</string>
+</resources>

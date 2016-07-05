@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Adan/AndroidStudioProjects/AustinAllergyAlert2/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/Users/Adan/AndroidStudioProjects/AustinAllergyAlert2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]
