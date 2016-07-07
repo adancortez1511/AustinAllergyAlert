@@ -14,13 +14,54 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="ac42886.austinallergyalert.AustinAllergyAlert" >
+        <activity
+            android:name="ac42886.austinallergyalert.AustinAllergyAlert"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="ac42886.austinallergyalert.Calendar"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ac42886.austinallergyalert.GraphData"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ac42886.austinallergyalert.Notes"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ac42886.austinallergyalert.AboutActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Allow the Settings activity -->
+        <activity
+            android:name="ac42886.austinallergyalert.SettingsActivity"
+            android:label="Settings" />
     </application>
 
 </manifest>
