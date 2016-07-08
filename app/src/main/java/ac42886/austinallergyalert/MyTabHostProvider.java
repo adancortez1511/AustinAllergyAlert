@@ -78,7 +78,7 @@ public class MyTabHostProvider extends TabHostProvider
         graphDataTab.setSelectedBtnTextColor(Color.BLACK);
 //		graphDataTab.setBtnColor(Color.parseColor("#00000000"));
 //		graphDataTab.setSelectedBtnColor(Color.parseColor("#0000FF"));
-        graphDataTab.setBtnGradient(transGradientDrawable);
+//        graphDataTab.setBtnGradient(transGradientDrawable);
         graphDataTab.setSelectedBtnGradient(gradientDrawable);
         graphDataTab.setIntent(new Intent(context, GraphData.class));
 

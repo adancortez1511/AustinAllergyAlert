@@ -21,8 +21,9 @@ public class JSoupHandler {
             e.printStackTrace();
         }
         if (doc != null) {
-            // get the 3rd cell of every row after the first 3 rows
-            Elements allergenData = doc.select(".allergen");
+            // get the date reported and all allergen's and their levels
+            Elements allergenData = doc.select("h2, .allergen");
+
             return allergenData;
         }
         else {

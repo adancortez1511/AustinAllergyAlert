@@ -1,7 +1,10 @@
 package ac42886.austinallergyalert;
 
 //import java.util.Arrays;
+import java.text.DateFormat;
+import java.text.ParsePosition;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.ListIterator;
@@ -25,15 +28,25 @@ public class AllergenService {
             Elements allergenData = jSoupHandler.getElements(source);
 
             if (allergenData != null) {
+                // create iterator
                 ListIterator<Element> iterator = allergenData.listIterator();
+
+                // get date reported
+                Element dateElement = iterator.next();
+                String dateString = dateElement.html();
+                DateFormat df = DateFormat.getDateInstance();
+                Date date = df.parse(dateString, new ParsePosition(27));
+                //System.out.println(date.toString());
+
+                // get allergen types and their counts
                 while(iterator.hasNext()) {
-                    Element element = (Element) iterator.next();
+                    Element element = iterator.next();
                     String s = element.html();
                     //System.out.println(s);
                     String[] strings = s.split(": ");
                     String type = strings[0];
                     int count = Integer.parseInt(strings[1]);
-                    Allergen allergen = new Allergen(type, count);
+                    Allergen allergen = new Allergen(type, count, date);
                     allergens.add(allergen);
                 }
             }
@@ -42,6 +55,7 @@ public class AllergenService {
             e.printStackTrace();
         }
 
+        //System.out.println(Arrays.toString(allergens.toArray()));
         return allergens;
     }
 
