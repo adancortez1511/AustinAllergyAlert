@@ -55,7 +55,6 @@ public class AllergenService {
             e.printStackTrace();
         }
 
-        //System.out.println(Arrays.toString(allergens.toArray()));
         return allergens;
     }
 
