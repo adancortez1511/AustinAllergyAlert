@@ -4,4 +4,18 @@
     <string name="calendar">Calendar</string>
     <string name="aboutUs">About Us</string>
     <string name="contact">Contact</string>
+    <string name="tree">Tree</string>
+    <string name="mold">Mold</string>
+    <string name="grass">Grass</string>
+    <string name="weed">Weed</string>
+    <string name="push_notification">Push Notifications</string>
+    <string name="edit_push_notifications">Edit Push Notifications:</string>
+    <string name="push_notification_summary">Push Notification Summary</string>
+    <string-array name="notification_list">
+        <item>@string/tree</item>
+        <item>@string/mold</item>
+        <item>@string/grass</item>
+        <item>@string/weed</item>
+    </string-array>
+
 </resources>
