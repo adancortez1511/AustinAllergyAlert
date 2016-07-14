@@ -6,7 +6,7 @@ import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
 
 import ac42886.austinallergyalert.AllergyAlertClass;
-import ac42886.austinallergyalert.Calendar;
+import ac42886.austinallergyalert.CalendarActivity;
 import ac42886.austinallergyalert.GraphData;
 import ac42886.austinallergyalert.Notes;
 
@@ -68,7 +68,7 @@ public class MyTabHostProvider extends TabHostProvider
 //		calendarTab.setSelectedBtnColor(Color.parseColor("#0000FF"));
         calendarTab.setBtnGradient(transGradientDrawable);
         calendarTab.setSelectedBtnGradient(gradientDrawable);
-        calendarTab.setIntent(new Intent(context, Calendar.class));
+        calendarTab.setIntent(new Intent(context, CalendarActivity.class));
 
         graphDataTab = new Tab(context, category);
         graphDataTab.setIcon(R.drawable.home_sel);

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#000000</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="blackTheme">#000000</color>
+    <color name="whiteTheme">#FFFFFF</color>
     <color name="greenTheme">#228B22</color>
     <color name="yellowTheme">#ffff00</color>
     <color name="orangeTheme">#FFA500</color>
     <color name="redTheme">#FF6600</color>
+    <color name="gradientStart">#393939</color>
+    <color name="gradientStop">#121212</color>
+    <color name="gray">#444440</color>
 </resources>

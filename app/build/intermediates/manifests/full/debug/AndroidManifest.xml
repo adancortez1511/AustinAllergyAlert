@@ -18,7 +18,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="ac42886.austinallergyalert.SplashActivity"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="ac42886.austinallergyalert.AustinAllergyAlert"
+            android:label="Allergy Alert"
             android:launchMode="standard"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -28,7 +38,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ac42886.austinallergyalert.Calendar"
+            android:name="ac42886.austinallergyalert.CalendarActivity"
+            android:label="Calendar"
             android:launchMode="standard"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -39,6 +50,7 @@
         </activity>
         <activity
             android:name="ac42886.austinallergyalert.GraphData"
+            android:label="Graph"
             android:launchMode="standard"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -49,6 +61,7 @@
         </activity>
         <activity
             android:name="ac42886.austinallergyalert.Notes"
+            android:label="Notes"
             android:launchMode="standard"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -59,12 +72,14 @@
         </activity>
         <activity
             android:name="ac42886.austinallergyalert.AboutActivity"
+            android:label="About Us"
             android:screenOrientation="portrait" />
 
         <!-- Allow the Settings activity -->
         <activity
             android:name="ac42886.austinallergyalert.SettingsActivity"
-            android:label="Settings" />
+            android:label="Settings"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

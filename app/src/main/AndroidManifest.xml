@@ -9,9 +9,10 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AustinAllergyAlert"
-            android:launchMode="standard"
-            android:screenOrientation="portrait">
+
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,8 +20,19 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Calendar"
+        <activity android:name=".AustinAllergyAlert"
             android:launchMode="standard"
+            android:label="Allergy Alert"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CalendarActivity"
+            android:launchMode="standard"
+            android:label="Calendar"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -30,6 +42,7 @@
 
         <activity android:name=".GraphData"
             android:launchMode="standard"
+            android:label="Graph"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -39,6 +52,7 @@
 
         <activity android:name=".Notes"
             android:launchMode="standard"
+            android:label="Notes"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -48,12 +62,14 @@
 
         <activity
             android:name=".AboutActivity"
+            android:label="About Us"
             android:screenOrientation="portrait"></activity>
 
         <!-- Allow the Settings activity -->
         <activity
             android:name=".SettingsActivity"
-            android:label="Settings"></activity>
+            android:label="Settings"
+            android:screenOrientation="portrait"></activity>
 
     </application>
 

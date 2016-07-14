@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="sound"
+        android:title="Sound"
+        android:defaultValue="true"
+        android:summary="Toggle sound on or off" />
+    <CheckBoxPreference
+        android:key="push_notifications"
+        android:title="@string/push_notification"
+        android:defaultValue="true"
+        android:summary="Toggle push notifications on or off" />
+    <ListPreference
+        android:key="notification_list"
+        android:title="@string/edit_push_notifications"
+        android:summary="@string/push_notification_summary"
+        android:entries="@array/notification_list"
+        android:entryValues="@array/notification_list" />
+</PreferenceScreen>
