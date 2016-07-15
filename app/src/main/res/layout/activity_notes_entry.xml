@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ListView
-    android:id="@+id/customlist"
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_list"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:layout_marginTop="5dp"/>
+    android:layout_marginTop="5dp" >
         <TextView
         android:id="@+id/Item_name"
         android:layout_width="wrap_content"
