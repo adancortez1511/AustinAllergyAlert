@@ -4,29 +4,44 @@
     api-level="22"
     density="560dpi"
     format="7"
-    timestamp="422506783680" >
+    timestamp="2929542979067" >
 
     <task
         name="javac"
-        duration="6658" />
+        duration="1600" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="766" />
+        duration="0" />
     <task
         name="verifier"
-        duration="68" />
+        duration="0" />
 
     <artifact
-        location="/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
 
-    <build timestamp="422506783680" >
+    <build timestamp="2374972666803" >
         <artifact
             location="/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="2832782854394"
+        verifier="FIELD_REMOVED" >
+        <artifact
+            location="/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="2929542979067" >
+        <artifact
+            location="/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

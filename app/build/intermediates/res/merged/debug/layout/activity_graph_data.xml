@@ -5,4 +5,33 @@
     android:layout_height="match_parent"
     android:background="@color/blackTheme">
 
+    <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="320dp" />
+
+    <TextView
+        android:id="@+id/weed_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chart"
+        android:background="@color/greenTheme"
+        android:text="what the weed" />
+
+    <TextView
+        android:id="@+id/mold_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weed_graph"
+        android:background="@color/greenTheme"
+        android:text="what the mold" />
+
+    <TextView
+        android:id="@+id/grass_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mold_graph"
+        android:background="@color/greenTheme"
+        android:text="what the grass" />
+
 </LinearLayout>
