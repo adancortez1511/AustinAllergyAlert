@@ -126,6 +126,8 @@ MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/Adan/AndroidStud
 MERGED from [com.android.support:support-v4:23.4.0] /Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
 MERGED from [com.prolificinteractive:material-calendarview:1.4.0] /Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/exploded-aar/com.prolificinteractive/material-calendarview/1.4.0/AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:support-v4:23.4.0] /Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.github.lecho:hellocharts-library:1.5.8] /Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/exploded-aar/com.github.lecho/hellocharts-library/1.5.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lecho:hellocharts-android:v1.5.8] /Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/exploded-aar/com.github.lecho/hellocharts-android/v1.5.8/AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

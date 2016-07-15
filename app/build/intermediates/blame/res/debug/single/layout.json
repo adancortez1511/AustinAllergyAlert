@@ -88,6 +88,10 @@
         "source": "/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/res/merged/debug/layout/activity_notes_entry.xml",
+        "source": "/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/src/main/res/layout/activity_notes_entry.xml"
+    },
+    {
         "merged": "/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/res/merged/debug/layout/bizbutton.xml",
         "source": "/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/src/main/res/layout/bizbutton.xml"
     },
