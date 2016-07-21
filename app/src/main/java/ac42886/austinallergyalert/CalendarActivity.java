@@ -16,9 +16,13 @@ import android.widget.TextView;
 
 import com.prolificinteractive.materialcalendarview.CalendarDay;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 import java.util.concurrent.Executors;
 
 import butterknife.Bind;
@@ -30,6 +34,7 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
 
     private static final String TAG = "Calendar Activity:";
     private final OneDayDecorator oneDayDecorator = new OneDayDecorator();
+    private TextView calendarTextView;
 
     @Bind(R.id.calendarView)
     MaterialCalendarView widget;
@@ -41,6 +46,10 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
         TabView tabView = tabProvider.getTabHost("Calendar");
         tabView.setCurrentView(R.layout.activity_calendar);
         setContentView(tabView.render(1));
+
+        // set TextView
+        calendarTextView = (TextView)  findViewById(R.id.calendar_text);
+        calendarTextView.setText((new Date()).toString());
 
         ButterKnife.bind(this);
 
@@ -75,9 +84,8 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
         //If you change a decorate, you need to invalidate decorators
         oneDayDecorator.setDate(date.getDate());
         widget.invalidateDecorators();
-        final TextView textViewToChange = (TextView) findViewById(R.id.textView);
-        textViewToChange.setText(date.getDate().toString());
-        textViewToChange.setBackgroundResource(R.color.redTheme);
+        calendarTextView.setText(date.getDate().toString());
+        calendarTextView.setBackgroundResource(R.color.redTheme);
     }
 
     /**
@@ -114,4 +122,5 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
             widget.addDecorator(new EventDecorator(Color.RED, calendarDays));
         }
     }
+
 }

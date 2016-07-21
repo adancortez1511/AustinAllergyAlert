@@ -8,22 +8,42 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/calendarView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="400dp"
         android:background="@color/whiteTheme"
         app:mcv_showOtherDates="none"
         app:mcv_selectionColor="@color/whiteTheme" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/calendar_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_below="@id/calendarView"
         android:background="@color/greenTheme"
-        android:text="what the heck"
+        android:text=""
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="410dp"
         android:layout_centerInParent="true"
         android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/rating_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calendar_text"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Rate the sevrity of your allergy symptoms"/>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rating_message"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:max="4"/>
 
 </RelativeLayout>

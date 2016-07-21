@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/chart"
         android:background="@color/greenTheme"
-        android:text="what the weed" />
+        android:text="weed" />
 
     <TextView
         android:id="@+id/mold_graph"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/weed_graph"
         android:background="@color/greenTheme"
-        android:text="what the mold" />
+        android:text="mold" />
 
     <TextView
         android:id="@+id/grass_graph"
@@ -32,6 +32,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/mold_graph"
         android:background="@color/greenTheme"
-        android:text="what the grass" />
+        android:text="grass" />
 
 </LinearLayout>

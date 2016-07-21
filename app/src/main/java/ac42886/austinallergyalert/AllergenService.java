@@ -1,6 +1,10 @@
 package ac42886.austinallergyalert;
 
 //import java.util.Arrays;
+import android.os.AsyncTask;
+import android.util.Log;
+
+import java.net.URL;
 import java.text.DateFormat;
 import java.text.ParsePosition;
 import java.util.Arrays;
@@ -16,16 +20,16 @@ import org.jsoup.select.Elements;
  * Created by ofl7_000 on 7/7/2016.
  */
 
-public class AllergenService {
+public class AllergenService extends AsyncTask<Void, Void, List<Allergen>> {
 
+    private static final String SOURCE = "http://scripts.kxan.com/wp_embeds/weather/allergy/allergy_output_v2.html";
     private JSoupHandler jSoupHandler = new JSoupHandler();
 
-    public List<Allergen> getAllergens() {
+    public List<Allergen> doInBackground(Void... params) {
         List<Allergen> allergens = new ArrayList<Allergen>();
 
         try {
-            String source = "http://scripts.kxan.com/wp_embeds/weather/allergy/allergy_output_v2.html";
-            Elements allergenData = jSoupHandler.getElements(source);
+            Elements allergenData = jSoupHandler.getElements(SOURCE);
 
             if (allergenData != null) {
                 // create iterator
@@ -58,4 +62,8 @@ public class AllergenService {
         return allergens;
     }
 
+
+    public void onPostExecute(List<Allergen> allergens) {
+        Log.d("AllergenService ", Arrays.toString(allergens.toArray()));
+    }
 }

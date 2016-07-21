@@ -8,8 +8,8 @@ import butterknife.ButterKnife.ViewBinder;
 public class CalendarActivity$$ViewBinder<T extends ac42886.austinallergyalert.CalendarActivity> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131624034, "field 'widget'");
-    target.widget = finder.castView(view, 2131624034, "field 'widget'");
+    view = finder.findRequiredView(source, 2131624036, "field 'widget'");
+    target.widget = finder.castView(view, 2131624036, "field 'widget'");
   }
 
   @Override public void unbind(T target) {
