@@ -8,6 +8,8 @@
     <string name="mold">Mold</string>
     <string name="grass">Grass</string>
     <string name="weed">Weed</string>
+    <string name="rating_message_valid">Rate the sevrity of your allergy symptoms</string>
+    <string name="rating_message_invalid">Sorry, no information currently available.</string>
     <string name="push_notification">Push Notifications</string>
     <string name="edit_push_notifications">Edit Push Notifications:</string>
     <string name="push_notification_summary">Push Notification Summary</string>

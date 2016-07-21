@@ -12,6 +12,8 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.util.Log;
+import android.view.View;
+import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.prolificinteractive.materialcalendarview.CalendarDay;
@@ -35,6 +37,9 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
     private static final String TAG = "Calendar Activity:";
     private final OneDayDecorator oneDayDecorator = new OneDayDecorator();
     private TextView calendarTextView;
+    private TextView seekBarValue;
+    private TextView ratingMessage;
+    private SeekBar allergyResponse;
 
     @Bind(R.id.calendarView)
     MaterialCalendarView widget;
@@ -50,6 +55,14 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
         // set TextView
         calendarTextView = (TextView)  findViewById(R.id.calendar_text);
         calendarTextView.setText((new Date()).toString());
+
+        // Links SeekBar and TextView on Calendar screen
+        allergyResponse = (SeekBar) findViewById(R.id.seekbar);
+        seekBarValue = (TextView) findViewById(R.id.seekbar_value);
+        ratingMessage = (TextView) findViewById(R.id.rating_message);
+
+        // Calls SeekBar listener function
+        setSeekBarListener();
 
         ButterKnife.bind(this);
 
@@ -81,11 +94,58 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
 
     @Override
     public void onDateSelected(@NonNull MaterialCalendarView widget, @NonNull CalendarDay date, boolean selected) {
+
         //If you change a decorate, you need to invalidate decorators
-        oneDayDecorator.setDate(date.getDate());
+        Date selectedDate = date.getDate();
+        oneDayDecorator.setDate(selectedDate);
         widget.invalidateDecorators();
-        calendarTextView.setText(date.getDate().toString());
+        calendarTextView.setText(selectedDate.toString());
         calendarTextView.setBackgroundResource(R.color.redTheme);
+        Log.d(TAG, Calendar.getInstance().getTime().toString());
+
+        // Olivia - Check to see if user has entered a value for this date if yes then change the 0 to that progress value
+        allergyResponse.setProgress(0);
+
+        if (selectedDate.after(CalendarDay.today().getDate()))
+        {
+            // Checks to see if the selected date is in the future
+            ratingMessage.setText(R.string.rating_message_invalid);
+            allergyResponse.setVisibility(View.GONE);
+        }
+        else
+        {
+            // Olivia - I'm not sure we need to do anything here
+            ratingMessage.setText(R.string.rating_message_valid);
+            allergyResponse.setVisibility(View.VISIBLE);
+        }
+    }
+
+    private void setSeekBarListener()
+    {
+        // Initializes SeekBar to 0 and sets the increments by 10 with a max of 100
+        allergyResponse.setProgress(0);
+        allergyResponse.incrementProgressBy(10);
+        allergyResponse.setMax(100);
+
+        allergyResponse.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                progress = progress / 10;
+                progress = progress * 10;
+                seekBarValue.setText(String.valueOf(progress));
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+                // Olivia - Not sure if we need to start tracking change
+                // I'll look if we can change the color of the SeekBar as it changes (low priority)
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                // Olivia - Insert code here to store the integer value of 'progress' to the backend database
+            }
+        });
     }
 
     /**

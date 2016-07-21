@@ -30,11 +30,13 @@
         android:id="@+id/rating_message"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/calendar_text"
-        android:layout_marginTop="10dp"
         android:gravity="center"
         android:textSize="20dp"
-        android:text="Rate the sevrity of your allergy symptoms"/>
+        android:text="@string/rating_message_valid"
+        android:layout_below="@+id/calendar_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
 
     <SeekBar
         android:id="@+id/seekbar"
@@ -45,5 +47,16 @@
         android:gravity="center"
         android:layout_centerInParent="true"
         android:max="4"/>
+
+    <TextView
+        android:id="@+id/seekbar_value"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="0"
+        android:layout_alignBottom="@+id/seekbar"
+        android:layout_toRightOf="@+id/seekbar"
+        android:layout_toEndOf="@+id/seekbar" />
 
 </RelativeLayout>
