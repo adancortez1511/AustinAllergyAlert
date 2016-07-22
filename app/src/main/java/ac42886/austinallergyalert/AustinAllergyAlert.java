@@ -227,7 +227,7 @@ public class AustinAllergyAlert extends AppCompatActivity {
 
         private void generateColumns() {
             // use this to test multiple allergens
-            allergens = getTestAllergens();
+            //allergens = getTestAllergens();
 
             Log.d("generateColumns ", "allergens = " + Arrays.toString(allergens.toArray()));
             int nColumns = allergens.size();
