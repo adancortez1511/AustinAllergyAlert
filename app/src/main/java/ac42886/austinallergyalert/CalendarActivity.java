@@ -1,6 +1,6 @@
 package ac42886.austinallergyalert;
 
-import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -9,22 +9,19 @@ import com.prolificinteractive.materialcalendarview.OnDateSelectedListener;
 
 import android.graphics.Color;
 import android.os.AsyncTask;
-import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.prolificinteractive.materialcalendarview.CalendarDay;
-
-import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
-import java.util.Locale;
 import java.util.concurrent.Executors;
 
 import butterknife.Bind;
@@ -40,6 +37,8 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
     private TextView seekBarValue;
     private TextView ratingMessage;
     private SeekBar allergyResponse;
+    private DatabaseHelper dbHelper;
+    private Date selectedDate;
 
     @Bind(R.id.calendarView)
     MaterialCalendarView widget;
@@ -52,9 +51,13 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
         tabView.setCurrentView(R.layout.activity_calendar);
         setContentView(tabView.render(1));
 
-        // set TextView
+        // create DatabaseHelper
+        dbHelper = new DatabaseHelper(this);
+
+        // set selectedDate and TextView
+        selectedDate = truncateDate(new Date());
         calendarTextView = (TextView)  findViewById(R.id.calendar_text);
-        calendarTextView.setText((new Date()).toString());
+        calendarTextView.setText(selectedDate.toString());
 
         // Links SeekBar and TextView on Calendar screen
         allergyResponse = (SeekBar) findViewById(R.id.seekbar);
@@ -96,7 +99,7 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
     public void onDateSelected(@NonNull MaterialCalendarView widget, @NonNull CalendarDay date, boolean selected) {
 
         //If you change a decorate, you need to invalidate decorators
-        Date selectedDate = date.getDate();
+        selectedDate = date.getDate();
         oneDayDecorator.setDate(selectedDate);
         widget.invalidateDecorators();
         calendarTextView.setText(selectedDate.toString());
@@ -122,17 +125,16 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
 
     private void setSeekBarListener()
     {
-        // Initializes SeekBar to 0 and sets the increments by 10 with a max of 100
+        // Initializes SeekBar to 0 and sets the increments by 1 with a max of 4,
+        // but will displayed as 1-5
+        allergyResponse.setMax(4);
         allergyResponse.setProgress(0);
-        allergyResponse.incrementProgressBy(10);
-        allergyResponse.setMax(100);
+        allergyResponse.incrementProgressBy(1);
 
         allergyResponse.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                progress = progress / 10;
-                progress = progress * 10;
-                seekBarValue.setText(String.valueOf(progress));
+                seekBarValue.setText(String.valueOf(progress + 1));
             }
 
             @Override
@@ -143,7 +145,17 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                // Olivia - Insert code here to store the integer value of 'progress' to the backend database
+                int rating = seekBar.getProgress();
+                Log.d("onStopTracking ", "inserting rating into database");
+                dbHelper.insertRating(rating, selectedDate);
+
+                // create the toast
+                Context context = getApplicationContext();
+                CharSequence text = "Your rating has been saved!";
+                int duration = Toast.LENGTH_SHORT;
+
+                Toast toast = Toast.makeText(context, text, duration);
+                toast.show();
             }
         });
     }
@@ -181,6 +193,11 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
 
             widget.addDecorator(new EventDecorator(Color.RED, calendarDays));
         }
+    }
+
+    // simple method to get get rid of the date's time information
+    public Date truncateDate(Date date) {
+        return new Date(date.getYear(), date.getMonth(), date.getDate());
     }
 
 }

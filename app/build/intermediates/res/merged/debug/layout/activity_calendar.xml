@@ -45,8 +45,7 @@
         android:layout_below="@+id/rating_message"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:layout_centerInParent="true"
-        android:max="4"/>
+        android:layout_centerInParent="true" />
 
     <TextView
         android:id="@+id/seekbar_value"
@@ -54,18 +53,9 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20dp"
-        android:text="0"
+        android:text="2"
         android:layout_alignBottom="@+id/seekbar"
         android:layout_toRightOf="@+id/seekbar"
         android:layout_toEndOf="@+id/seekbar" />
-
-    <Button
-        android:id="@+id/save_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/seekbar"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="10dp"
-        android:text="Save"/>
 
 </RelativeLayout>

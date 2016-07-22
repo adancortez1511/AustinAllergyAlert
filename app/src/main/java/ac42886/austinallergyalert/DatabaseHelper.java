@@ -20,14 +20,6 @@ import java.util.Locale;
  * Created by ofl7_000 on 7/11/2016.
  */
 public class DatabaseHelper extends SQLiteOpenHelper {
-    private static DatabaseHelper instance;
-
-    public static DatabaseHelper getInstance(Context ctx){
-        if(instance==null){
-            instance = new DatabaseHelper(ctx);
-        }
-        return instance;
-    }
 
     /* Inner class that defines the allergens table contents */
     private static abstract class AllergensDbEntry implements BaseColumns {
@@ -89,9 +81,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
-    }
-    public DatabaseHelper(Context context, String name, SQLiteDatabase.CursorFactory cf, int version) {
-        super(context, name, cf, version);
     }
     @Override
     public void onCreate(SQLiteDatabase db) {
@@ -186,7 +175,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             ContentValues values = new ContentValues();
             values.put(SymptomsDbEntry.COLUMN_RATING, rating);
             values.put(SymptomsDbEntry.COLUMN_DATE, date.toString());
-            Log.d("insertRating", "inserting rating into the table");
+            Log.d("insertRating", "inserting rating = " + rating + ", date = " + date.toString() + " into the table");
             db.insert(SymptomsDbEntry.TABLE_NAME, null, values);
         } else { // update the entry
             // new value for the rating column
@@ -197,6 +186,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             String selection = SymptomsDbEntry.COLUMN_DATE + " = ? ";
             String[] selectionArgs = { date.toString() };
 
+            Log.d("insertRating", "updating rating for date = " + date.toString() + " to " + rating);
             db.update(
                     SymptomsDbEntry.TABLE_NAME,
                     values,
@@ -231,6 +221,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 null,
                 null
         );
+        cursor.moveToFirst();
 
         while(cursor.isAfterLast() == false) {
             rating = cursor.getInt(cursor.getColumnIndex(SymptomsDbEntry.COLUMN_RATING));

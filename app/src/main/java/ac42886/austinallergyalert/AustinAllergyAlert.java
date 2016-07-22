@@ -1,10 +1,8 @@
 package ac42886.austinallergyalert;
 
-import android.app.Activity;
 import android.app.FragmentManager;
 import android.content.Intent;
 import android.support.v4.app.Fragment;
-import android.support.v4.view.LayoutInflaterCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -27,23 +25,16 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import java.util.concurrent.ExecutionException;
-import android.app.FragmentManager;
-import android.content.Intent;
+
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
-import lecho.lib.hellocharts.formatter.ColumnChartValueFormatter;
-import lecho.lib.hellocharts.listener.ColumnChartOnValueSelectListener;
 import lecho.lib.hellocharts.model.Axis;
 import lecho.lib.hellocharts.model.AxisValue;
 import lecho.lib.hellocharts.model.Column;
 import lecho.lib.hellocharts.model.ColumnChartData;
 import lecho.lib.hellocharts.model.SubcolumnValue;
-import lecho.lib.hellocharts.util.ChartUtils;
 import lecho.lib.hellocharts.view.ColumnChartView;
 
 public class AustinAllergyAlert extends AppCompatActivity {
@@ -74,7 +65,7 @@ public class AustinAllergyAlert extends AppCompatActivity {
         // get today's allergen counts if needed
         dbHelper = new DatabaseHelper(this);
         allergenService = new AllergenService();
-        todaysDate = getDate(new Date());
+        todaysDate = truncateDate(new Date());
         try {
             refreshData();
         } catch (Exception e) {
@@ -183,8 +174,8 @@ public class AustinAllergyAlert extends AppCompatActivity {
 
     }
 
-    // simple method to get the day's date in YYMMDD form
-    public Date getDate(Date date) {
+    // simple method to get get rid of the date's time information
+    public Date truncateDate(Date date) {
         return new Date(date.getYear(), date.getMonth(), date.getDate());
     }
 
