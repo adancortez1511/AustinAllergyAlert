@@ -21,6 +21,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
@@ -29,7 +30,9 @@ import java.util.concurrent.ExecutionException;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import lecho.lib.hellocharts.listener.ColumnChartOnValueSelectListener;
 import lecho.lib.hellocharts.model.Axis;
 import lecho.lib.hellocharts.model.AxisValue;
 import lecho.lib.hellocharts.model.Column;
@@ -46,9 +49,8 @@ public class AustinAllergyAlert extends AppCompatActivity {
     private DatabaseHelper dbHelper;
     private AllergenService allergenService;
     private static Date todaysDate;
-    private Date lastDateLogged;
+    private static Date lastDateLogged;
     private static List<Allergen> allergens;
-    private TextView dateView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,14 +74,9 @@ public class AustinAllergyAlert extends AppCompatActivity {
             Log.e("ERROR:onCreate ", e.toString() + " exception thrown trying allergenService.execute()");
         }
 
-        // set the dateView
-//        dateView = (TextView) findViewById(R.id.date_view);
-//        dateView.setText(todaysDate.toString());
-
-
         // create the chart
         if(savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().add(R.id.container, new PlaceholderFragment()).commit();
+            getSupportFragmentManager().beginTransaction().add(R.id.container, new DailyChartFragment()).commit();
         }
     }
 
@@ -200,22 +197,28 @@ public class AustinAllergyAlert extends AppCompatActivity {
         Log.d("setVars ", "lastDateLogged = " + lastDateLogged.toString());
     }
 
+
     // chart stuff
-    public static class PlaceholderFragment extends Fragment {
+    public static class DailyChartFragment extends Fragment {
 
         private ColumnChartView chart;
         private ColumnChartData data;
         private boolean hasLabels = true;
         private boolean hasLabelsForSelected = false;
+        private TextView dateView;
 
-        public PlaceholderFragment() { }
+        public DailyChartFragment() { }
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_column_chart, container, false);
 
             chart = (ColumnChartView) rootView.findViewById(R.id.chart);
-            //chart.setOnValueTouchListener(new ValueTouchListener());
+            chart.setOnValueTouchListener(new ValueTouchListener());
+
+            // set the dateView
+            dateView = (TextView) rootView.findViewById(R.id.fragment_date);
+            dateView.setText(getPrettyDateString(lastDateLogged));
 
             generateColumns();
 
@@ -223,7 +226,9 @@ public class AustinAllergyAlert extends AppCompatActivity {
         }
 
         private void generateColumns() {
-            //allergens = getTestAllergens();
+            // use this to test multiple allergens
+            allergens = getTestAllergens();
+
             Log.d("generateColumns ", "allergens = " + Arrays.toString(allergens.toArray()));
             int nColumns = allergens.size();
 
@@ -270,7 +275,34 @@ public class AustinAllergyAlert extends AppCompatActivity {
             return color;
         }
 
+        private String getPrettyDateString(Date date) {
+            Calendar calendarDate = Calendar.getInstance();
+            calendarDate.setTime(date);
+            Log.d("getPrettyDateString ", calendarDate.toString());
+            String dayOfWeek = calendarDate.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Locale.ENGLISH);
+            String month = calendarDate.getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.ENGLISH);
+            int dayOfMonth = calendarDate.get(Calendar.DAY_OF_MONTH);
+            int year = calendarDate.get(Calendar.YEAR);
+            return dayOfWeek + " " + month + " " + dayOfMonth + ", " + year;
+        }
+
+        private class ValueTouchListener implements ColumnChartOnValueSelectListener {
+
+            @Override
+            public void onValueSelected(int columnIndex, int subcolumnIndex, SubcolumnValue value) {
+                Allergen a = allergens.get(columnIndex);
+                String toastString = a.getName() + "\nType: "+ a.getType().toString() +
+                        "\nCount: " + a.getCount() + "\nLevel: " + a.getLevel().toString();
+                Toast.makeText(getActivity(), toastString, Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onValueDeselected() { }
+
+        }
+
     }
+
 
     public static List<Allergen> getTestAllergens(){
         List<Allergen> testAllergens = new ArrayList<Allergen>();

@@ -7,14 +7,102 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".AustinAllergyAlert$PlaceholderFragment" >
+    tools:context=".AustinAllergyAlert$DailyChartFragment" >
 
-    <lecho.lib.hellocharts.view.ColumnChartView
-        android:id="@+id/chart"
+
+    <TextView
+        android:id="@+id/fragment_date"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/whiteTheme"
+        android:text="" />
+
+    <RelativeLayout
+        android:id="@+id/chart_legend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/date_view" >
-    </lecho.lib.hellocharts.view.ColumnChartView>
+        android:layout_above="@id/fragment_date"
+        android:padding="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/green"/>
+        <TextView
+            android:id="@+id/green_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/green"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Low"
+            android:textColor="@color/whiteTheme"/>
+        <ImageView
+            android:id="@+id/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/green_text"
+            android:src="@drawable/yellow"/>
+        <TextView
+            android:id="@+id/yellow_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/yellow"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Med."
+            android:textColor="@color/whiteTheme"/>
+        <ImageView
+            android:id="@+id/orange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/yellow_text"
+            android:src="@drawable/orange"/>
+        <TextView
+            android:id="@+id/orange_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/orange"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="High"
+            android:textColor="@color/whiteTheme"/>
+        <ImageView
+            android:id="@+id/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/orange_text"
+            android:src="@drawable/red"/>
+        <TextView
+            android:id="@+id/red_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/red"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="V. High"
+            android:textColor="@color/whiteTheme"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/chart_legend">
+
+        <lecho.lib.hellocharts.view.ColumnChartView
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </lecho.lib.hellocharts.view.ColumnChartView>
+    </RelativeLayout>
+
 
 
 </RelativeLayout>
