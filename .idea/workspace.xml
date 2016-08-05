@@ -18,19 +18,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0bfcb2-bba8-45dc-8391-fbaf959d3f8a" name="Default" comment="added toasts, a legend, and nicer looking date to the main activity, and a background service">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AllergenTimerService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/AustinAllergyAlert.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/AustinAllergyAlert.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="fa0bfcb2-bba8-45dc-8391-fbaf959d3f8a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AustinAllergyAlert.java" afterPath="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AustinAllergyAlert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/ac42886/austinallergyalert/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/ac42886/austinallergyalert/ExampleUnitTest.java" />
     </list>
     <ignored path="AustinAllergyAlert.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -2216,7 +2205,13 @@
       <option name="project" value="LOCAL" />
       <updated>1469229724152</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added toasts, a legend, and nicer looking date to the main activity, and a background service">
+      <created>1470426520056</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1470426520057</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
