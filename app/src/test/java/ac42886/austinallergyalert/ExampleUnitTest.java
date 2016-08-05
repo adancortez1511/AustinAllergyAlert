@@ -1,7 +1,5 @@
 package ac42886.austinallergyalert;
 
-import ac42886.austinallergyalert.Allergen;
-
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -15,12 +13,12 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
 
-    @Test
-    public void runAllergenService() throws Exception {
-        AllergenService as = new AllergenService();
-        List<Allergen> allergens = as.getAllergens();
-        System.out.println(Arrays.toString(allergens.toArray()));
-    }
+//    @Test
+//    public void runAllergenService() throws Exception {
+//        AllergenService as = new AllergenService();
+//        List<Allergen> allergens = as.getAllergens();
+//        System.out.println(Arrays.toString(allergens.toArray()));
+//    }
 
     @Test
     public void testAllergen1() throws Exception {

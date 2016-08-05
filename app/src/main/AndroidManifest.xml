@@ -70,6 +70,8 @@
             android:label="Settings"
             android:screenOrientation="portrait"></activity>
 
+        <service android:name=".AllergenTimerService" />
+
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

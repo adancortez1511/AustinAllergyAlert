@@ -80,6 +80,8 @@
             android:name="ac42886.austinallergyalert.SettingsActivity"
             android:label="Settings"
             android:screenOrientation="portrait" />
+
+        <service android:name="ac42886.austinallergyalert.AllergenTimerService" />
     </application>
 
 </manifest>

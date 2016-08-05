@@ -18,8 +18,19 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="fa0bfcb2-bba8-45dc-8391-fbaf959d3f8a" name="Default" comment="">
+    <list default="true" id="fa0bfcb2-bba8-45dc-8391-fbaf959d3f8a" name="Default" comment="added toasts, a legend, and nicer looking date to the main activity, and a background service">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AllergenTimerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/AustinAllergyAlert.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/AustinAllergyAlert.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AustinAllergyAlert.java" afterPath="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AustinAllergyAlert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/ac42886/austinallergyalert/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/ac42886/austinallergyalert/ExampleUnitTest.java" />
     </list>
     <ignored path="AustinAllergyAlert.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,49 +51,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AustinAllergyAlert.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AustinAllergyAlert.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AustinAllergyAlert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45023698">
-              <caret line="229" column="14" selection-start-line="229" selection-start-column="14" selection-end-line="229" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="300" column="43" selection-start-line="300" selection-start-column="43" selection-end-line="300" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.529411">
+              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_austin_allergy_alert.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_austin_allergy_alert.xml">
+      <file leaf-file-name="ExampleUnitTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/ac42886/austinallergyalert/ExampleUnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8194444">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-              <folding>
-                <element signature="e#304#337#0" expanded="true" />
-                <element signature="e#362#397#0" expanded="true" />
-                <element signature="e#423#458#0" expanded="true" />
-                <element signature="e#482#515#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.39018953">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_column_chart.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_column_chart.xml">
+      <file leaf-file-name="Allergen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/Allergen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
-                <element signature="e#237#270#0" expanded="true" />
-                <element signature="e#295#330#0" expanded="true" />
-                <element signature="e#356#391#0" expanded="true" />
-                <element signature="e#415#448#0" expanded="true" />
+                <element signature="e#1708#1709#0" expanded="false" />
+                <element signature="e#1735#1736#0" expanded="false" />
+                <element signature="e#1775#1776#0" expanded="false" />
+                <element signature="e#1807#1808#0" expanded="false" />
+                <element signature="e#1836#1837#0" expanded="false" />
+                <element signature="e#1864#1865#0" expanded="false" />
+                <element signature="e#1903#1904#0" expanded="false" />
+                <element signature="e#1937#1938#0" expanded="false" />
+                <element signature="e#1966#1967#0" expanded="false" />
+                <element signature="e#1993#1994#0" expanded="false" />
+                <element signature="e#2031#2032#0" expanded="false" />
+                <element signature="e#2063#2064#0" expanded="false" />
+                <element signature="e#2100#2101#0" expanded="false" />
+                <element signature="e#2127#2128#0" expanded="false" />
+                <element signature="e#2167#2168#0" expanded="false" />
+                <element signature="e#2195#2196#0" expanded="false" />
               </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="AllergenTimerService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AllergenTimerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1138#1139#0" expanded="false" />
+                <element signature="e#1165#1166#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AllergenService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AllergenService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preferences.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -1757,8 +1817,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/MyTabHostProvider.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_notes.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_notes_entry.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AllergenService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/DailyAllergenChart.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_graph_data.xml" />
@@ -1771,13 +1829,18 @@
         <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/DailyChartLegend.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/DailyChartLegendView.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_column_chart.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/TimerService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AllergenService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AllergenTimerService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AustinAllergyAlert.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/ac42886/austinallergyalert/ExampleUnitTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2882" />
-    <option name="width" value="1879" />
+    <option name="x" value="2884" />
+    <option name="width" value="1774" />
     <option name="height" value="1620" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -1807,8 +1870,6 @@
     <panes>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1826,95 +1887,11 @@
               <option name="myItemId" value="AustinAllergyAlert" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AustinAllergyAlert" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AustinAllergyAlert" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AustinAllergyAlert" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AustinAllergyAlert" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="austinallergyalert" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AustinAllergyAlert" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1927,294 +1904,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\res\drawable" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/app.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-af.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-am.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ar.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-az-rAZ.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bg.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bn-rBD.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ca.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-cs.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-da.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-de.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-el.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rAU.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rGB.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rIN.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es-rUS.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-et-rEE.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-eu-rES.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fa.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fi.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr-rCA.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gl-rES.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gu-rIN.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h320dp-v13.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hi.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hr.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hu.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hy-rAM.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-in.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-is-rIS.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-it.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-iw.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ja.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ka-rGE.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-km-rKH.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kn-rIN.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ko.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ky-rKG.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-land.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-large-v4.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lo-rLA.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lt.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lv.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mk-rMK.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ml-rIN.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mn-rMN.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mr-rIN.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ms-rMY.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-my-rMM.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nb.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ne-rNP.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-night-v8.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nl.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pa-rIN.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pl.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-port.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rBR.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rPT.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ro.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ru.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-si-rLK.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sk.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sl.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sq-rAL.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sr.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sv.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ta-rIN.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-te-rIN.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-th.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tl.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tr.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uk.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ur-rPK.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v11.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v12.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v13.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v14.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v17.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v18.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v21.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v22.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v23.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-vi.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-land-v4.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rCN.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rHK.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rTW.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zu.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/anim.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v11.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v23.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi-v17.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi-v17.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v21.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v23.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/menu.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-hdpi-v4.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-mdpi-v4.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xhdpi-v4.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xxhdpi-v4.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xxxhdpi-v4.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/xml.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/AustinAllergyAlert.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/CalendarActivity$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/CalendarActivity$ApiSimulator.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/CalendarActivity.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$id.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$integer.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$layout.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$menu.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$mipmap.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$string.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$style.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$styleable.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$xml.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestShaders/merger.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_calendar.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_graph_data.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/CalendarActivity.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/src/main/res/layout/activity_calendar.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/src/main/res/values/strings.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/src/main/res/values/styles.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/local.properties</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_4_0.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_4_0.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/butterknife_7_0_1.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/hellocharts_library_1_5_8.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/jsoup_1_9_2.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/junit_4_12.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/material_calendarview_1_4_0.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_4_0.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/support_annotations_23_4_0.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/support_v4_23_4_0.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_4_0.xml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2521,7 +2210,13 @@
       <option name="project" value="LOCAL" />
       <updated>1469229698236</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added toasts, a legend, and nicer looking date format to the main activity">
+      <created>1469229724152</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1469229724152</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -2534,26 +2229,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2882" y="0" width="1879" height="1620" extended-state="0" />
-    <editor active="true" />
+    <frame x="2884" y="0" width="1774" height="1620" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36755204" sideWeight="0.5019542" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36755204" sideWeight="0.5019542" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36755204" sideWeight="0.49804577" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34896705" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950467" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950467" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2390524" sideWeight="0.49804577" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32950467" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873276" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24955437" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23394752" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2669039" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2565,6 +2258,8 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.348559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873276" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2615,58 +2310,18 @@
     <MESSAGE value="symptoms rating database stuff" />
     <MESSAGE value="added symptoms rating database stuff" />
     <MESSAGE value="added toasts, a legend, and nicer looking date format to the main activity" />
-    <option name="LAST_COMMIT_MESSAGE" value="added toasts, a legend, and nicer looking date format to the main activity" />
+    <MESSAGE value="added toasts, a legend, and nicer looking date to the main activity, and a background service" />
+    <option name="LAST_COMMIT_MESSAGE" value="added toasts, a legend, and nicer looking date to the main activity, and a background service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_notes_entry.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4305556">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/notes_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5555553">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/settings_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7361112">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.lecho/hellocharts-library/1.5.8/51798d4793c333553a68292ee3a47b4758c2ec47/hellocharts-library-1.5.8-sources.jar!/lecho/lib/hellocharts/util/ChartUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.lecho/hellocharts-library/1.5.8/51798d4793c333553a68292ee3a47b4758c2ec47/hellocharts-library-1.5.8-sources.jar!/lecho/lib/hellocharts/view/ColumnChartView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2672209">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2674,10 +2329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-          <folding>
-            <element signature="e#2321#2322#0" expanded="false" />
-            <element signature="e#2361#2362#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2685,7 +2336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2693,9 +2343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="230" column="35" selection-start-line="230" selection-start-column="35" selection-end-line="230" selection-end-column="35" />
-          <folding>
-            <element signature="e#1571#1582#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2703,10 +2350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding>
-            <element signature="e#1157#1158#0" expanded="false" />
-            <element signature="e#1190#1191#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2714,7 +2357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0675673">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2722,14 +2364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.617647">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-36.764706">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2773,17 +2407,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/bizbutton.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.064935066">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/Tab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -2802,7 +2425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14749263">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2817,7 +2439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.2375297">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2825,7 +2446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1194" column="0" selection-start-line="1194" selection-start-column="0" selection-end-line="1194" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2833,7 +2453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2841,7 +2460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="64" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2849,7 +2467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2857,7 +2474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2865,7 +2481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2873,15 +2488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/SettingsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2889,7 +2495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2897,7 +2502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="74" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2908,7 +2512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2919,7 +2522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.925">
           <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2927,15 +2529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/Allergen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029691212">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2943,7 +2536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20783848">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2951,7 +2543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.111111">
           <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2970,18 +2561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="194" column="14" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/CalendarActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40617576">
-          <caret line="146" column="62" selection-start-line="146" selection-start-column="62" selection-end-line="146" selection-end-column="62" />
-          <folding>
-            <element signature="e#4141#4172#0" expanded="false" />
-            <element signature="e#4361#4390#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2989,7 +2568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64285713">
           <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3000,20 +2578,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.558824">
           <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_austin_allergy_alert.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8194444">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="e#304#337#0" expanded="true" />
-            <element signature="e#362#397#0" expanded="true" />
-            <element signature="e#423#458#0" expanded="true" />
-            <element signature="e#482#515#0" expanded="true" />
-          </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -3022,24 +2593,125 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_column_chart.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#237#270#0" expanded="true" />
-            <element signature="e#295#330#0" expanded="true" />
-            <element signature="e#356#391#0" expanded="true" />
-            <element signature="e#415#448#0" expanded="true" />
-          </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/CalendarActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="147" column="42" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/bizbutton.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06476684">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029620852">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/settings_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1619171">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AllergenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AllergenTimerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1138#1139#0" expanded="false" />
+            <element signature="e#1165#1166#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/Allergen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#1708#1709#0" expanded="false" />
+            <element signature="e#1735#1736#0" expanded="false" />
+            <element signature="e#1775#1776#0" expanded="false" />
+            <element signature="e#1807#1808#0" expanded="false" />
+            <element signature="e#1836#1837#0" expanded="false" />
+            <element signature="e#1864#1865#0" expanded="false" />
+            <element signature="e#1903#1904#0" expanded="false" />
+            <element signature="e#1937#1938#0" expanded="false" />
+            <element signature="e#1966#1967#0" expanded="false" />
+            <element signature="e#1993#1994#0" expanded="false" />
+            <element signature="e#2031#2032#0" expanded="false" />
+            <element signature="e#2063#2064#0" expanded="false" />
+            <element signature="e#2100#2101#0" expanded="false" />
+            <element signature="e#2127#2128#0" expanded="false" />
+            <element signature="e#2167#2168#0" expanded="false" />
+            <element signature="e#2195#2196#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AustinAllergyAlert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45023698">
-          <caret line="229" column="14" selection-start-line="229" selection-start-column="14" selection-end-line="229" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="300" column="43" selection-start-line="300" selection-start-column="43" selection-end-line="300" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.529411">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/ac42886/austinallergyalert/ExampleUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39018953">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding />
         </state>
       </provider>

@@ -21,7 +21,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
@@ -64,9 +63,11 @@ public class AustinAllergyAlert extends AppCompatActivity {
         // restore preferences
         setVarsFromSharedPrefs();
 
+        // start AllergenTimerService, must happen after setVarsFromSharedPrefs
+        startService(new Intent(this, AllergenTimerService.class));
+
         // get today's allergen counts if needed
         dbHelper = new DatabaseHelper(this);
-        allergenService = new AllergenService();
         todaysDate = truncateDate(new Date());
         try {
             refreshData();
@@ -129,7 +130,7 @@ public class AustinAllergyAlert extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
 
-        SharedPreferences sharedPrefs = getPreferences(MODE_PRIVATE);
+        SharedPreferences sharedPrefs = getSharedPreferences("PREFS", MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPrefs.edit();
 
         editor.putString("lastDateLogged", lastDateLogged.toString());
@@ -177,7 +178,7 @@ public class AustinAllergyAlert extends AppCompatActivity {
     }
 
     private void setVarsFromSharedPrefs() {
-        SharedPreferences sharedPrefs = getPreferences(MODE_PRIVATE);
+        SharedPreferences sharedPrefs = getSharedPreferences("AustinAllergyAlert", MODE_PRIVATE);
 
         // restore lastDateLogged
         // if lastDateLogged has never been saved, set it to some arbitrary date in the past
@@ -217,8 +218,9 @@ public class AustinAllergyAlert extends AppCompatActivity {
             chart.setOnValueTouchListener(new ValueTouchListener());
 
             // set the dateView
+            SimpleDateFormat df = new SimpleDateFormat("EEEE MMMM dd, yyyy");
             dateView = (TextView) rootView.findViewById(R.id.fragment_date);
-            dateView.setText(getPrettyDateString(lastDateLogged));
+            dateView.setText(df.format(lastDateLogged));
 
             generateColumns();
 
@@ -273,17 +275,6 @@ public class AustinAllergyAlert extends AppCompatActivity {
                     break;
             }
             return color;
-        }
-
-        private String getPrettyDateString(Date date) {
-            Calendar calendarDate = Calendar.getInstance();
-            calendarDate.setTime(date);
-            Log.d("getPrettyDateString ", calendarDate.toString());
-            String dayOfWeek = calendarDate.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Locale.ENGLISH);
-            String month = calendarDate.getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.ENGLISH);
-            int dayOfMonth = calendarDate.get(Calendar.DAY_OF_MONTH);
-            int year = calendarDate.get(Calendar.YEAR);
-            return dayOfWeek + " " + month + " " + dayOfMonth + ", " + year;
         }
 
         private class ValueTouchListener implements ColumnChartOnValueSelectListener {
