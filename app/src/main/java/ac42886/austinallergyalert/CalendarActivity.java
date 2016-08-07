@@ -39,6 +39,7 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
     private SeekBar allergyResponse;
     private DatabaseHelper dbHelper;
     private Date selectedDate;
+    private List<CalendarDay> entryDates;
 
     @Bind(R.id.calendarView)
     MaterialCalendarView widget;
@@ -63,6 +64,7 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
         allergyResponse = (SeekBar) findViewById(R.id.seekbar);
         seekBarValue = (TextView) findViewById(R.id.seekbar_value);
         ratingMessage = (TextView) findViewById(R.id.rating_message);
+        entryDates = null;
 
         // Calls SeekBar listener function
         setSeekBarListener();

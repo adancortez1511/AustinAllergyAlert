@@ -1,10 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
 ]

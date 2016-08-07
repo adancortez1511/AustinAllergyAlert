@@ -299,7 +299,9 @@ public class AustinAllergyAlert extends AppCompatActivity {
                 Allergen a = allergens.get(columnIndex);
                 String toastString = a.getName() + "\nType: "+ a.getType().toString() +
                         "\nCount: " + a.getCount() + "\nLevel: " + a.getLevel().toString();
-                Toast.makeText(getActivity(), toastString, Toast.LENGTH_SHORT).show();
+
+
+
             }
 
             @Override
