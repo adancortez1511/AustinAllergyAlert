@@ -1,24 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/custom_list"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:layout_marginTop="5dp" >
-        <TextView
-        android:id="@+id/Item_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:paddingTop="5dp"/>
+    android:background="@color/blackTheme">
 
+        <TextView
+            android:id="@+id/entry_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textColor="@color/whiteTheme"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/entry_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteTheme"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_below="@id/entry_date"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose a date"
+            android:onClick="showDatePickerDialog"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:theme="@android:style/Theme.Holo"/>
+        <TextView
+            android:id="@+id/entry_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notes:"
+            android:textColor="@color/whiteTheme"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_below="@id/entry_date_tv" />
+        <Button
+            android:id="@+id/entry_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:theme="@android:style/Theme.Holo"
+            android:onClick="saveNote"/>
         <EditText
-        android:id="@+id/Item_price"
-        android:layout_width="80dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight = "true"
-        android:layout_gravity="right"
-        android:hint="Price"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
-        android:inputType="numberDecimal" />
-</ListView>
+            android:id="@+id/entry_note_field"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="@color/whiteTheme"
+            android:layout_margin="10dp"
+            android:layout_below="@id/entry_notes"
+            android:layout_above="@id/entry_save_button"
+            android:gravity="top"/>
+</RelativeLayout>

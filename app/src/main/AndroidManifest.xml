@@ -59,6 +59,18 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".NotesEntry"
+            android:launchMode="standard"
+            android:label="New Note"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".NoteView"
+            android:launchMode="standard"
+            android:label="Note"
+            android:screenOrientation="portrait">
+        </activity>
+
         <activity
             android:name=".AboutActivity"
             android:label="About Us"

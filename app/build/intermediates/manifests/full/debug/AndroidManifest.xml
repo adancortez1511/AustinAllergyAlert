@@ -71,6 +71,18 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="ac42886.austinallergyalert.NotesEntry"
+            android:label="New Note"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ac42886.austinallergyalert.NoteView"
+            android:label="Note"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
             android:name="ac42886.austinallergyalert.AboutActivity"
             android:label="About Us"
             android:screenOrientation="portrait" />

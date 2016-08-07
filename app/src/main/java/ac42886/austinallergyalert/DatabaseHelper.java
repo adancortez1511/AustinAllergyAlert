@@ -12,6 +12,7 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
@@ -38,6 +39,13 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         public static final String COLUMN_DATE = "date";
     }
 
+    public static abstract class NotesDbEntry implements BaseColumns {
+        public static final String TABLE_NAME = "notes";
+        public static final String COLUMN_YEAR = "year";
+        public static final String COLUMN_MONTH = "month";
+        public static final String COLUMN_DATE = "date";
+        public static final String COLUMN_STRING = "string";
+    }
 
     /* contract class, used to define the names of tables and columns */
     private class AllergensDbContract {
@@ -63,6 +71,14 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                         SymptomsDbEntry.COLUMN_RATING + INT_TYPE + COMMA_SEP +
                         SymptomsDbEntry.COLUMN_DATE + TEXT_TYPE +
                         " );";
+        private static final String SQL_CREATE_NOTES_TABLE =
+                "CREATE TABLE " + NotesDbEntry.TABLE_NAME + " (" +
+                        NotesDbEntry._ID + " INTEGER PRIMARY KEY,"+
+                        NotesDbEntry.COLUMN_YEAR+ INT_TYPE + COMMA_SEP +
+                        NotesDbEntry.COLUMN_MONTH+ INT_TYPE + COMMA_SEP +
+                        NotesDbEntry.COLUMN_DATE+ INT_TYPE + COMMA_SEP +
+                        NotesDbEntry.COLUMN_STRING + TEXT_TYPE +
+                        " );";
 
         // table deletion string
         private static final String SQL_DELETE_ALLERGENS_ENTRIES =
@@ -71,11 +87,13 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         private static final String SQL_DELETE_SYMPTOMS_ENTRIES =
                 "DROP TABLE IF EXISTS " + SymptomsDbEntry.TABLE_NAME;
 
+        private static final String SQL_DELETE_NOTES_ENTRIES =
+                "DROP TABLE IF EXISTS " + NotesDbEntry.TABLE_NAME;
 
     }
 
     // If you change the database schema, you must increment the database version.
-    public static final int DATABASE_VERSION = 3;
+    public static final int DATABASE_VERSION = 5;
     public static final String DATABASE_NAME = "AustinAllergyAlert";
 
 
@@ -86,6 +104,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(AllergensDbContract.SQL_CREATE_ALLERGENS_ENTRIES);
         db.execSQL(AllergensDbContract.SQL_CREATE_SYMPTOMS_TABLE);
+        db.execSQL(AllergensDbContract.SQL_CREATE_NOTES_TABLE);
     }
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
@@ -93,6 +112,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         // to simply to discard the data and start over
         db.execSQL(AllergensDbContract.SQL_DELETE_ALLERGENS_ENTRIES);
         db.execSQL(AllergensDbContract.SQL_DELETE_SYMPTOMS_ENTRIES);
+        db.execSQL(AllergensDbContract.SQL_DELETE_NOTES_ENTRIES);
         onCreate(db);
     }
     @Override
@@ -231,4 +251,104 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         return rating;
     }
+
+    public void insertNote(Note n) {
+
+        if (updateNote(n) > 0)
+            return;
+
+        // Gets the data repository in write mode
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        // Create a new map of values, where column names are the keys
+        ContentValues values = new ContentValues();
+        values.put(NotesDbEntry.COLUMN_YEAR, n.getYear());
+        values.put(NotesDbEntry.COLUMN_MONTH, n.getMonth());
+        values.put(NotesDbEntry.COLUMN_DATE, n.getDayOfMonth());
+        values.put(NotesDbEntry.COLUMN_STRING, n.getString());
+
+        // Insert the new row
+        Log.d("insertNote", "inserting note");
+        db.insert(NotesDbEntry.TABLE_NAME, null, values);
+    }
+
+    public int updateNote(Note note) {
+        int rowsUpdated = -1;
+
+        String year = String.valueOf(note.getYear());
+        String month = String.valueOf(note.getMonth());
+        String dayOfMonth = String.valueOf(note.getDayOfMonth());
+
+        // new values
+        ContentValues values = new ContentValues();
+        values.put(NotesDbEntry.COLUMN_STRING, note.getString());
+
+        // which row to update based on the date
+        String selection = NotesDbEntry.COLUMN_YEAR + " =?  AND " +
+                NotesDbEntry.COLUMN_MONTH + " =? AND " +
+                NotesDbEntry.COLUMN_DATE + " =?";
+        String[] selectionArgs = {year, month, dayOfMonth};
+
+        SQLiteDatabase db = this.getReadableDatabase();
+        rowsUpdated = db.update(
+                NotesDbEntry.TABLE_NAME,
+                values,
+                selection,
+                selectionArgs);
+
+
+        return rowsUpdated;
+    }
+
+    public List<Note> getNotes () {
+        List<Note> notes = new ArrayList<Note>();
+
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.query(
+                NotesDbEntry.TABLE_NAME,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+        );
+
+        cursor.moveToFirst();
+
+        while(cursor.isAfterLast() == false) {
+            int year = cursor.getInt(cursor.getColumnIndex(NotesDbEntry.COLUMN_YEAR));
+            int month = cursor.getInt(cursor.getColumnIndex(NotesDbEntry.COLUMN_MONTH));
+            int date = cursor.getInt(cursor.getColumnIndex(NotesDbEntry.COLUMN_DATE));
+            String string = cursor.getString(cursor.getColumnIndex(NotesDbEntry.COLUMN_STRING));
+            Calendar c = Calendar.getInstance();
+            c.set(year, month, date);
+            Note n = new Note(c, string);
+            notes.add(n);
+            cursor.moveToNext();
+        }
+
+        return notes;
+    }
+
+    public void deleteNote(Note note) {
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        String whereClause = NotesDbEntry.COLUMN_YEAR + " =? AND " +
+                NotesDbEntry.COLUMN_MONTH + " =? AND " +
+                NotesDbEntry.COLUMN_DATE + " =?";
+
+        String year = String.valueOf(note.getYear());
+        String month = String.valueOf(note.getMonth());
+        String dayOfMonth = String.valueOf(note.getDayOfMonth());
+
+        String[] whereArgs = {year, month, dayOfMonth};
+
+        db.delete(
+                NotesDbEntry.TABLE_NAME,
+                whereClause,
+                whereArgs
+        );
+    }
+
 }

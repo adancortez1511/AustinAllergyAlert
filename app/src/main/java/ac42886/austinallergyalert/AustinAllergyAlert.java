@@ -218,7 +218,7 @@ public class AustinAllergyAlert extends AppCompatActivity {
             chart.setOnValueTouchListener(new ValueTouchListener());
 
             // set the dateView
-            SimpleDateFormat df = new SimpleDateFormat("EEEE MMMM dd, yyyy");
+            SimpleDateFormat df = new SimpleDateFormat("EEEE MMMM d, yyyy");
             dateView = (TextView) rootView.findViewById(R.id.fragment_date);
             dateView.setText(df.format(lastDateLogged));
 
@@ -238,23 +238,38 @@ public class AustinAllergyAlert extends AppCompatActivity {
             List<AxisValue> axisValues = new ArrayList<AxisValue>();
 
             for(int i = 0; i < nColumns; ++i) {
+                // decide what color the column will be
                 int color = getColor(allergens.get(i));
-                List<SubcolumnValue> values = new ArrayList<SubcolumnValue>();
-                values.add(new SubcolumnValue(allergens.get(i).getCount(), color));
-                axisValues.add(new AxisValue(i, allergens.get(i).getName().toCharArray()));
 
-                Column column = new Column(values);
+                // create the list of SubColumnValues that will be used
+                // to create a single column
+                List<SubcolumnValue> subcolumnValues = new ArrayList<SubcolumnValue>();
+                subcolumnValues.add(new SubcolumnValue(allergens.get(i).getCount(), color));
+                Column column = new Column(subcolumnValues);
+
+                // create a new AxisValue and add it to the list of AxisValues
+                AxisValue av = new AxisValue(i);
+                av.setLabel(allergens.get(i).getName());
+                axisValues.add(av);
+
+                // give the column labels
                 column.setHasLabels(hasLabels);
                 column.setHasLabelsOnlyForSelected(hasLabelsForSelected);
+
+                // add the column to the list of columns
                 columns.add(column);
             }
 
-            data = new ColumnChartData(columns);
+            // create the ColumnChartData
 
+            // create the axes and set their names
             Axis xAxis = new Axis(axisValues);
             Axis yAxis = new Axis();
             xAxis.setName("Allergens");
             yAxis.setName("Counts");
+
+            // create ColumnChartData
+            data = new ColumnChartData(columns);
             data.setAxisXBottom(xAxis);
             data.setAxisYLeft(yAxis);
 

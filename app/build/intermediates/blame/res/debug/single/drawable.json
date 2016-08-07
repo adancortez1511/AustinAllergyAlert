@@ -212,6 +212,10 @@
         "source": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
+        "merged": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_add_circle.png",
+        "source": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\drawable\\ic_add_circle.png"
+    },
+    {
         "merged": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
@@ -234,6 +238,10 @@
     {
         "merged": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
         "source": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_delete_forever_white.png",
+        "source": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\drawable\\ic_delete_forever_white.png"
     },
     {
         "merged": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\more_sel.png",
@@ -294,6 +302,10 @@
     {
         "merged": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_create.png",
+        "source": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\drawable\\ic_create.png"
     },
     {
         "merged": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",

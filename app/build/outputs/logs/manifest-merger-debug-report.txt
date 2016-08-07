@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:2:1-79:12
+ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:2:1-91:12
 	package
 		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\ma
 		INJECTED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:5:5-75:19
+ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:5:5-87:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
@@ -97,34 +97,54 @@ ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\ma
 		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:53:13-42
 	android:name
 		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:52:19-40
-activity#ac42886.austinallergyalert.AboutActivity
-ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:62:9-65:61
+activity#ac42886.austinallergyalert.NotesEntry
+ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:62:9-66:20
 	android:screenOrientation
 		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:65:13-49
 	android:label
 		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:64:13-37
-	android:name
+	android:launchMode
 		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:63:13-42
-activity#ac42886.austinallergyalert.SettingsActivity
-ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:68:9-71:61
+	android:name
+		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:62:19-45
+activity#ac42886.austinallergyalert.NoteView
+ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:68:9-72:20
 	android:screenOrientation
 		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:71:13-49
 	android:label
-		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:70:13-37
+		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:70:13-33
+	android:launchMode
+		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:69:13-42
 	android:name
-		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:69:13-45
+		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:68:19-43
+activity#ac42886.austinallergyalert.AboutActivity
+ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:74:9-77:61
+	android:screenOrientation
+		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:77:13-49
+	android:label
+		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:76:13-37
+	android:name
+		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:75:13-42
+activity#ac42886.austinallergyalert.SettingsActivity
+ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:80:9-83:61
+	android:screenOrientation
+		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:83:13-49
+	android:label
+		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:82:13-37
+	android:name
+		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:81:13-45
 service#ac42886.austinallergyalert.AllergenTimerService
-ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:73:9-57
+ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:85:9-57
 	android:name
-		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:73:18-54
+		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:85:18-54
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:77:5-67
+ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:89:5-67
 	android:name
-		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:77:22-64
+		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:89:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:78:5-79
+ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:90:5-79
 	android:name
-		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:78:22-76
+		ADDED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml:90:22-76
 uses-sdk
 INJECTED from C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\ofl7_000\AndroidStudioProjects\AustinAllergyAlert\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
