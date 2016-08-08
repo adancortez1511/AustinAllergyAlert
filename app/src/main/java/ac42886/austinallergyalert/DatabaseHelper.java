@@ -36,6 +36,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static abstract class SymptomsDbEntry implements BaseColumns {
         public static final String TABLE_NAME = "symptoms";
         public static final String COLUMN_RATING = "rating";
+        public static final String COLUMN_YEAR = "year";
+        public static final String COLUMN_MONTH = "month";
         public static final String COLUMN_DATE = "date";
     }
 
@@ -69,7 +71,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 "CREATE TABLE " + SymptomsDbEntry.TABLE_NAME + " (" +
                         SymptomsDbEntry._ID + " INTEGER PRIMARY KEY,"+
                         SymptomsDbEntry.COLUMN_RATING + INT_TYPE + COMMA_SEP +
-                        SymptomsDbEntry.COLUMN_DATE + TEXT_TYPE +
+                        SymptomsDbEntry.COLUMN_YEAR+ INT_TYPE + COMMA_SEP +
+                        SymptomsDbEntry.COLUMN_MONTH+ INT_TYPE + COMMA_SEP +
+                        SymptomsDbEntry.COLUMN_DATE + INT_TYPE +
                         " );";
         private static final String SQL_CREATE_NOTES_TABLE =
                 "CREATE TABLE " + NotesDbEntry.TABLE_NAME + " (" +
@@ -93,7 +97,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
     // If you change the database schema, you must increment the database version.
-    public static final int DATABASE_VERSION = 5;
+    public static final int DATABASE_VERSION = 8;
     public static final String DATABASE_NAME = "AustinAllergyAlert";
 
 
@@ -194,7 +198,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             // Create a new map of values, where column names are the keys
             ContentValues values = new ContentValues();
             values.put(SymptomsDbEntry.COLUMN_RATING, rating);
-            values.put(SymptomsDbEntry.COLUMN_DATE, date.toString());
+            values.put(SymptomsDbEntry.COLUMN_YEAR, date.getYear());
+            values.put(SymptomsDbEntry.COLUMN_MONTH, date.getMonth());
+            values.put(SymptomsDbEntry.COLUMN_DATE, date.getDate());
             Log.d("insertRating", "inserting rating = " + rating + ", date = " + date.toString() + " into the table");
             db.insert(SymptomsDbEntry.TABLE_NAME, null, values);
         } else { // update the entry
@@ -203,8 +209,14 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             values.put(SymptomsDbEntry.COLUMN_RATING, rating);
 
             // which row to update, based on the date
-            String selection = SymptomsDbEntry.COLUMN_DATE + " = ? ";
-            String[] selectionArgs = { date.toString() };
+            String selection = SymptomsDbEntry.COLUMN_YEAR + " =? AND " +
+                    SymptomsDbEntry.COLUMN_MONTH + " =? AND " +
+                    SymptomsDbEntry.COLUMN_DATE + " =?";
+
+            String year = String.valueOf(date.getYear());
+            String month = String.valueOf(date.getMonth());
+            String dayOfMonth = String.valueOf(date.getDate());
+            String[] selectionArgs = new String[] {year, month, dayOfMonth};
 
             Log.d("insertRating", "updating rating for date = " + date.toString() + " to " + rating);
             db.update(
@@ -225,8 +237,15 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         String[] projection = {
                 SymptomsDbEntry.COLUMN_RATING
         };
-        String selection = SymptomsDbEntry.COLUMN_DATE + " = ?";
-        String[] selectionArgs = new String[] {lookupDate.toString()};
+        String selection = SymptomsDbEntry.COLUMN_YEAR + " =? AND " +
+                SymptomsDbEntry.COLUMN_MONTH + " =? AND " +
+                SymptomsDbEntry.COLUMN_DATE + " =?";
+
+        String year = String.valueOf(lookupDate.getYear());
+        String month = String.valueOf(lookupDate.getMonth());
+        String dayOfMonth = String.valueOf(lookupDate.getDate());
+        String[] selectionArgs = new String[] {year, month, dayOfMonth};
+
         Log.d("getRating ", "lookupDate = " + lookupDate.toString());
         SQLiteDatabase db = this.getReadableDatabase();
 
@@ -250,6 +269,74 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
 
         return rating;
+    }
+
+    public List<Rating> getRatingsByMonth(int lookupYear, int lookupMonth) {
+        Log.d("getRatingsByMonth", "month is: " + lookupMonth + ", year is: " + lookupYear);
+
+        List<Rating> ratings = new ArrayList<Rating>();
+
+        String selection = SymptomsDbEntry.COLUMN_YEAR + " =? AND " +
+                SymptomsDbEntry.COLUMN_MONTH + " =?";
+        String year = String.valueOf(lookupYear);
+        String month = String.valueOf(lookupMonth);
+        String[] selectionArgs = new String[] {year, month};
+
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        Cursor cursor = db.query(
+                SymptomsDbEntry.TABLE_NAME,
+                null,
+                selection,
+                selectionArgs,
+                null,
+                null,
+                null
+        );
+        cursor.moveToFirst();
+
+        while(cursor.isAfterLast() == false) {
+            int dbRating = cursor.getInt(cursor.getColumnIndex(SymptomsDbEntry.COLUMN_RATING));
+            int dbYear = cursor.getInt(cursor.getColumnIndex(SymptomsDbEntry.COLUMN_YEAR));
+            int dbMonth = cursor.getInt(cursor.getColumnIndex(SymptomsDbEntry.COLUMN_MONTH));
+            int dbDate = cursor.getInt(cursor.getColumnIndex(SymptomsDbEntry.COLUMN_DATE));
+            Rating r = new Rating(dbRating, new Date(dbYear, dbMonth, dbDate));
+            Log.d("getRatingsByMonth", r.toString());
+            ratings.add(r);
+            cursor.moveToNext();
+        }
+
+        return ratings;
+    }
+
+    public List<Rating> getAllRatings() {
+        List<Rating> ratings = new ArrayList<Rating>();
+
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        Cursor cursor = db.query(
+                SymptomsDbEntry.TABLE_NAME,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+        );
+        cursor.moveToFirst();
+
+        while(cursor.isAfterLast() == false) {
+            int dbRating = cursor.getInt(cursor.getColumnIndex(SymptomsDbEntry.COLUMN_RATING));
+            int dbYear = cursor.getInt(cursor.getColumnIndex(SymptomsDbEntry.COLUMN_YEAR));
+            int dbMonth = cursor.getInt(cursor.getColumnIndex(SymptomsDbEntry.COLUMN_MONTH));
+            int dbDate = cursor.getInt(cursor.getColumnIndex(SymptomsDbEntry.COLUMN_DATE));
+            Rating r = new Rating(dbRating, new Date(dbYear, dbMonth, dbDate));
+            Log.d("getAllRatings", r.toString());
+            ratings.add(r);
+            cursor.moveToNext();
+        }
+
+        return ratings;
     }
 
     public void insertNote(Note n) {

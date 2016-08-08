@@ -8,7 +8,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/calendarView"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="wrap_content"
         android:background="@color/whiteTheme"
         app:mcv_showOtherDates="none"
         app:mcv_selectionColor="@color/whiteTheme" />
@@ -20,9 +20,8 @@
         android:layout_gravity="center"
         android:layout_below="@id/calendarView"
         android:background="@color/greenTheme"
-        android:text=""
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="480dp"
         android:layout_centerInParent="true"
         android:layout_alignParentTop="true" />
 

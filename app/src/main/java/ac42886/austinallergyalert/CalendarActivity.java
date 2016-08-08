@@ -18,6 +18,7 @@ import android.widget.Toast;
 
 import com.prolificinteractive.materialcalendarview.CalendarDay;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -40,6 +41,13 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
     private DatabaseHelper dbHelper;
     private Date selectedDate;
     private List<CalendarDay> entryDates;
+    private static final SimpleDateFormat df = new SimpleDateFormat("EEEE MMMM d, yyyy");
+
+    private List<CalendarDay> redDays= new ArrayList<CalendarDay>();
+    private List<CalendarDay> orangeDays= new ArrayList<CalendarDay>();
+    private List<CalendarDay> yellowDays= new ArrayList<CalendarDay>();
+    private List<CalendarDay> yellowgreenDays= new ArrayList<CalendarDay>();
+    private List<CalendarDay> greenDays= new ArrayList<CalendarDay>();
 
     @Bind(R.id.calendarView)
     MaterialCalendarView widget;
@@ -58,7 +66,7 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
         // set selectedDate and TextView
         selectedDate = truncateDate(new Date());
         calendarTextView = (TextView)  findViewById(R.id.calendar_text);
-        calendarTextView.setText(selectedDate.toString());
+        calendarTextView.setText(df.format(selectedDate));
 
         // Links SeekBar and TextView on Calendar screen
         allergyResponse = (SeekBar) findViewById(R.id.seekbar);
@@ -104,18 +112,23 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
         selectedDate = date.getDate();
         oneDayDecorator.setDate(selectedDate);
         widget.invalidateDecorators();
-        calendarTextView.setText(selectedDate.toString());
+        calendarTextView.setText(df.format(selectedDate));
         calendarTextView.setBackgroundResource(R.color.redTheme);
         Log.d(TAG, Calendar.getInstance().getTime().toString());
 
         // Olivia - Check to see if user has entered a value for this date if yes then change the 0 to that progress value
-        allergyResponse.setProgress(0);
+        int rating = dbHelper.getRatingByDate(date.getDate());
+        if (rating == -1)
+            allergyResponse.setProgress(0);
+        else
+            allergyResponse.setProgress(rating);
 
         if (selectedDate.after(CalendarDay.today().getDate()))
         {
             // Checks to see if the selected date is in the future
             ratingMessage.setText(R.string.rating_message_invalid);
-            allergyResponse.setVisibility(View.GONE);
+            allergyResponse.setVisibility(View.INVISIBLE);
+            seekBarValue.setVisibility(View.INVISIBLE);
         }
         else
         {
@@ -175,6 +188,29 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
                 e.printStackTrace();
             }
             Calendar calendar = Calendar.getInstance();
+            List<Rating> ratings = dbHelper.getAllRatings();
+
+            for(Rating r : ratings) {
+                CalendarDay c = new CalendarDay(r.getDate());
+                switch (r.getRating()) {
+                    case 0:
+                        greenDays.add(c);
+                        break;
+                    case 1:
+                        yellowgreenDays.add(c);
+                        break;
+                    case 2:
+                        yellowDays.add(c);
+                        break;
+                    case 3:
+                        orangeDays.add(c);
+                        break;
+                    case 4:
+                        redDays.add(c);
+                        break;
+                }
+            }
+
             calendar.add(Calendar.MONTH, -2);
             ArrayList<CalendarDay> dates = new ArrayList<>();
             for (int i = 0; i < 30; i++) {
@@ -193,7 +229,17 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
                 return;
             }
 
-            widget.addDecorator(new EventDecorator(Color.RED, calendarDays));
+            if(redDays.size() > 0)
+                widget.addDecorator(new EventDecorator(Color.RED, redDays));
+            if(orangeDays.size() > 0)
+                widget.addDecorator(new EventDecorator(0xffffa500, orangeDays));
+            if(yellowDays.size() > 0)
+                widget.addDecorator(new EventDecorator(0xfffff000, yellowDays));
+            if(yellowgreenDays.size() > 0)
+                widget.addDecorator(new EventDecorator(0xff9acd32, yellowgreenDays));
+            if(greenDays.size() > 0)
+                widget.addDecorator(new EventDecorator(0xff009900, greenDays));
+
         }
     }
 

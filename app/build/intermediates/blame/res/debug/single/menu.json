@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/res/merged/debug/menu/line_chart.xml",
-        "source": "/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/src/main/res/menu/line_chart.xml"
+        "merged": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
+        "source": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\menu\\main_menu.xml"
     },
     {
-        "merged": "/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/build/intermediates/res/merged/debug/menu/main_menu.xml",
-        "source": "/Users/Adan/AndroidStudioProjects/AustinAllergyAlert/app/src/main/res/menu/main_menu.xml"
+        "merged": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\menu\\line_chart.xml",
+        "source": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\menu\\line_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
+        "source": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\menu\\line_chart.xml",
+        "source": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\menu\\line_chart.xml"
     }
 ]
