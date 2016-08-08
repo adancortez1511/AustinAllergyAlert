@@ -38,9 +38,9 @@ import lecho.lib.hellocharts.view.LineChartView;
 public class GraphData extends AppCompatActivity {
 
     private static final String TAG = "Calendar Activity:";
-    private TextView mold;
-    private TextView grass;
-    private TextView pigweed;
+    private TextView mold_graph;
+    private TextView grass_graph;
+    private TextView weed_graph;
     private Context context;
 
     private LineChartView chart;
@@ -69,6 +69,14 @@ public class GraphData extends AppCompatActivity {
         TabView tabView = tabProvider.getTabHost("Graph");
         tabView.setCurrentView(R.layout.activity_graph_data);
         setContentView(tabView.render(2));
+
+        grass_graph = (TextView)  findViewById(R.id.grass_graph);
+        mold_graph = (TextView)  findViewById(R.id.mold_graph);
+        weed_graph = (TextView)  findViewById(R.id.weed_graph);
+
+        grass_graph.setVisibility(View.GONE);
+        mold_graph.setVisibility(View.GONE);
+        weed_graph.setVisibility(View.GONE);
 
         chart = (LineChartView) findViewById(R.id.chart);
         chart.setOnValueTouchListener(new ValueTouchListener());
