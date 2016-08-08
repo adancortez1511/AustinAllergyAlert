@@ -19,7 +19,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_below="@id/calendarView"
-        android:background="@color/greenTheme"
         android:text=""
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_marginTop="410dp"

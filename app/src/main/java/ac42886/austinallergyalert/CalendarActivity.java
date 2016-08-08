@@ -105,7 +105,7 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
         oneDayDecorator.setDate(selectedDate);
         widget.invalidateDecorators();
         calendarTextView.setText(selectedDate.toString());
-        calendarTextView.setBackgroundResource(R.color.redTheme);
+//        calendarTextView.setBackgroundResource(R.color.redTheme);
         Log.d(TAG, Calendar.getInstance().getTime().toString());
 
         // Olivia - Check to see if user has entered a value for this date if yes then change the 0 to that progress value
