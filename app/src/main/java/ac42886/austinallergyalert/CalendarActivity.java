@@ -1,6 +1,8 @@
 package ac42886.austinallergyalert;
 
+import android.app.FragmentManager;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -11,6 +13,9 @@ import android.graphics.Color;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -33,6 +38,7 @@ import butterknife.ButterKnife;
 public class CalendarActivity extends AppCompatActivity implements OnDateSelectedListener{
 
     private static final String TAG = "Calendar Activity:";
+    private static final int SETTINGS_REQUEST = 1;
     private final OneDayDecorator oneDayDecorator = new OneDayDecorator();
     private TextView calendarTextView;
     private TextView seekBarValue;
@@ -77,6 +83,12 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
         // Calls SeekBar listener function
         setSeekBarListener();
 
+        int rating = dbHelper.getRatingByDate(selectedDate);
+        if (rating == -1)
+            allergyResponse.setProgress(0);
+        else
+            allergyResponse.setProgress(rating);
+
         ButterKnife.bind(this);
 
         widget.setOnDateChangedListener(this);
@@ -106,6 +118,30 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
     }
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        FragmentManager fm = getFragmentManager();
+        switch (item.getItemId()) {
+            case R.id.settings:
+                Intent intent = new Intent(this, SettingsActivity.class);
+                startActivityForResult(intent, SETTINGS_REQUEST);
+                return true;
+            case R.id.about:
+                startActivity(new Intent(this, AboutActivity.class));
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    @Override
     public void onDateSelected(@NonNull MaterialCalendarView widget, @NonNull CalendarDay date, boolean selected) {
 
         //If you change a decorate, you need to invalidate decorators
@@ -113,7 +149,6 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
         oneDayDecorator.setDate(selectedDate);
         widget.invalidateDecorators();
         calendarTextView.setText(df.format(selectedDate));
-        calendarTextView.setBackgroundResource(R.color.redTheme);
         Log.d(TAG, Calendar.getInstance().getTime().toString());
 
         // Olivia - Check to see if user has entered a value for this date if yes then change the 0 to that progress value
@@ -135,6 +170,7 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
             // Olivia - I'm not sure we need to do anything here
             ratingMessage.setText(R.string.rating_message_valid);
             allergyResponse.setVisibility(View.VISIBLE);
+            seekBarValue.setVisibility(View.VISIBLE);
         }
     }
 
@@ -163,6 +199,28 @@ public class CalendarActivity extends AppCompatActivity implements OnDateSelecte
                 int rating = seekBar.getProgress();
                 Log.d("onStopTracking ", "inserting rating into database");
                 dbHelper.insertRating(rating, selectedDate);
+
+                // change the color of the decorator
+                List<CalendarDay> newColor = new ArrayList<CalendarDay>();
+                CalendarDay c = new CalendarDay(selectedDate);
+                newColor.add(c);
+                switch (rating) {
+                    case 0:
+                        widget.addDecorator(new EventDecorator(0xff009900, newColor));
+                        break;
+                    case 1:
+                        widget.addDecorator(new EventDecorator(0xff9acd32, newColor));
+                        break;
+                    case 2:
+                        widget.addDecorator(new EventDecorator(0xfffff000, newColor));
+                        break;
+                    case 3:
+                        widget.addDecorator(new EventDecorator(0xffffa500, newColor));
+                        break;
+                    case 4:
+                        widget.addDecorator(new EventDecorator(Color.RED, newColor));
+                        break;
+                }
 
                 // create the toast
                 Context context = getApplicationContext();

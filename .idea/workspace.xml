@@ -18,126 +18,62 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0bfcb2-bba8-45dc-8391-fbaf959d3f8a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/Rating.java" />
+    <list default="true" id="fa0bfcb2-bba8-45dc-8391-fbaf959d3f8a" name="Default" comment="removed background colors in calendar activity and event colors now change when ratings are changed">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/CalendarActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/CalendarActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/CalendarActivity$ApiSimulator.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/CalendarActivity$ApiSimulator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/CalendarActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/CalendarActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/EventDecorator.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/EventDecorator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/prolificinteractive/materialcalendarview/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/prolificinteractive/materialcalendarview/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-af.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-am.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-am.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ar.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-az-rAZ.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-az-rAZ.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bg.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bg.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bn-rBD.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bn-rBD.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ca.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-cs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-da.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-de.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-el.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-el.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rAU.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rAU.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rGB.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es-rUS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-et-rEE.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-et-rEE.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-eu-rES.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-eu-rES.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fa.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fi.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gl-rES.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gl-rES.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gu-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gu-rIN.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h320dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h320dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hr.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hu.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-in.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-is-rIS.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-is-rIS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-it.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-iw.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-iw.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ja.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-km-rKH.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-km-rKH.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kn-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kn-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ko.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ky-rKG.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ky-rKG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-land.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-large-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lt.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lv.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mk-rMK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mk-rMK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ml-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ml-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mr-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mr-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-my-rMM.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-my-rMM.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nb.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ne-rNP.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ne-rNP.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-night-v8.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-night-v8.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nl.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pa-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pa-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-port.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-port.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ro.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ro.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ru.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-si-rLK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-si-rLK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sk.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sq-rAL.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sq-rAL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sv.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ta-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ta-rIN.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-te-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-te-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-th.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-th.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tl.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tr.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uk.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ur-rPK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ur-rPK.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v12.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v12.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v14.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v18.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v18.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v22.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v22.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v23.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-vi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-vi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-land-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-land-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zu.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/anim.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v11.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v23.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" />
@@ -153,29 +89,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/menu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/menu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-mdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xxxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/xml.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/xml.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestShaders/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestShaders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/about_layout.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/about_layout.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_calendar.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_calendar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/CalendarActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/CalendarActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/DatabaseHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/DatabaseHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/EventDecorator.java" afterPath="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/EventDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/about_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/about_layout.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_calendar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_calendar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="AustinAllergyAlert.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -216,45 +140,353 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DatabaseHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/DatabaseHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="303" column="36" selection-start-line="303" selection-start-column="36" selection-end-line="303" selection-end-column="36" />
-              <folding>
-                <element signature="e#11845#11853#0" expanded="true" />
-                <element signature="e#13212#13220#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_calendar.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_calendar.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_calendar.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7232704">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state vertical-scroll-proportion="1.3888888">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalendarActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CalendarActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/CalendarActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="115" column="65" selection-start-line="115" selection-start-column="65" selection-end-line="115" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.46136102">
+              <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
               <folding>
-                <element signature="e#1507#1520#0" expanded="true" />
-                <element signature="e#1579#1592#0" expanded="true" />
-                <element signature="e#1651#1664#0" expanded="true" />
-                <element signature="e#1728#1741#0" expanded="true" />
-                <element signature="e#1799#1812#0" expanded="true" />
-                <element signature="e#4852#4883#0" expanded="true" />
-                <element signature="e#5133#5162#0" expanded="true" />
+                <element signature="e#1715#1728#0" expanded="true" />
+                <element signature="e#1787#1800#0" expanded="true" />
+                <element signature="e#1859#1872#0" expanded="true" />
+                <element signature="e#1936#1949#0" expanded="true" />
+                <element signature="e#2007#2020#0" expanded="true" />
+                <element signature="e#5968#5999#0" expanded="true" />
+                <element signature="e#6249#6278#0" expanded="true" />
+                <element signature="e#7645#7658#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AboutActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about_layout.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/about_layout.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.1666665">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding>
+                <element signature="e#657#677#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Allergen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/Allergen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AllergenService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AllergenService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.3783784">
+              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="R.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/ac42886/austinallergyalert/R.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.225">
+              <caret line="1932" column="32" selection-start-line="1932" selection-start-column="32" selection-end-line="1932" selection-end-column="32" />
+              <folding>
+                <marker date="1470631312707" expanded="true" signature="954:1023" placeholder="{...}" />
+                <marker date="1470631312707" expanded="true" signature="1059:94721" placeholder="{...}" />
+                <marker date="1470631312707" expanded="true" signature="1069:1296" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="1366:1593" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="1670:1897" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="1970:2759" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="2826:3053" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="3126:3353" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="3421:3648" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="3722:3949" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="4020:4247" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="4322:4549" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="4617:4844" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="4918:5145" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="5216:5443" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="5516:5743" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="5809:6036" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="6114:6504" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="6577:6804" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="6878:7105" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="7185:7412" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="7489:7716" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="7792:8019" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="8094:8321" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="8397:8624" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="8701:8928" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="9008:9235" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="9316:9543" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="9620:9847" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="9926:10153" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="10222:10449" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="10530:10757" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="10836:11063" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="11140:11509" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="11582:11951" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="12020:12247" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="12325:12552" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="12633:12970" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="13048:13275" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="13345:13572" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="13642:13979" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="14046:14565" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="14634:15153" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="15223:15450" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="15529:15756" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="15820:16210" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="16279:16669" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="16740:17162" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="17230:17747" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="17819:18338" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="18401:18628" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="18703:18930" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="19004:19231" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="19313:19540" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="19621:19848" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="19930:20157" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="20225:20452" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="20527:20754" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="20819:21046" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="21116:21538" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="21602:22119" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="22187:22414" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="22481:22708" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="22782:23009" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="23072:23299" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="23368:23737" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="23817:24044" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="24110:24532" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="24591:25013" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="25078:25500" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="25571:25993" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="26068:26490" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="26565:26987" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="27059:27481" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="27547:27969" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="28039:28461" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="28537:28764" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="28828:29347" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="29416:29935" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="30005:30524" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="30595:31114" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="31185:31412" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="31483:31710" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="31786:32155" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="32225:32744" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="32820:33047" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="33112:33791" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="33859:34086" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="34147:34374" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="34445:34964" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="35032:35259" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="35328:35847" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="35913:36140" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="36210:36437" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="36512:37031" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="37116:37343" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="37415:37805" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="37872:38099" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="38166:38685" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="38748:38975" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="39065:39584" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="39652:39879" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="39939:40458" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="40518:40855" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="40928:41155" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="41226:41453" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="41517:41744" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="41802:42139" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="42211:42438" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="42508:42735" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="42815:43184" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="43258:43595" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="43661:44180" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="44245:44472" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="44532:44901" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="44968:45195" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="45278:45505" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="45581:45808" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="45876:46103" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="46167:46394" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="46468:46987" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="47064:47583" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="47665:48184" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="48266:48785" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="48867:49386" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="49469:49696" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="49754:50123" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="50192:50711" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="50780:51117" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="51208:51630" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="51698:52033" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="52103:52330" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="52406:53037" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="53109:53336" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="53414:53641" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="53712:53939" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="54008:54235" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="54307:54729" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="54801:55712" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="55784:56303" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="56371:56890" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="56956:57475" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="57542:57769" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="57840:58067" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="58146:58483" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="58560:58787" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="58862:59231" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="59313:59540" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="59608:60006" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="60074:60411" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="60478:60997" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="61061:61580" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="61646:61873" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="61942:62169" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="62241:62760" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="62832:63059" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="63127:63354" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="63418:63645" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="63715:64052" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="64125:64644" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="64716:64943" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="65013:65240" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="65309:65678" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="65741:65968" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="66038:66265" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="66333:66560" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="66637:66864" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="66937:67274" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="67341:67568" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="67636:67863" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="67927:68154" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="68223:68450" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="68516:68743" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="68821:69048" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="69136:69685" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="69751:70228" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="70294:70631" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="70693:70920" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="70996:71310" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="71373:71710" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="71772:71999" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="72077:72304" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="72370:72707" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="72771:72998" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="73061:73398" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="73464:73801" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="73873:74100" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="74170:74539" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="74601:74828" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="74904:75326" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="75397:75624" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="75695:75922" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="75995:76514" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="76582:77101" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="77168:77395" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="77460:77687" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="77761:78066" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="78131:78358" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="78440:78667" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="78743:78970" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="79051:79278" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="79366:79593" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="79678:79905" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="79987:80377" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="80459:80849" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="80921:81148" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="81207:81726" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="81789:82308" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="82378:82747" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="82806:83325" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="83396:83915" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="83983:84502" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="84572:85091" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="85159:85678" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="85744:85971" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="86044:86466" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="86534:86761" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="86829:87056" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="87138:87365" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="87431:87658" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="87717:87944" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="88007:88344" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="88413:88750" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="88826:89163" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="89240:90012" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="90088:90860" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="90936:91708" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="91783:92555" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="92630:93402" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="93475:94247" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="94320:94657" placeholder="/**...*/" />
+                <marker date="1470631312707" expanded="true" signature="94757:95414" placeholder="{...}" />
+                <marker date="1470631312707" expanded="true" signature="95451:101440" placeholder="{...}" />
+                <marker date="1470631312707" expanded="true" signature="101477:107727" placeholder="{...}" />
+                <marker date="1470631312707" expanded="true" signature="107767:114738" placeholder="{...}" />
+                <marker date="1470631312707" expanded="true" signature="114772:124443" placeholder="{...}" />
+                <marker date="1470631312707" expanded="true" signature="124482:124852" placeholder="{...}" />
+                <marker date="1470631312707" expanded="true" signature="124890:128341" placeholder="{...}" />
+                <marker date="1470631312707" expanded="true" signature="128377:128493" placeholder="{...}" />
+                <marker date="1470631312707" expanded="true" signature="128531:128594" placeholder="{...}" />
+                <marker date="1470631312707" expanded="true" signature="128632:131270" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rating.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/Rating.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+              <folding>
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1899,13 +2131,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AboutActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/GraphData.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/about_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/action_bar_background_gradient.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/SplashActivity.java" />
@@ -1948,8 +2177,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/EventDecorator.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/Rating.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/DatabaseHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/CalendarActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_calendar.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AboutActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/about_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/CalendarActivity.java" />
       </list>
     </option>
   </component>
@@ -2023,6 +2255,42 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AustinAllergyAlert" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AustinAllergyAlert" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
@@ -2063,7 +2331,7 @@
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="false" />
-    <property name="device.picker.selection" value="Nexus_6_API_23_2" />
+    <property name="device.picker.selection" value="0715f77534991638" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.SHOW" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/ofl7_000/AndroidStudioProjects/AustinAllergyAlert/app/src/main/java/ac42886/austinallergyalert/Note.java" />
   </component>
@@ -2687,7 +2955,13 @@
       <option name="project" value="LOCAL" />
       <updated>1470607103556</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="improved symptoms database stuff and calendar decorators">
+      <created>1470627365134</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1470627365135</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -2710,7 +2984,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35104093" sideWeight="0.49804577" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3476942" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3476942" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950467" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -2783,7 +3057,8 @@
     <MESSAGE value="added toasts, a legend, and nicer looking date format to the main activity" />
     <MESSAGE value="added toasts, a legend, and nicer looking date to the main activity, and a background service" />
     <MESSAGE value="notes completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="notes completed" />
+    <MESSAGE value="improved symptoms database stuff and calendar decorators" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved symptoms database stuff and calendar decorators" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2792,27 +3067,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/Tab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="152" column="43" selection-start-line="152" selection-start-column="42" selection-end-line="152" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/TabView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74937344">
-          <caret line="175" column="10" selection-start-line="175" selection-start-column="9" selection-end-line="175" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/TabHostProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14749263">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/tab_background_gradient.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2855,27 +3109,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/about_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.925">
           <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AboutActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20783848">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -2908,31 +3145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1619171">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/Allergen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#1708#1709#0" expanded="false" />
-            <element signature="e#1735#1736#0" expanded="false" />
-            <element signature="e#1775#1776#0" expanded="false" />
-            <element signature="e#1807#1808#0" expanded="false" />
-            <element signature="e#1836#1837#0" expanded="false" />
-            <element signature="e#1864#1865#0" expanded="false" />
-            <element signature="e#1903#1904#0" expanded="false" />
-            <element signature="e#1937#1938#0" expanded="false" />
-            <element signature="e#1966#1967#0" expanded="false" />
-            <element signature="e#1993#1994#0" expanded="false" />
-            <element signature="e#2031#2032#0" expanded="false" />
-            <element signature="e#2063#2064#0" expanded="false" />
-            <element signature="e#2100#2101#0" expanded="false" />
-            <element signature="e#2127#2128#0" expanded="false" />
-            <element signature="e#2167#2168#0" expanded="false" />
-            <element signature="e#2195#2196#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2987,16 +3199,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AllergenService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3166,16 +3368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/GraphData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="182" column="9" selection-start-line="182" selection-start-column="9" selection-end-line="182" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/Notes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3195,8 +3387,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="5" selection-start-line="32" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
           <folding>
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3212,14 +3404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AustinAllergyAlert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="286" column="45" selection-start-line="286" selection-start-column="35" selection-end-line="286" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/EventDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.86206895">
@@ -3230,19 +3414,6 @@
             <element signature="e#850#851#0" expanded="false" />
             <element signature="e#912#913#0" expanded="false" />
             <element signature="e#964#965#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/Rating.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
-          <folding>
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3263,25 +3434,339 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="303" column="36" selection-start-line="303" selection-start-column="36" selection-end-line="303" selection-end-column="36" />
           <folding>
-            <element signature="e#11845#11853#0" expanded="true" />
-            <element signature="e#13212#13220#0" expanded="true" />
+            <element signature="e#11845#11853#0" expanded="false" />
+            <element signature="e#13212#13220#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/CalendarActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/classes/debug/ac42886/austinallergyalert/GraphData.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="115" column="65" selection-start-line="115" selection-start-column="65" selection-end-line="115" selection-end-column="65" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/Rating.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
           <folding>
-            <element signature="e#1507#1520#0" expanded="true" />
-            <element signature="e#1579#1592#0" expanded="true" />
-            <element signature="e#1651#1664#0" expanded="true" />
-            <element signature="e#1728#1741#0" expanded="true" />
-            <element signature="e#1799#1812#0" expanded="true" />
-            <element signature="e#4852#4883#0" expanded="true" />
-            <element signature="e#5133#5162#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/GraphData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="63" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/ac42886/austinallergyalert/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.225">
+          <caret line="1932" column="32" selection-start-line="1932" selection-start-column="32" selection-end-line="1932" selection-end-column="32" />
+          <folding>
+            <marker date="1470631312707" expanded="true" signature="954:1023" placeholder="{...}" />
+            <marker date="1470631312707" expanded="true" signature="1059:94721" placeholder="{...}" />
+            <marker date="1470631312707" expanded="true" signature="1069:1296" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="1366:1593" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="1670:1897" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="1970:2759" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="2826:3053" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="3126:3353" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="3421:3648" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="3722:3949" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="4020:4247" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="4322:4549" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="4617:4844" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="4918:5145" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="5216:5443" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="5516:5743" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="5809:6036" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="6114:6504" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="6577:6804" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="6878:7105" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="7185:7412" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="7489:7716" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="7792:8019" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="8094:8321" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="8397:8624" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="8701:8928" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="9008:9235" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="9316:9543" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="9620:9847" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="9926:10153" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="10222:10449" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="10530:10757" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="10836:11063" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="11140:11509" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="11582:11951" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="12020:12247" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="12325:12552" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="12633:12970" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="13048:13275" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="13345:13572" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="13642:13979" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="14046:14565" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="14634:15153" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="15223:15450" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="15529:15756" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="15820:16210" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="16279:16669" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="16740:17162" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="17230:17747" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="17819:18338" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="18401:18628" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="18703:18930" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="19004:19231" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="19313:19540" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="19621:19848" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="19930:20157" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="20225:20452" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="20527:20754" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="20819:21046" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="21116:21538" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="21602:22119" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="22187:22414" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="22481:22708" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="22782:23009" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="23072:23299" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="23368:23737" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="23817:24044" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="24110:24532" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="24591:25013" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="25078:25500" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="25571:25993" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="26068:26490" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="26565:26987" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="27059:27481" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="27547:27969" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="28039:28461" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="28537:28764" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="28828:29347" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="29416:29935" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="30005:30524" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="30595:31114" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="31185:31412" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="31483:31710" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="31786:32155" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="32225:32744" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="32820:33047" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="33112:33791" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="33859:34086" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="34147:34374" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="34445:34964" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="35032:35259" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="35328:35847" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="35913:36140" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="36210:36437" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="36512:37031" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="37116:37343" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="37415:37805" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="37872:38099" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="38166:38685" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="38748:38975" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="39065:39584" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="39652:39879" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="39939:40458" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="40518:40855" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="40928:41155" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="41226:41453" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="41517:41744" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="41802:42139" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="42211:42438" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="42508:42735" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="42815:43184" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="43258:43595" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="43661:44180" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="44245:44472" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="44532:44901" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="44968:45195" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="45278:45505" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="45581:45808" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="45876:46103" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="46167:46394" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="46468:46987" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="47064:47583" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="47665:48184" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="48266:48785" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="48867:49386" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="49469:49696" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="49754:50123" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="50192:50711" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="50780:51117" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="51208:51630" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="51698:52033" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="52103:52330" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="52406:53037" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="53109:53336" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="53414:53641" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="53712:53939" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="54008:54235" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="54307:54729" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="54801:55712" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="55784:56303" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="56371:56890" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="56956:57475" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="57542:57769" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="57840:58067" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="58146:58483" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="58560:58787" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="58862:59231" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="59313:59540" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="59608:60006" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="60074:60411" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="60478:60997" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="61061:61580" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="61646:61873" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="61942:62169" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="62241:62760" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="62832:63059" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="63127:63354" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="63418:63645" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="63715:64052" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="64125:64644" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="64716:64943" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="65013:65240" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="65309:65678" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="65741:65968" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="66038:66265" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="66333:66560" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="66637:66864" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="66937:67274" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="67341:67568" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="67636:67863" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="67927:68154" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="68223:68450" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="68516:68743" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="68821:69048" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="69136:69685" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="69751:70228" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="70294:70631" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="70693:70920" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="70996:71310" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="71373:71710" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="71772:71999" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="72077:72304" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="72370:72707" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="72771:72998" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="73061:73398" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="73464:73801" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="73873:74100" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="74170:74539" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="74601:74828" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="74904:75326" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="75397:75624" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="75695:75922" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="75995:76514" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="76582:77101" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="77168:77395" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="77460:77687" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="77761:78066" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="78131:78358" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="78440:78667" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="78743:78970" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="79051:79278" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="79366:79593" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="79678:79905" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="79987:80377" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="80459:80849" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="80921:81148" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="81207:81726" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="81789:82308" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="82378:82747" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="82806:83325" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="83396:83915" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="83983:84502" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="84572:85091" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="85159:85678" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="85744:85971" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="86044:86466" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="86534:86761" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="86829:87056" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="87138:87365" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="87431:87658" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="87717:87944" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="88007:88344" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="88413:88750" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="88826:89163" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="89240:90012" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="90088:90860" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="90936:91708" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="91783:92555" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="92630:93402" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="93475:94247" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="94320:94657" placeholder="/**...*/" />
+            <marker date="1470631312707" expanded="true" signature="94757:95414" placeholder="{...}" />
+            <marker date="1470631312707" expanded="true" signature="95451:101440" placeholder="{...}" />
+            <marker date="1470631312707" expanded="true" signature="101477:107727" placeholder="{...}" />
+            <marker date="1470631312707" expanded="true" signature="107767:114738" placeholder="{...}" />
+            <marker date="1470631312707" expanded="true" signature="114772:124443" placeholder="{...}" />
+            <marker date="1470631312707" expanded="true" signature="124482:124852" placeholder="{...}" />
+            <marker date="1470631312707" expanded="true" signature="124890:128341" placeholder="{...}" />
+            <marker date="1470631312707" expanded="true" signature="128377:128493" placeholder="{...}" />
+            <marker date="1470631312707" expanded="true" signature="128531:128594" placeholder="{...}" />
+            <marker date="1470631312707" expanded="true" signature="128632:131270" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/Allergen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AboutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3783784">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/about_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1666665">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="e#657#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AllergenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/AustinAllergyAlert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20184544">
+          <caret line="44" column="50" selection-start-line="43" selection-start-column="62" selection-end-line="44" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3290,9 +3775,26 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7232704">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state vertical-scroll-proportion="1.3888888">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ac42886/austinallergyalert/CalendarActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46136102">
+          <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
+          <folding>
+            <element signature="e#1715#1728#0" expanded="true" />
+            <element signature="e#1787#1800#0" expanded="true" />
+            <element signature="e#1859#1872#0" expanded="true" />
+            <element signature="e#1936#1949#0" expanded="true" />
+            <element signature="e#2007#2020#0" expanded="true" />
+            <element signature="e#5968#5999#0" expanded="true" />
+            <element signature="e#6249#6278#0" expanded="true" />
+            <element signature="e#7645#7658#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

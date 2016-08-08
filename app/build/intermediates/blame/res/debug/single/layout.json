@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_graph_data.xml",
@@ -132,12 +132,12 @@
         "source": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
         "merged": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "C:\\Users\\Adan\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",

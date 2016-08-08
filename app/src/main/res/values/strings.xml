@@ -8,7 +8,7 @@
     <string name="mold">Mold</string>
     <string name="grass">Grass</string>
     <string name="weed">Weed</string>
-    <string name="rating_message_valid">Rate the sevrity of your allergy symptoms</string>
+    <string name="rating_message_valid">Rate the severity of your allergy symptoms</string>
     <string name="rating_message_invalid">Sorry, no information currently available.</string>
     <string name="push_notification">Push Notifications</string>
     <string name="edit_push_notifications">Edit Push Notifications:</string>
@@ -16,6 +16,7 @@
     <string name="delete_note">Do you want to delete this note?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="about_text">Allergen counts are taken from allergistsofaustin.com\n\nCounts are typically reported Monday-Friday, excluding holidays.\n\nAllergen levels are decided as follows:\n\nMOLDS\n\t0-299 Low\n\t300-999 Medium\n\t1,000-9,999 High\n\t10,000+ Very High\n\nGRASSES\n\t0-4 Low\n\t5-19 Medium\n\t20-199 High\n\t200+ Very High\n\nTREES\n\t0-14 Low\n\t15-89 Medium\n\t90-1,499 High\n\t1,500+ Very High\n\nWEEDS\n\t0-9 Low\n\t10-49 Medium\n\t50 499 High\n\t500+ Very High\n\nOTHER\n\t0-9 Low\n\t10-99 Medium\n\t100-999 High\n\t1,000+ Very High</string>
     <string-array name="notification_list">
         <item>@string/tree</item>
         <item>@string/mold</item>
