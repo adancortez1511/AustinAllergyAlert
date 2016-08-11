@@ -31,44 +31,24 @@
             android:label="Allergy Alert"
             android:launchMode="standard"
             android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="ac42886.austinallergyalert.CalendarActivity"
             android:label="Calendar"
             android:launchMode="standard"
             android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
         </activity>
         <activity
             android:name="ac42886.austinallergyalert.GraphData"
             android:label="Graph"
             android:launchMode="standard"
             android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
         </activity>
         <activity
             android:name="ac42886.austinallergyalert.Notes"
             android:label="Notes"
             android:launchMode="standard"
             android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
         </activity>
         <activity
             android:name="ac42886.austinallergyalert.NotesEntry"

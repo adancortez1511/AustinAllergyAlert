@@ -235,8 +235,8 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="aboutUs">About Us</string>
-    <string name="about_text">Allergen counts are taken from allergistsofaustin.com\n\nCounts are typically reported Monday-Friday, excluding holidays.\n\nAllergen levels are decided as follows:\n\nMOLDS\n\t0-299 Low\n\t300-999 Medium\n\t1,000-9,999 High\n\t10,000+ Very High\n\nGRASSES\n\t0-4 Low\n\t5-19 Medium\n\t20-199 High\n\t200+ Very High\n\nTREES\n\t0-14 Low\n\t15-89 Medium\n\t90-1,499 High\n\t1,500+ Very High\n\nWEEDS\n\t0-9 Low\n\t10-49 Medium\n\t50 499 High\n\t500+ Very High\n\nOTHER\n\t0-9 Low\n\t10-99 Medium\n\t100-999 High\n\t1,000+ Very High</string>
+    <string name="aboutUs">About</string>
+    <string name="about_text">Allergen counts are taken from allergistsofaustin.com\n\nCounts are typically reported Monday-Friday, excluding holidays.\n\nAllergen levels are decided as follows:\n\nMOLDS\n\t0-299 Low\n\t300-999 Medium\n\t1,000-9,999 High\n\t10,000+ Very High\n\nGRASSES\n\t0-4 Low\n\t5-19 Medium\n\t20-199 High\n\t200+ Very High\n\nTREES\n\t0-14 Low\n\t15-89 Medium\n\t90-1,499 High\n\t1,500+ Very High\n\nWEEDS\n\t0-9 Low\n\t10-49 Medium\n\t50 499 High\n\t500+ Very High\n\nOTHER\n\t0-9 Low\n\t10-99 Medium\n\t100-999 High\n\t1,000+ Very High\n</string>
     <string name="app_name">AustinAllergyAlert</string>
     <string name="calendar">Calendar</string>
     <string name="contact">Contact</string>

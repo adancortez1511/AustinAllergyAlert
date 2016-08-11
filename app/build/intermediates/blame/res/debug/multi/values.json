@@ -12820,29 +12820,36 @@
                     "startLine": 237,
                     "startColumn": 4,
                     "startOffset": 31463,
-                    "endColumn": 44,
-                    "endOffset": 31503
+                    "endColumn": 41,
+                    "endOffset": 31500
                 },
                 "from": {
-                    "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 169,
+                        "endColumn": 41,
+                        "endOffset": 206
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 238,
                     "startColumn": 4,
-                    "startOffset": 31508,
-                    "endColumn": 569,
-                    "endOffset": 32073
+                    "startOffset": 31505,
+                    "endColumn": 571,
+                    "endOffset": 32072
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 977,
-                        "endColumn": 569,
-                        "endOffset": 1542
+                        "startOffset": 974,
+                        "endColumn": 571,
+                        "endOffset": 1541
                     }
                 }
             },
@@ -12850,9 +12857,9 @@
                 "to": {
                     "startLine": 239,
                     "startColumn": 4,
-                    "startOffset": 32078,
+                    "startOffset": 32077,
                     "endColumn": 55,
-                    "endOffset": 32129
+                    "endOffset": 32128
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -12862,9 +12869,9 @@
                 "to": {
                     "startLine": 240,
                     "startColumn": 4,
-                    "startOffset": 32134,
+                    "startOffset": 32133,
                     "endColumn": 45,
-                    "endOffset": 32175
+                    "endOffset": 32174
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -12874,9 +12881,9 @@
                 "to": {
                     "startLine": 241,
                     "startColumn": 4,
-                    "startOffset": 32180,
+                    "startOffset": 32179,
                     "endColumn": 43,
-                    "endOffset": 32219
+                    "endOffset": 32218
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -12886,9 +12893,9 @@
                 "to": {
                     "startLine": 242,
                     "startColumn": 4,
-                    "startOffset": 32224,
+                    "startOffset": 32223,
                     "endColumn": 72,
-                    "endOffset": 32292
+                    "endOffset": 32291
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -12898,9 +12905,9 @@
                 "to": {
                     "startLine": 243,
                     "startColumn": 4,
-                    "startOffset": 32297,
+                    "startOffset": 32296,
                     "endColumn": 76,
-                    "endOffset": 32369
+                    "endOffset": 32368
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -12910,9 +12917,9 @@
                 "to": {
                     "startLine": 244,
                     "startColumn": 4,
-                    "startOffset": 32374,
+                    "startOffset": 32373,
                     "endColumn": 39,
-                    "endOffset": 32409
+                    "endOffset": 32408
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -12922,9 +12929,9 @@
                 "to": {
                     "startLine": 245,
                     "startColumn": 4,
-                    "startOffset": 32414,
+                    "startOffset": 32413,
                     "endColumn": 37,
-                    "endOffset": 32447
+                    "endOffset": 32446
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -12934,9 +12941,9 @@
                 "to": {
                     "startLine": 246,
                     "startColumn": 4,
-                    "startOffset": 32452,
+                    "startOffset": 32451,
                     "endColumn": 43,
-                    "endOffset": 32491
+                    "endOffset": 32490
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.prolificinteractive\\material-calendarview\\1.4.0\\res\\values\\values.xml"
@@ -12946,9 +12953,9 @@
                 "to": {
                     "startLine": 247,
                     "startColumn": 4,
-                    "startOffset": 32496,
+                    "startOffset": 32495,
                     "endColumn": 33,
-                    "endOffset": 32525
+                    "endOffset": 32524
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -12958,9 +12965,9 @@
                 "to": {
                     "startLine": 248,
                     "startColumn": 4,
-                    "startOffset": 32530,
+                    "startOffset": 32529,
                     "endColumn": 51,
-                    "endOffset": 32577
+                    "endOffset": 32576
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.prolificinteractive\\material-calendarview\\1.4.0\\res\\values\\values.xml"
@@ -12970,9 +12977,9 @@
                 "to": {
                     "startLine": 249,
                     "startColumn": 4,
-                    "startOffset": 32582,
+                    "startOffset": 32581,
                     "endColumn": 64,
-                    "endOffset": 32642
+                    "endOffset": 32641
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -12982,9 +12989,9 @@
                 "to": {
                     "startLine": 250,
                     "startColumn": 4,
-                    "startOffset": 32647,
+                    "startOffset": 32646,
                     "endColumn": 79,
-                    "endOffset": 32722
+                    "endOffset": 32721
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -12994,9 +13001,9 @@
                 "to": {
                     "startLine": 251,
                     "startColumn": 4,
-                    "startOffset": 32727,
+                    "startOffset": 32726,
                     "endColumn": 93,
-                    "endOffset": 32816
+                    "endOffset": 32815
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -13006,9 +13013,9 @@
                 "to": {
                     "startLine": 252,
                     "startColumn": 4,
-                    "startOffset": 32821,
+                    "startOffset": 32820,
                     "endColumn": 91,
-                    "endOffset": 32908
+                    "endOffset": 32907
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -13018,9 +13025,9 @@
                 "to": {
                     "startLine": 253,
                     "startColumn": 4,
-                    "startOffset": 32913,
+                    "startOffset": 32912,
                     "endColumn": 45,
-                    "endOffset": 32954
+                    "endOffset": 32953
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -13030,9 +13037,9 @@
                 "to": {
                     "startLine": 254,
                     "startColumn": 4,
-                    "startOffset": 32959,
+                    "startOffset": 32958,
                     "endColumn": 70,
-                    "endOffset": 33025
+                    "endOffset": 33024
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13042,9 +13049,9 @@
                 "to": {
                     "startLine": 255,
                     "startColumn": 4,
-                    "startOffset": 33030,
+                    "startOffset": 33029,
                     "endColumn": 37,
-                    "endOffset": 33063
+                    "endOffset": 33062
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -13054,9 +13061,9 @@
                 "to": {
                     "startLine": 256,
                     "startColumn": 4,
-                    "startOffset": 33068,
+                    "startOffset": 33067,
                     "endColumn": 37,
-                    "endOffset": 33101
+                    "endOffset": 33100
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -13066,9 +13073,9 @@
                 "to": {
                     "startLine": 257,
                     "startColumn": 4,
-                    "startOffset": 33106,
+                    "startOffset": 33105,
                     "endColumn": 35,
-                    "endOffset": 33137
+                    "endOffset": 33136
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\strings.xml"
@@ -13078,9 +13085,9 @@
                 "to": {
                     "startLine": 258,
                     "startColumn": 4,
-                    "startOffset": 33142,
+                    "startOffset": 33141,
                     "endColumn": 77,
-                    "endOffset": 33215
+                    "endOffset": 33214
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13090,9 +13097,9 @@
                 "to": {
                     "startLine": 259,
                     "startColumn": 4,
-                    "startOffset": 33220,
+                    "startOffset": 33219,
                     "endColumn": 89,
-                    "endOffset": 33305
+                    "endOffset": 33304
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13102,9 +13109,9 @@
                 "to": {
                     "startLine": 260,
                     "startColumn": 4,
-                    "startOffset": 33310,
+                    "startOffset": 33309,
                     "endColumn": 87,
-                    "endOffset": 33393
+                    "endOffset": 33392
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13114,9 +13121,9 @@
                 "to": {
                     "startLine": 261,
                     "startColumn": 4,
-                    "startOffset": 33398,
+                    "startOffset": 33397,
                     "endColumn": 95,
-                    "endOffset": 33489
+                    "endOffset": 33488
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13126,10 +13133,10 @@
                 "to": {
                     "startLine": 262,
                     "startColumn": 4,
-                    "startOffset": 33494,
+                    "startOffset": 33493,
                     "endLine": 267,
                     "endColumn": 12,
-                    "endOffset": 33804
+                    "endOffset": 33803
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\styles.xml"
@@ -13139,9 +13146,9 @@
                 "to": {
                     "startLine": 268,
                     "startColumn": 4,
-                    "startOffset": 33809,
+                    "startOffset": 33808,
                     "endColumn": 89,
-                    "endOffset": 33894
+                    "endOffset": 33893
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\styles.xml"
@@ -13151,10 +13158,10 @@
                 "to": {
                     "startLine": 269,
                     "startColumn": 4,
-                    "startOffset": 33899,
+                    "startOffset": 33898,
                     "endLine": 272,
                     "endColumn": 12,
-                    "endOffset": 34044
+                    "endOffset": 34043
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\styles.xml"
@@ -13164,9 +13171,9 @@
                 "to": {
                     "startLine": 273,
                     "startColumn": 4,
-                    "startOffset": 34049,
+                    "startOffset": 34048,
                     "endColumn": 79,
-                    "endOffset": 34124
+                    "endOffset": 34123
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\styles.xml"
@@ -13176,10 +13183,10 @@
                 "to": {
                     "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 34129,
+                    "startOffset": 34128,
                     "endLine": 280,
                     "endColumn": 12,
-                    "endOffset": 34625
+                    "endOffset": 34624
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13189,9 +13196,9 @@
                 "to": {
                     "startLine": 281,
                     "startColumn": 4,
-                    "startOffset": 34630,
+                    "startOffset": 34629,
                     "endColumn": 88,
-                    "endOffset": 34714
+                    "endOffset": 34713
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13201,10 +13208,10 @@
                 "to": {
                     "startLine": 282,
                     "startColumn": 4,
-                    "startOffset": 34719,
+                    "startOffset": 34718,
                     "endLine": 285,
                     "endColumn": 12,
-                    "endOffset": 34961
+                    "endOffset": 34960
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13214,10 +13221,10 @@
                 "to": {
                     "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 34966,
+                    "startOffset": 34965,
                     "endLine": 289,
                     "endColumn": 12,
-                    "endOffset": 35242
+                    "endOffset": 35241
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13227,10 +13234,10 @@
                 "to": {
                     "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 35247,
+                    "startOffset": 35246,
                     "endLine": 294,
                     "endColumn": 12,
-                    "endOffset": 35527
+                    "endOffset": 35526
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13240,10 +13247,10 @@
                 "to": {
                     "startLine": 295,
                     "startColumn": 4,
-                    "startOffset": 35532,
+                    "startOffset": 35531,
                     "endLine": 300,
                     "endColumn": 12,
-                    "endOffset": 35920
+                    "endOffset": 35919
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13253,10 +13260,10 @@
                 "to": {
                     "startLine": 301,
                     "startColumn": 4,
-                    "startOffset": 35925,
+                    "startOffset": 35924,
                     "endLine": 307,
                     "endColumn": 12,
-                    "endOffset": 36397
+                    "endOffset": 36396
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13266,10 +13273,10 @@
                 "to": {
                     "startLine": 308,
                     "startColumn": 4,
-                    "startOffset": 36402,
+                    "startOffset": 36401,
                     "endLine": 311,
                     "endColumn": 12,
-                    "endOffset": 36619
+                    "endOffset": 36618
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13279,10 +13286,10 @@
                 "to": {
                     "startLine": 312,
                     "startColumn": 4,
-                    "startOffset": 36624,
+                    "startOffset": 36623,
                     "endLine": 315,
                     "endColumn": 12,
-                    "endOffset": 36841
+                    "endOffset": 36840
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13292,10 +13299,10 @@
                 "to": {
                     "startLine": 316,
                     "startColumn": 4,
-                    "startOffset": 36846,
+                    "startOffset": 36845,
                     "endLine": 320,
                     "endColumn": 12,
-                    "endOffset": 37109
+                    "endOffset": 37108
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13305,10 +13312,10 @@
                 "to": {
                     "startLine": 321,
                     "startColumn": 4,
-                    "startOffset": 37114,
+                    "startOffset": 37113,
                     "endLine": 324,
                     "endColumn": 12,
-                    "endOffset": 37336
+                    "endOffset": 37335
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13318,10 +13325,10 @@
                 "to": {
                     "startLine": 325,
                     "startColumn": 4,
-                    "startOffset": 37341,
+                    "startOffset": 37340,
                     "endLine": 328,
                     "endColumn": 12,
-                    "endOffset": 37566
+                    "endOffset": 37565
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13331,10 +13338,10 @@
                 "to": {
                     "startLine": 329,
                     "startColumn": 4,
-                    "startOffset": 37571,
+                    "startOffset": 37570,
                     "endLine": 332,
                     "endColumn": 12,
-                    "endOffset": 37796
+                    "endOffset": 37795
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13344,10 +13351,10 @@
                 "to": {
                     "startLine": 333,
                     "startColumn": 4,
-                    "startOffset": 37801,
+                    "startOffset": 37800,
                     "endLine": 336,
                     "endColumn": 12,
-                    "endOffset": 38026
+                    "endOffset": 38025
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13357,10 +13364,10 @@
                 "to": {
                     "startLine": 337,
                     "startColumn": 4,
-                    "startOffset": 38031,
+                    "startOffset": 38030,
                     "endLine": 340,
                     "endColumn": 12,
-                    "endOffset": 38256
+                    "endOffset": 38255
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13370,10 +13377,10 @@
                 "to": {
                     "startLine": 341,
                     "startColumn": 4,
-                    "startOffset": 38261,
+                    "startOffset": 38260,
                     "endLine": 344,
                     "endColumn": 12,
-                    "endOffset": 38483
+                    "endOffset": 38482
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13383,10 +13390,10 @@
                 "to": {
                     "startLine": 345,
                     "startColumn": 4,
-                    "startOffset": 38488,
+                    "startOffset": 38487,
                     "endLine": 348,
                     "endColumn": 12,
-                    "endOffset": 38722
+                    "endOffset": 38721
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13396,10 +13403,10 @@
                 "to": {
                     "startLine": 349,
                     "startColumn": 4,
-                    "startOffset": 38727,
+                    "startOffset": 38726,
                     "endLine": 352,
                     "endColumn": 12,
-                    "endOffset": 38948
+                    "endOffset": 38947
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13409,10 +13416,10 @@
                 "to": {
                     "startLine": 353,
                     "startColumn": 4,
-                    "startOffset": 38953,
+                    "startOffset": 38952,
                     "endLine": 356,
                     "endColumn": 12,
-                    "endOffset": 39193
+                    "endOffset": 39192
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13422,10 +13429,10 @@
                 "to": {
                     "startLine": 357,
                     "startColumn": 4,
-                    "startOffset": 39198,
+                    "startOffset": 39197,
                     "endLine": 358,
                     "endColumn": 12,
-                    "endOffset": 39323
+                    "endOffset": 39322
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13435,10 +13442,10 @@
                 "to": {
                     "startLine": 359,
                     "startColumn": 4,
-                    "startOffset": 39328,
+                    "startOffset": 39327,
                     "endLine": 360,
                     "endColumn": 12,
-                    "endOffset": 39453
+                    "endOffset": 39452
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13448,10 +13455,10 @@
                 "to": {
                     "startLine": 361,
                     "startColumn": 4,
-                    "startOffset": 39458,
+                    "startOffset": 39457,
                     "endLine": 364,
                     "endColumn": 12,
-                    "endOffset": 39683
+                    "endOffset": 39682
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13461,10 +13468,10 @@
                 "to": {
                     "startLine": 365,
                     "startColumn": 4,
-                    "startOffset": 39688,
+                    "startOffset": 39687,
                     "endLine": 368,
                     "endColumn": 12,
-                    "endOffset": 39931
+                    "endOffset": 39930
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13474,10 +13481,10 @@
                 "to": {
                     "startLine": 369,
                     "startColumn": 4,
-                    "startOffset": 39936,
+                    "startOffset": 39935,
                     "endLine": 372,
                     "endColumn": 12,
-                    "endOffset": 40150
+                    "endOffset": 40149
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13487,10 +13494,10 @@
                 "to": {
                     "startLine": 373,
                     "startColumn": 4,
-                    "startOffset": 40155,
+                    "startOffset": 40154,
                     "endLine": 377,
                     "endColumn": 12,
-                    "endOffset": 40433
+                    "endOffset": 40432
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13500,10 +13507,10 @@
                 "to": {
                     "startLine": 378,
                     "startColumn": 4,
-                    "startOffset": 40438,
+                    "startOffset": 40437,
                     "endLine": 381,
                     "endColumn": 12,
-                    "endOffset": 40641
+                    "endOffset": 40640
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13513,10 +13520,10 @@
                 "to": {
                     "startLine": 382,
                     "startColumn": 4,
-                    "startOffset": 40646,
+                    "startOffset": 40645,
                     "endLine": 384,
                     "endColumn": 12,
-                    "endOffset": 40772
+                    "endOffset": 40771
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13526,10 +13533,10 @@
                 "to": {
                     "startLine": 385,
                     "startColumn": 4,
-                    "startOffset": 40777,
+                    "startOffset": 40776,
                     "endLine": 388,
                     "endColumn": 12,
-                    "endOffset": 40999
+                    "endOffset": 40998
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13539,10 +13546,10 @@
                 "to": {
                     "startLine": 389,
                     "startColumn": 4,
-                    "startOffset": 41004,
+                    "startOffset": 41003,
                     "endLine": 392,
                     "endColumn": 12,
-                    "endOffset": 41245
+                    "endOffset": 41244
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13552,10 +13559,10 @@
                 "to": {
                     "startLine": 393,
                     "startColumn": 4,
-                    "startOffset": 41250,
+                    "startOffset": 41249,
                     "endLine": 396,
                     "endColumn": 12,
-                    "endOffset": 41470
+                    "endOffset": 41469
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13565,10 +13572,10 @@
                 "to": {
                     "startLine": 397,
                     "startColumn": 4,
-                    "startOffset": 41475,
+                    "startOffset": 41474,
                     "endLine": 400,
                     "endColumn": 12,
-                    "endOffset": 41717
+                    "endOffset": 41716
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13578,10 +13585,10 @@
                 "to": {
                     "startLine": 401,
                     "startColumn": 4,
-                    "startOffset": 41722,
+                    "startOffset": 41721,
                     "endLine": 404,
                     "endColumn": 12,
-                    "endOffset": 41938
+                    "endOffset": 41937
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13591,10 +13598,10 @@
                 "to": {
                     "startLine": 405,
                     "startColumn": 4,
-                    "startOffset": 41943,
+                    "startOffset": 41942,
                     "endLine": 408,
                     "endColumn": 12,
-                    "endOffset": 42183
+                    "endOffset": 42182
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13604,10 +13611,10 @@
                 "to": {
                     "startLine": 409,
                     "startColumn": 4,
-                    "startOffset": 42188,
+                    "startOffset": 42187,
                     "endLine": 412,
                     "endColumn": 12,
-                    "endOffset": 42459
+                    "endOffset": 42458
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13617,10 +13624,10 @@
                 "to": {
                     "startLine": 413,
                     "startColumn": 4,
-                    "startOffset": 42464,
+                    "startOffset": 42463,
                     "endLine": 416,
                     "endColumn": 12,
-                    "endOffset": 42760
+                    "endOffset": 42759
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13630,10 +13637,10 @@
                 "to": {
                     "startLine": 417,
                     "startColumn": 4,
-                    "startOffset": 42765,
+                    "startOffset": 42764,
                     "endLine": 420,
                     "endColumn": 12,
-                    "endOffset": 43084
+                    "endOffset": 43083
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13643,10 +13650,10 @@
                 "to": {
                     "startLine": 421,
                     "startColumn": 4,
-                    "startOffset": 43089,
+                    "startOffset": 43088,
                     "endLine": 424,
                     "endColumn": 12,
-                    "endOffset": 43375
+                    "endOffset": 43374
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13656,10 +13663,10 @@
                 "to": {
                     "startLine": 425,
                     "startColumn": 4,
-                    "startOffset": 43380,
+                    "startOffset": 43379,
                     "endLine": 428,
                     "endColumn": 12,
-                    "endOffset": 43689
+                    "endOffset": 43688
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13669,9 +13676,9 @@
                 "to": {
                     "startLine": 429,
                     "startColumn": 4,
-                    "startOffset": 43694,
+                    "startOffset": 43693,
                     "endColumn": 136,
-                    "endOffset": 43826
+                    "endOffset": 43825
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13681,9 +13688,9 @@
                 "to": {
                     "startLine": 430,
                     "startColumn": 4,
-                    "startOffset": 43831,
+                    "startOffset": 43830,
                     "endColumn": 130,
-                    "endOffset": 43957
+                    "endOffset": 43956
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13693,9 +13700,9 @@
                 "to": {
                     "startLine": 431,
                     "startColumn": 4,
-                    "startOffset": 43962,
+                    "startOffset": 43961,
                     "endColumn": 104,
-                    "endOffset": 44062
+                    "endOffset": 44061
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13705,10 +13712,10 @@
                 "to": {
                     "startLine": 432,
                     "startColumn": 4,
-                    "startOffset": 44067,
+                    "startOffset": 44066,
                     "endLine": 434,
                     "endColumn": 12,
-                    "endOffset": 44266
+                    "endOffset": 44265
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13718,10 +13725,10 @@
                 "to": {
                     "startLine": 435,
                     "startColumn": 4,
-                    "startOffset": 44271,
+                    "startOffset": 44270,
                     "endLine": 437,
                     "endColumn": 12,
-                    "endOffset": 44474
+                    "endOffset": 44473
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13731,10 +13738,10 @@
                 "to": {
                     "startLine": 438,
                     "startColumn": 4,
-                    "startOffset": 44479,
+                    "startOffset": 44478,
                     "endLine": 439,
                     "endColumn": 12,
-                    "endOffset": 44598
+                    "endOffset": 44597
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13744,10 +13751,10 @@
                 "to": {
                     "startLine": 440,
                     "startColumn": 4,
-                    "startOffset": 44603,
+                    "startOffset": 44602,
                     "endLine": 441,
                     "endColumn": 12,
-                    "endOffset": 44722
+                    "endOffset": 44721
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13757,9 +13764,9 @@
                 "to": {
                     "startLine": 442,
                     "startColumn": 4,
-                    "startOffset": 44727,
+                    "startOffset": 44726,
                     "endColumn": 104,
-                    "endOffset": 44827
+                    "endOffset": 44826
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13769,9 +13776,9 @@
                 "to": {
                     "startLine": 443,
                     "startColumn": 4,
-                    "startOffset": 44832,
+                    "startOffset": 44831,
                     "endColumn": 116,
-                    "endOffset": 44944
+                    "endOffset": 44943
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13781,10 +13788,10 @@
                 "to": {
                     "startLine": 444,
                     "startColumn": 4,
-                    "startOffset": 44949,
+                    "startOffset": 44948,
                     "endLine": 446,
                     "endColumn": 12,
-                    "endOffset": 45158
+                    "endOffset": 45157
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13794,10 +13801,10 @@
                 "to": {
                     "startLine": 447,
                     "startColumn": 4,
-                    "startOffset": 45163,
+                    "startOffset": 45162,
                     "endLine": 448,
                     "endColumn": 12,
-                    "endOffset": 45304
+                    "endOffset": 45303
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13807,10 +13814,10 @@
                 "to": {
                     "startLine": 449,
                     "startColumn": 4,
-                    "startOffset": 45309,
+                    "startOffset": 45308,
                     "endLine": 450,
                     "endColumn": 12,
-                    "endOffset": 45444
+                    "endOffset": 45443
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13820,10 +13827,10 @@
                 "to": {
                     "startLine": 451,
                     "startColumn": 4,
-                    "startOffset": 45449,
+                    "startOffset": 45448,
                     "endLine": 452,
                     "endColumn": 12,
-                    "endOffset": 45530
+                    "endOffset": 45529
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13833,10 +13840,10 @@
                 "to": {
                     "startLine": 453,
                     "startColumn": 4,
-                    "startOffset": 45535,
+                    "startOffset": 45534,
                     "endLine": 457,
                     "endColumn": 12,
-                    "endOffset": 45878
+                    "endOffset": 45877
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13846,9 +13853,9 @@
                 "to": {
                     "startLine": 458,
                     "startColumn": 4,
-                    "startOffset": 45883,
+                    "startOffset": 45882,
                     "endColumn": 87,
-                    "endOffset": 45966
+                    "endOffset": 45965
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13858,10 +13865,10 @@
                 "to": {
                     "startLine": 459,
                     "startColumn": 4,
-                    "startOffset": 45971,
+                    "startOffset": 45970,
                     "endLine": 462,
                     "endColumn": 12,
-                    "endOffset": 46196
+                    "endOffset": 46195
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13871,10 +13878,10 @@
                 "to": {
                     "startLine": 463,
                     "startColumn": 4,
-                    "startOffset": 46201,
+                    "startOffset": 46200,
                     "endLine": 468,
                     "endColumn": 12,
-                    "endOffset": 46614
+                    "endOffset": 46613
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13884,10 +13891,10 @@
                 "to": {
                     "startLine": 469,
                     "startColumn": 4,
-                    "startOffset": 46619,
+                    "startOffset": 46618,
                     "endLine": 472,
                     "endColumn": 12,
-                    "endOffset": 46847
+                    "endOffset": 46846
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13897,9 +13904,9 @@
                 "to": {
                     "startLine": 473,
                     "startColumn": 4,
-                    "startOffset": 46852,
+                    "startOffset": 46851,
                     "endColumn": 81,
-                    "endOffset": 46929
+                    "endOffset": 46928
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13909,10 +13916,10 @@
                 "to": {
                     "startLine": 474,
                     "startColumn": 4,
-                    "startOffset": 46934,
+                    "startOffset": 46933,
                     "endLine": 475,
                     "endColumn": 12,
-                    "endOffset": 47027
+                    "endOffset": 47026
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13922,10 +13929,10 @@
                 "to": {
                     "startLine": 476,
                     "startColumn": 4,
-                    "startOffset": 47032,
+                    "startOffset": 47031,
                     "endLine": 486,
                     "endColumn": 12,
-                    "endOffset": 47644
+                    "endOffset": 47643
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13935,9 +13942,9 @@
                 "to": {
                     "startLine": 487,
                     "startColumn": 4,
-                    "startOffset": 47649,
+                    "startOffset": 47648,
                     "endColumn": 99,
-                    "endOffset": 47744
+                    "endOffset": 47743
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13947,10 +13954,10 @@
                 "to": {
                     "startLine": 488,
                     "startColumn": 4,
-                    "startOffset": 47749,
+                    "startOffset": 47748,
                     "endLine": 491,
                     "endColumn": 12,
-                    "endOffset": 47980
+                    "endOffset": 47979
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13960,10 +13967,10 @@
                 "to": {
                     "startLine": 492,
                     "startColumn": 4,
-                    "startOffset": 47985,
+                    "startOffset": 47984,
                     "endLine": 497,
                     "endColumn": 12,
-                    "endOffset": 48404
+                    "endOffset": 48403
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13973,10 +13980,10 @@
                 "to": {
                     "startLine": 498,
                     "startColumn": 4,
-                    "startOffset": 48409,
+                    "startOffset": 48408,
                     "endLine": 501,
                     "endColumn": 12,
-                    "endOffset": 48643
+                    "endOffset": 48642
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13986,9 +13993,9 @@
                 "to": {
                     "startLine": 502,
                     "startColumn": 4,
-                    "startOffset": 48648,
+                    "startOffset": 48647,
                     "endColumn": 93,
-                    "endOffset": 48737
+                    "endOffset": 48736
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -13998,9 +14005,9 @@
                 "to": {
                     "startLine": 503,
                     "startColumn": 4,
-                    "startOffset": 48742,
+                    "startOffset": 48741,
                     "endColumn": 88,
-                    "endOffset": 48826
+                    "endOffset": 48825
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14010,10 +14017,10 @@
                 "to": {
                     "startLine": 504,
                     "startColumn": 4,
-                    "startOffset": 48831,
+                    "startOffset": 48830,
                     "endLine": 507,
                     "endColumn": 12,
-                    "endOffset": 49063
+                    "endOffset": 49062
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14023,10 +14030,10 @@
                 "to": {
                     "startLine": 508,
                     "startColumn": 4,
-                    "startOffset": 49068,
+                    "startOffset": 49067,
                     "endLine": 533,
                     "endColumn": 12,
-                    "endOffset": 51014
+                    "endOffset": 51013
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14036,10 +14043,10 @@
                 "to": {
                     "startLine": 534,
                     "startColumn": 4,
-                    "startOffset": 51019,
+                    "startOffset": 51018,
                     "endLine": 537,
                     "endColumn": 12,
-                    "endOffset": 51256
+                    "endOffset": 51255
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14049,10 +14056,10 @@
                 "to": {
                     "startLine": 538,
                     "startColumn": 4,
-                    "startOffset": 51261,
+                    "startOffset": 51260,
                     "endLine": 564,
                     "endColumn": 12,
-                    "endOffset": 53338
+                    "endOffset": 53337
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14062,10 +14069,10 @@
                 "to": {
                     "startLine": 565,
                     "startColumn": 4,
-                    "startOffset": 53343,
+                    "startOffset": 53342,
                     "endLine": 719,
                     "endColumn": 12,
-                    "endOffset": 63204
+                    "endOffset": 63203
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14075,10 +14082,10 @@
                 "to": {
                     "startLine": 720,
                     "startColumn": 4,
-                    "startOffset": 63209,
+                    "startOffset": 63208,
                     "endLine": 741,
                     "endColumn": 12,
-                    "endOffset": 64471
+                    "endOffset": 64470
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14088,10 +14095,10 @@
                 "to": {
                     "startLine": 742,
                     "startColumn": 4,
-                    "startOffset": 64476,
+                    "startOffset": 64475,
                     "endLine": 896,
                     "endColumn": 12,
-                    "endOffset": 74447
+                    "endOffset": 74446
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14101,10 +14108,10 @@
                 "to": {
                     "startLine": 897,
                     "startColumn": 4,
-                    "startOffset": 74452,
+                    "startOffset": 74451,
                     "endLine": 918,
                     "endColumn": 12,
-                    "endOffset": 75728
+                    "endOffset": 75727
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14114,10 +14121,10 @@
                 "to": {
                     "startLine": 919,
                     "startColumn": 4,
-                    "startOffset": 75733,
+                    "startOffset": 75732,
                     "endLine": 925,
                     "endColumn": 12,
-                    "endOffset": 76264
+                    "endOffset": 76263
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14127,10 +14134,10 @@
                 "to": {
                     "startLine": 926,
                     "startColumn": 4,
-                    "startOffset": 76269,
+                    "startOffset": 76268,
                     "endLine": 930,
                     "endColumn": 12,
-                    "endOffset": 76594
+                    "endOffset": 76593
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14140,10 +14147,10 @@
                 "to": {
                     "startLine": 931,
                     "startColumn": 4,
-                    "startOffset": 76599,
+                    "startOffset": 76598,
                     "endLine": 951,
                     "endColumn": 12,
-                    "endOffset": 77717
+                    "endOffset": 77716
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14153,10 +14160,10 @@
                 "to": {
                     "startLine": 952,
                     "startColumn": 4,
-                    "startOffset": 77722,
+                    "startOffset": 77721,
                     "endLine": 956,
                     "endColumn": 12,
-                    "endOffset": 77973
+                    "endOffset": 77972
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14166,10 +14173,10 @@
                 "to": {
                     "startLine": 957,
                     "startColumn": 4,
-                    "startOffset": 77978,
+                    "startOffset": 77977,
                     "endLine": 961,
                     "endColumn": 12,
-                    "endOffset": 78209
+                    "endOffset": 78208
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14179,10 +14186,10 @@
                 "to": {
                     "startLine": 962,
                     "startColumn": 4,
-                    "startOffset": 78214,
+                    "startOffset": 78213,
                     "endLine": 971,
                     "endColumn": 12,
-                    "endOffset": 78756
+                    "endOffset": 78755
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14192,10 +14199,10 @@
                 "to": {
                     "startLine": 972,
                     "startColumn": 4,
-                    "startOffset": 78761,
+                    "startOffset": 78760,
                     "endLine": 980,
                     "endColumn": 12,
-                    "endOffset": 79250
+                    "endOffset": 79249
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14205,10 +14212,10 @@
                 "to": {
                     "startLine": 981,
                     "startColumn": 4,
-                    "startOffset": 79255,
+                    "startOffset": 79254,
                     "endLine": 989,
                     "endColumn": 12,
-                    "endOffset": 79855
+                    "endOffset": 79854
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14218,10 +14225,10 @@
                 "to": {
                     "startLine": 990,
                     "startColumn": 4,
-                    "startOffset": 79860,
+                    "startOffset": 79859,
                     "endLine": 992,
                     "endColumn": 12,
-                    "endOffset": 80003
+                    "endOffset": 80002
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14231,10 +14238,10 @@
                 "to": {
                     "startLine": 993,
                     "startColumn": 4,
-                    "startOffset": 80008,
+                    "startOffset": 80007,
                     "endLine": 999,
                     "endColumn": 12,
-                    "endOffset": 80591
+                    "endOffset": 80590
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14244,10 +14251,10 @@
                 "to": {
                     "startLine": 1000,
                     "startColumn": 4,
-                    "startOffset": 80596,
+                    "startOffset": 80595,
                     "endLine": 1007,
                     "endColumn": 12,
-                    "endOffset": 81155
+                    "endOffset": 81154
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14257,10 +14264,10 @@
                 "to": {
                     "startLine": 1008,
                     "startColumn": 4,
-                    "startOffset": 81160,
+                    "startOffset": 81159,
                     "endLine": 1014,
                     "endColumn": 12,
-                    "endOffset": 81530
+                    "endOffset": 81529
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14270,9 +14277,9 @@
                 "to": {
                     "startLine": 1015,
                     "startColumn": 4,
-                    "startOffset": 81535,
+                    "startOffset": 81534,
                     "endColumn": 117,
-                    "endOffset": 81648
+                    "endOffset": 81647
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14282,10 +14289,10 @@
                 "to": {
                     "startLine": 1016,
                     "startColumn": 4,
-                    "startOffset": 81653,
+                    "startOffset": 81652,
                     "endLine": 1024,
                     "endColumn": 12,
-                    "endOffset": 82186
+                    "endOffset": 82185
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14295,10 +14302,10 @@
                 "to": {
                     "startLine": 1025,
                     "startColumn": 4,
-                    "startOffset": 82191,
+                    "startOffset": 82190,
                     "endLine": 1027,
                     "endColumn": 12,
-                    "endOffset": 82343
+                    "endOffset": 82342
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14308,10 +14315,10 @@
                 "to": {
                     "startLine": 1028,
                     "startColumn": 4,
-                    "startOffset": 82348,
+                    "startOffset": 82347,
                     "endLine": 1030,
                     "endColumn": 12,
-                    "endOffset": 82487
+                    "endOffset": 82486
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14321,10 +14328,10 @@
                 "to": {
                     "startLine": 1031,
                     "startColumn": 4,
-                    "startOffset": 82492,
+                    "startOffset": 82491,
                     "endLine": 1035,
                     "endColumn": 12,
-                    "endOffset": 82807
+                    "endOffset": 82806
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14334,10 +14341,10 @@
                 "to": {
                     "startLine": 1036,
                     "startColumn": 4,
-                    "startOffset": 82812,
+                    "startOffset": 82811,
                     "endLine": 1039,
                     "endColumn": 12,
-                    "endOffset": 83063
+                    "endOffset": 83062
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14347,10 +14354,10 @@
                 "to": {
                     "startLine": 1040,
                     "startColumn": 4,
-                    "startOffset": 83068,
+                    "startOffset": 83067,
                     "endLine": 1043,
                     "endColumn": 12,
-                    "endOffset": 83233
+                    "endOffset": 83232
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14360,10 +14367,10 @@
                 "to": {
                     "startLine": 1044,
                     "startColumn": 4,
-                    "startOffset": 83238,
+                    "startOffset": 83237,
                     "endLine": 1046,
                     "endColumn": 12,
-                    "endOffset": 83374
+                    "endOffset": 83373
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14373,9 +14380,9 @@
                 "to": {
                     "startLine": 1047,
                     "startColumn": 4,
-                    "startOffset": 83379,
+                    "startOffset": 83378,
                     "endColumn": 63,
-                    "endOffset": 83438
+                    "endOffset": 83437
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14385,10 +14392,10 @@
                 "to": {
                     "startLine": 1048,
                     "startColumn": 4,
-                    "startOffset": 83443,
+                    "startOffset": 83442,
                     "endLine": 1051,
                     "endColumn": 12,
-                    "endOffset": 83720
+                    "endOffset": 83719
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14398,10 +14405,10 @@
                 "to": {
                     "startLine": 1052,
                     "startColumn": 4,
-                    "startOffset": 83725,
+                    "startOffset": 83724,
                     "endLine": 1055,
                     "endColumn": 12,
-                    "endOffset": 84006
+                    "endOffset": 84005
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14411,10 +14418,10 @@
                 "to": {
                     "startLine": 1056,
                     "startColumn": 4,
-                    "startOffset": 84011,
+                    "startOffset": 84010,
                     "endLine": 1065,
                     "endColumn": 12,
-                    "endOffset": 84682
+                    "endOffset": 84681
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14424,10 +14431,10 @@
                 "to": {
                     "startLine": 1066,
                     "startColumn": 4,
-                    "startOffset": 84687,
+                    "startOffset": 84686,
                     "endLine": 1070,
                     "endColumn": 12,
-                    "endOffset": 84946
+                    "endOffset": 84945
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14437,10 +14444,10 @@
                 "to": {
                     "startLine": 1071,
                     "startColumn": 4,
-                    "startOffset": 84951,
+                    "startOffset": 84950,
                     "endLine": 1077,
                     "endColumn": 12,
-                    "endOffset": 85284
+                    "endOffset": 85283
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14450,10 +14457,10 @@
                 "to": {
                     "startLine": 1078,
                     "startColumn": 4,
-                    "startOffset": 85289,
+                    "startOffset": 85288,
                     "endLine": 1083,
                     "endColumn": 12,
-                    "endOffset": 85637
+                    "endOffset": 85636
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14463,9 +14470,9 @@
                 "to": {
                     "startLine": 1084,
                     "startColumn": 4,
-                    "startOffset": 85642,
+                    "startOffset": 85641,
                     "endColumn": 93,
-                    "endOffset": 85731
+                    "endOffset": 85730
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14475,10 +14482,10 @@
                 "to": {
                     "startLine": 1085,
                     "startColumn": 4,
-                    "startOffset": 85736,
+                    "startOffset": 85735,
                     "endLine": 1087,
                     "endColumn": 12,
-                    "endOffset": 85917
+                    "endOffset": 85916
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14488,10 +14495,10 @@
                 "to": {
                     "startLine": 1088,
                     "startColumn": 4,
-                    "startOffset": 85922,
+                    "startOffset": 85921,
                     "endLine": 1091,
                     "endColumn": 12,
-                    "endOffset": 86223
+                    "endOffset": 86222
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14501,10 +14508,10 @@
                 "to": {
                     "startLine": 1092,
                     "startColumn": 4,
-                    "startOffset": 86228,
+                    "startOffset": 86227,
                     "endLine": 1096,
                     "endColumn": 12,
-                    "endOffset": 86485
+                    "endOffset": 86484
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14514,10 +14521,10 @@
                 "to": {
                     "startLine": 1097,
                     "startColumn": 4,
-                    "startOffset": 86490,
+                    "startOffset": 86489,
                     "endLine": 1098,
                     "endColumn": 12,
-                    "endOffset": 86610
+                    "endOffset": 86609
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14527,10 +14534,10 @@
                 "to": {
                     "startLine": 1099,
                     "startColumn": 4,
-                    "startOffset": 86615,
+                    "startOffset": 86614,
                     "endLine": 1100,
                     "endColumn": 12,
-                    "endOffset": 86737
+                    "endOffset": 86736
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14540,10 +14547,10 @@
                 "to": {
                     "startLine": 1101,
                     "startColumn": 4,
-                    "startOffset": 86742,
+                    "startOffset": 86741,
                     "endLine": 1103,
                     "endColumn": 12,
-                    "endOffset": 86976
+                    "endOffset": 86975
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14553,10 +14560,10 @@
                 "to": {
                     "startLine": 1104,
                     "startColumn": 4,
-                    "startOffset": 86981,
+                    "startOffset": 86980,
                     "endLine": 1106,
                     "endColumn": 12,
-                    "endOffset": 87187
+                    "endOffset": 87186
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14566,10 +14573,10 @@
                 "to": {
                     "startLine": 1107,
                     "startColumn": 4,
-                    "startOffset": 87192,
+                    "startOffset": 87191,
                     "endLine": 1108,
                     "endColumn": 12,
-                    "endOffset": 87306
+                    "endOffset": 87305
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14579,10 +14586,10 @@
                 "to": {
                     "startLine": 1109,
                     "startColumn": 4,
-                    "startOffset": 87311,
+                    "startOffset": 87310,
                     "endLine": 1112,
                     "endColumn": 12,
-                    "endOffset": 87499
+                    "endOffset": 87498
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14592,10 +14599,10 @@
                 "to": {
                     "startLine": 1113,
                     "startColumn": 4,
-                    "startOffset": 87504,
+                    "startOffset": 87503,
                     "endLine": 1119,
                     "endColumn": 12,
-                    "endOffset": 87954
+                    "endOffset": 87953
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14605,10 +14612,10 @@
                 "to": {
                     "startLine": 1120,
                     "startColumn": 4,
-                    "startOffset": 87959,
+                    "startOffset": 87958,
                     "endLine": 1122,
                     "endColumn": 12,
-                    "endOffset": 88135
+                    "endOffset": 88134
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14618,10 +14625,10 @@
                 "to": {
                     "startLine": 1123,
                     "startColumn": 4,
-                    "startOffset": 88140,
+                    "startOffset": 88139,
                     "endLine": 1125,
                     "endColumn": 12,
-                    "endOffset": 88257
+                    "endOffset": 88256
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14631,10 +14638,10 @@
                 "to": {
                     "startLine": 1126,
                     "startColumn": 4,
-                    "startOffset": 88262,
+                    "startOffset": 88261,
                     "endLine": 1129,
                     "endColumn": 12,
-                    "endOffset": 88516
+                    "endOffset": 88515
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14644,10 +14651,10 @@
                 "to": {
                     "startLine": 1130,
                     "startColumn": 4,
-                    "startOffset": 88521,
+                    "startOffset": 88520,
                     "endLine": 1131,
                     "endColumn": 12,
-                    "endOffset": 88629
+                    "endOffset": 88628
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14657,10 +14664,10 @@
                 "to": {
                     "startLine": 1132,
                     "startColumn": 4,
-                    "startOffset": 88634,
+                    "startOffset": 88633,
                     "endLine": 1135,
                     "endColumn": 12,
-                    "endOffset": 88816
+                    "endOffset": 88815
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14670,10 +14677,10 @@
                 "to": {
                     "startLine": 1136,
                     "startColumn": 4,
-                    "startOffset": 88821,
+                    "startOffset": 88820,
                     "endLine": 1137,
                     "endColumn": 12,
-                    "endOffset": 88918
+                    "endOffset": 88917
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14683,10 +14690,10 @@
                 "to": {
                     "startLine": 1138,
                     "startColumn": 4,
-                    "startOffset": 88923,
+                    "startOffset": 88922,
                     "endLine": 1143,
                     "endColumn": 12,
-                    "endOffset": 89362
+                    "endOffset": 89361
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14696,10 +14703,10 @@
                 "to": {
                     "startLine": 1144,
                     "startColumn": 4,
-                    "startOffset": 89367,
+                    "startOffset": 89366,
                     "endLine": 1145,
                     "endColumn": 12,
-                    "endOffset": 89486
+                    "endOffset": 89485
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14709,10 +14716,10 @@
                 "to": {
                     "startLine": 1146,
                     "startColumn": 4,
-                    "startOffset": 89491,
+                    "startOffset": 89490,
                     "endLine": 1149,
                     "endColumn": 12,
-                    "endOffset": 89771
+                    "endOffset": 89770
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14722,10 +14729,10 @@
                 "to": {
                     "startLine": 1150,
                     "startColumn": 4,
-                    "startOffset": 89776,
+                    "startOffset": 89775,
                     "endLine": 1157,
                     "endColumn": 12,
-                    "endOffset": 90279
+                    "endOffset": 90278
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14735,10 +14742,10 @@
                 "to": {
                     "startLine": 1158,
                     "startColumn": 4,
-                    "startOffset": 90284,
+                    "startOffset": 90283,
                     "endLine": 1165,
                     "endColumn": 12,
-                    "endOffset": 90775
+                    "endOffset": 90774
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14748,10 +14755,10 @@
                 "to": {
                     "startLine": 1166,
                     "startColumn": 4,
-                    "startOffset": 90780,
+                    "startOffset": 90779,
                     "endLine": 1177,
                     "endColumn": 12,
-                    "endOffset": 91662
+                    "endOffset": 91661
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14761,10 +14768,10 @@
                 "to": {
                     "startLine": 1178,
                     "startColumn": 4,
-                    "startOffset": 91667,
+                    "startOffset": 91666,
                     "endLine": 1183,
                     "endColumn": 12,
-                    "endOffset": 91956
+                    "endOffset": 91955
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14774,10 +14781,10 @@
                 "to": {
                     "startLine": 1184,
                     "startColumn": 4,
-                    "startOffset": 91961,
+                    "startOffset": 91960,
                     "endLine": 1192,
                     "endColumn": 12,
-                    "endOffset": 92526
+                    "endOffset": 92525
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14787,10 +14794,10 @@
                 "to": {
                     "startLine": 1193,
                     "startColumn": 4,
-                    "startOffset": 92531,
+                    "startOffset": 92530,
                     "endLine": 1203,
                     "endColumn": 12,
-                    "endOffset": 93258
+                    "endOffset": 93257
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14800,10 +14807,10 @@
                 "to": {
                     "startLine": 1204,
                     "startColumn": 4,
-                    "startOffset": 93263,
+                    "startOffset": 93262,
                     "endLine": 1206,
                     "endColumn": 12,
-                    "endOffset": 93430
+                    "endOffset": 93429
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14813,10 +14820,10 @@
                 "to": {
                     "startLine": 1207,
                     "startColumn": 4,
-                    "startOffset": 93435,
+                    "startOffset": 93434,
                     "endLine": 1211,
                     "endColumn": 12,
-                    "endOffset": 93766
+                    "endOffset": 93765
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14826,10 +14833,10 @@
                 "to": {
                     "startLine": 1212,
                     "startColumn": 4,
-                    "startOffset": 93771,
+                    "startOffset": 93770,
                     "endLine": 1223,
                     "endColumn": 12,
-                    "endOffset": 94674
+                    "endOffset": 94673
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14839,10 +14846,10 @@
                 "to": {
                     "startLine": 1224,
                     "startColumn": 4,
-                    "startOffset": 94679,
+                    "startOffset": 94678,
                     "endLine": 1228,
                     "endColumn": 12,
-                    "endOffset": 94952
+                    "endOffset": 94951
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14852,10 +14859,10 @@
                 "to": {
                     "startLine": 1229,
                     "startColumn": 4,
-                    "startOffset": 94957,
+                    "startOffset": 94956,
                     "endLine": 1266,
                     "endColumn": 12,
-                    "endOffset": 97814
+                    "endOffset": 97813
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14865,10 +14872,10 @@
                 "to": {
                     "startLine": 1267,
                     "startColumn": 4,
-                    "startOffset": 97819,
+                    "startOffset": 97818,
                     "endLine": 1305,
                     "endColumn": 12,
-                    "endOffset": 100816
+                    "endOffset": 100815
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14878,9 +14885,9 @@
                 "to": {
                     "startLine": 1306,
                     "startColumn": 4,
-                    "startOffset": 100821,
+                    "startOffset": 100820,
                     "endColumn": 61,
-                    "endOffset": 100878
+                    "endOffset": 100877
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14890,10 +14897,10 @@
                 "to": {
                     "startLine": 1307,
                     "startColumn": 4,
-                    "startOffset": 100883,
+                    "startOffset": 100882,
                     "endLine": 1316,
                     "endColumn": 12,
-                    "endOffset": 101508
+                    "endOffset": 101507
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14903,10 +14910,10 @@
                 "to": {
                     "startLine": 1317,
                     "startColumn": 4,
-                    "startOffset": 101513,
+                    "startOffset": 101512,
                     "endLine": 1325,
                     "endColumn": 12,
-                    "endOffset": 102122
+                    "endOffset": 102121
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14916,9 +14923,9 @@
                 "to": {
                     "startLine": 1326,
                     "startColumn": 4,
-                    "startOffset": 102127,
+                    "startOffset": 102126,
                     "endColumn": 85,
-                    "endOffset": 102208
+                    "endOffset": 102207
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14928,10 +14935,10 @@
                 "to": {
                     "startLine": 1327,
                     "startColumn": 4,
-                    "startOffset": 102213,
+                    "startOffset": 102212,
                     "endLine": 1328,
                     "endColumn": 12,
-                    "endOffset": 102321
+                    "endOffset": 102320
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14941,10 +14948,10 @@
                 "to": {
                     "startLine": 1329,
                     "startColumn": 4,
-                    "startOffset": 102326,
+                    "startOffset": 102325,
                     "endLine": 1332,
                     "endColumn": 12,
-                    "endOffset": 102550
+                    "endOffset": 102549
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14954,10 +14961,10 @@
                 "to": {
                     "startLine": 1333,
                     "startColumn": 4,
-                    "startOffset": 102555,
+                    "startOffset": 102554,
                     "endLine": 1335,
                     "endColumn": 12,
-                    "endOffset": 102710
+                    "endOffset": 102709
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14967,10 +14974,10 @@
                 "to": {
                     "startLine": 1336,
                     "startColumn": 4,
-                    "startOffset": 102715,
+                    "startOffset": 102714,
                     "endLine": 1338,
                     "endColumn": 12,
-                    "endOffset": 102862
+                    "endOffset": 102861
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14980,10 +14987,10 @@
                 "to": {
                     "startLine": 1339,
                     "startColumn": 4,
-                    "startOffset": 102867,
+                    "startOffset": 102866,
                     "endLine": 1341,
                     "endColumn": 12,
-                    "endOffset": 103033
+                    "endOffset": 103032
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -14993,10 +15000,10 @@
                 "to": {
                     "startLine": 1342,
                     "startColumn": 4,
-                    "startOffset": 103038,
+                    "startOffset": 103037,
                     "endLine": 1344,
                     "endColumn": 12,
-                    "endOffset": 103200
+                    "endOffset": 103199
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15006,10 +15013,10 @@
                 "to": {
                     "startLine": 1345,
                     "startColumn": 4,
-                    "startOffset": 103205,
+                    "startOffset": 103204,
                     "endLine": 1348,
                     "endColumn": 12,
-                    "endOffset": 103443
+                    "endOffset": 103442
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15019,10 +15026,10 @@
                 "to": {
                     "startLine": 1349,
                     "startColumn": 4,
-                    "startOffset": 103448,
+                    "startOffset": 103447,
                     "endLine": 1351,
                     "endColumn": 12,
-                    "endOffset": 103613
+                    "endOffset": 103612
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15032,10 +15039,10 @@
                 "to": {
                     "startLine": 1352,
                     "startColumn": 4,
-                    "startOffset": 103618,
+                    "startOffset": 103617,
                     "endLine": 1354,
                     "endColumn": 12,
-                    "endOffset": 103786
+                    "endOffset": 103785
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15045,10 +15052,10 @@
                 "to": {
                     "startLine": 1355,
                     "startColumn": 4,
-                    "startOffset": 103791,
+                    "startOffset": 103790,
                     "endLine": 1357,
                     "endColumn": 12,
-                    "endOffset": 103957
+                    "endOffset": 103956
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15058,10 +15065,10 @@
                 "to": {
                     "startLine": 1358,
                     "startColumn": 4,
-                    "startOffset": 103962,
+                    "startOffset": 103961,
                     "endLine": 1361,
                     "endColumn": 12,
-                    "endOffset": 104231
+                    "endOffset": 104230
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15071,10 +15078,10 @@
                 "to": {
                     "startLine": 1362,
                     "startColumn": 4,
-                    "startOffset": 104236,
+                    "startOffset": 104235,
                     "endLine": 1364,
                     "endColumn": 12,
-                    "endOffset": 104430
+                    "endOffset": 104429
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15084,10 +15091,10 @@
                 "to": {
                     "startLine": 1365,
                     "startColumn": 4,
-                    "startOffset": 104435,
+                    "startOffset": 104434,
                     "endLine": 1368,
                     "endColumn": 12,
-                    "endOffset": 104635
+                    "endOffset": 104634
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15097,10 +15104,10 @@
                 "to": {
                     "startLine": 1369,
                     "startColumn": 4,
-                    "startOffset": 104640,
+                    "startOffset": 104639,
                     "endLine": 1372,
                     "endColumn": 12,
-                    "endOffset": 104965
+                    "endOffset": 104964
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15110,10 +15117,10 @@
                 "to": {
                     "startLine": 1373,
                     "startColumn": 4,
-                    "startOffset": 104970,
+                    "startOffset": 104969,
                     "endLine": 1375,
                     "endColumn": 12,
-                    "endOffset": 105127
+                    "endOffset": 105126
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\src\\main\\res\\values\\styles.xml"
@@ -15123,9 +15130,9 @@
                 "to": {
                     "startLine": 1376,
                     "startColumn": 4,
-                    "startOffset": 105132,
+                    "startOffset": 105131,
                     "endColumn": 83,
-                    "endOffset": 105211
+                    "endOffset": 105210
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15135,9 +15142,9 @@
                 "to": {
                     "startLine": 1377,
                     "startColumn": 4,
-                    "startOffset": 105216,
+                    "startOffset": 105215,
                     "endColumn": 95,
-                    "endOffset": 105307
+                    "endOffset": 105306
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15147,9 +15154,9 @@
                 "to": {
                     "startLine": 1378,
                     "startColumn": 4,
-                    "startOffset": 105312,
+                    "startOffset": 105311,
                     "endColumn": 95,
-                    "endOffset": 105403
+                    "endOffset": 105402
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15159,9 +15166,9 @@
                 "to": {
                     "startLine": 1379,
                     "startColumn": 4,
-                    "startOffset": 105408,
+                    "startOffset": 105407,
                     "endColumn": 97,
-                    "endOffset": 105501
+                    "endOffset": 105500
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15171,9 +15178,9 @@
                 "to": {
                     "startLine": 1380,
                     "startColumn": 4,
-                    "startOffset": 105506,
+                    "startOffset": 105505,
                     "endColumn": 99,
-                    "endOffset": 105601
+                    "endOffset": 105600
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15183,9 +15190,9 @@
                 "to": {
                     "startLine": 1381,
                     "startColumn": 4,
-                    "startOffset": 105606,
+                    "startOffset": 105605,
                     "endColumn": 101,
-                    "endOffset": 105703
+                    "endOffset": 105702
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15195,9 +15202,9 @@
                 "to": {
                     "startLine": 1382,
                     "startColumn": 4,
-                    "startOffset": 105708,
+                    "startOffset": 105707,
                     "endColumn": 101,
-                    "endOffset": 105805
+                    "endOffset": 105804
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15207,9 +15214,9 @@
                 "to": {
                     "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 105810,
+                    "startOffset": 105809,
                     "endColumn": 101,
-                    "endOffset": 105907
+                    "endOffset": 105906
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15219,9 +15226,9 @@
                 "to": {
                     "startLine": 1384,
                     "startColumn": 4,
-                    "startOffset": 105912,
+                    "startOffset": 105911,
                     "endColumn": 101,
-                    "endOffset": 106009
+                    "endOffset": 106008
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15231,9 +15238,9 @@
                 "to": {
                     "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 106014,
+                    "startOffset": 106013,
                     "endColumn": 101,
-                    "endOffset": 106111
+                    "endOffset": 106110
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15243,9 +15250,9 @@
                 "to": {
                     "startLine": 1386,
                     "startColumn": 4,
-                    "startOffset": 106116,
+                    "startOffset": 106115,
                     "endColumn": 99,
-                    "endOffset": 106211
+                    "endOffset": 106210
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15255,9 +15262,9 @@
                 "to": {
                     "startLine": 1387,
                     "startColumn": 4,
-                    "startOffset": 106216,
+                    "startOffset": 106215,
                     "endColumn": 95,
-                    "endOffset": 106307
+                    "endOffset": 106306
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15267,9 +15274,9 @@
                 "to": {
                     "startLine": 1388,
                     "startColumn": 4,
-                    "startOffset": 106312,
+                    "startOffset": 106311,
                     "endColumn": 111,
-                    "endOffset": 106419
+                    "endOffset": 106418
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15279,9 +15286,9 @@
                 "to": {
                     "startLine": 1389,
                     "startColumn": 4,
-                    "startOffset": 106424,
+                    "startOffset": 106423,
                     "endColumn": 128,
-                    "endOffset": 106548
+                    "endOffset": 106547
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15291,9 +15298,9 @@
                 "to": {
                     "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 106553,
+                    "startOffset": 106552,
                     "endColumn": 122,
-                    "endOffset": 106671
+                    "endOffset": 106670
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15303,10 +15310,10 @@
                 "to": {
                     "startLine": 1391,
                     "startColumn": 4,
-                    "startOffset": 106676,
+                    "startOffset": 106675,
                     "endLine": 1392,
                     "endColumn": 12,
-                    "endOffset": 106825
+                    "endOffset": 106824
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15316,10 +15323,10 @@
                 "to": {
                     "startLine": 1393,
                     "startColumn": 4,
-                    "startOffset": 106830,
+                    "startOffset": 106829,
                     "endLine": 1394,
                     "endColumn": 12,
-                    "endOffset": 106979
+                    "endOffset": 106978
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15329,9 +15336,9 @@
                 "to": {
                     "startLine": 1395,
                     "startColumn": 4,
-                    "startOffset": 106984,
+                    "startOffset": 106983,
                     "endColumn": 97,
-                    "endOffset": 107077
+                    "endOffset": 107076
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15341,9 +15348,9 @@
                 "to": {
                     "startLine": 1396,
                     "startColumn": 4,
-                    "startOffset": 107082,
+                    "startOffset": 107081,
                     "endColumn": 113,
-                    "endOffset": 107191
+                    "endOffset": 107190
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15353,9 +15360,9 @@
                 "to": {
                     "startLine": 1397,
                     "startColumn": 4,
-                    "startOffset": 107196,
+                    "startOffset": 107195,
                     "endColumn": 93,
-                    "endOffset": 107285
+                    "endOffset": 107284
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15365,10 +15372,10 @@
                 "to": {
                     "startLine": 1398,
                     "startColumn": 4,
-                    "startOffset": 107290,
+                    "startOffset": 107289,
                     "endLine": 1399,
                     "endColumn": 12,
-                    "endOffset": 107425
+                    "endOffset": 107424
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15378,10 +15385,10 @@
                 "to": {
                     "startLine": 1400,
                     "startColumn": 4,
-                    "startOffset": 107430,
+                    "startOffset": 107429,
                     "endLine": 1401,
                     "endColumn": 12,
-                    "endOffset": 107559
+                    "endOffset": 107558
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15391,9 +15398,9 @@
                 "to": {
                     "startLine": 1402,
                     "startColumn": 4,
-                    "startOffset": 107564,
+                    "startOffset": 107563,
                     "endColumn": 95,
-                    "endOffset": 107655
+                    "endOffset": 107654
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15403,9 +15410,9 @@
                 "to": {
                     "startLine": 1403,
                     "startColumn": 4,
-                    "startOffset": 107660,
+                    "startOffset": 107659,
                     "endColumn": 111,
-                    "endOffset": 107767
+                    "endOffset": 107766
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15415,9 +15422,9 @@
                 "to": {
                     "startLine": 1404,
                     "startColumn": 4,
-                    "startOffset": 107772,
+                    "startOffset": 107771,
                     "endColumn": 99,
-                    "endOffset": 107867
+                    "endOffset": 107866
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15427,9 +15434,9 @@
                 "to": {
                     "startLine": 1405,
                     "startColumn": 4,
-                    "startOffset": 107872,
+                    "startOffset": 107871,
                     "endColumn": 115,
-                    "endOffset": 107983
+                    "endOffset": 107982
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15439,9 +15446,9 @@
                 "to": {
                     "startLine": 1406,
                     "startColumn": 4,
-                    "startOffset": 107988,
+                    "startOffset": 107987,
                     "endColumn": 95,
-                    "endOffset": 108079
+                    "endOffset": 108078
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15451,9 +15458,9 @@
                 "to": {
                     "startLine": 1407,
                     "startColumn": 4,
-                    "startOffset": 108084,
+                    "startOffset": 108083,
                     "endColumn": 111,
-                    "endOffset": 108191
+                    "endOffset": 108190
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15463,10 +15470,10 @@
                 "to": {
                     "startLine": 1408,
                     "startColumn": 4,
-                    "startOffset": 108196,
+                    "startOffset": 108195,
                     "endLine": 1409,
                     "endColumn": 12,
-                    "endOffset": 108331
+                    "endOffset": 108330
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15476,9 +15483,9 @@
                 "to": {
                     "startLine": 1410,
                     "startColumn": 4,
-                    "startOffset": 108336,
+                    "startOffset": 108335,
                     "endColumn": 135,
-                    "endOffset": 108467
+                    "endOffset": 108466
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15488,10 +15495,10 @@
                 "to": {
                     "startLine": 1411,
                     "startColumn": 4,
-                    "startOffset": 108472,
+                    "startOffset": 108471,
                     "endLine": 1412,
                     "endColumn": 12,
-                    "endOffset": 108631
+                    "endOffset": 108630
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15501,9 +15508,9 @@
                 "to": {
                     "startLine": 1413,
                     "startColumn": 4,
-                    "startOffset": 108636,
+                    "startOffset": 108635,
                     "endColumn": 129,
-                    "endOffset": 108761
+                    "endOffset": 108760
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15513,10 +15520,10 @@
                 "to": {
                     "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 108766,
+                    "startOffset": 108765,
                     "endLine": 1415,
                     "endColumn": 12,
-                    "endOffset": 108919
+                    "endOffset": 108918
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15526,10 +15533,10 @@
                 "to": {
                     "startLine": 1416,
                     "startColumn": 4,
-                    "startOffset": 108924,
+                    "startOffset": 108923,
                     "endLine": 1417,
                     "endColumn": 12,
-                    "endOffset": 109069
+                    "endOffset": 109068
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15539,9 +15546,9 @@
                 "to": {
                     "startLine": 1418,
                     "startColumn": 4,
-                    "startOffset": 109074,
+                    "startOffset": 109073,
                     "endColumn": 140,
-                    "endOffset": 109210
+                    "endOffset": 109209
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15551,10 +15558,10 @@
                 "to": {
                     "startLine": 1419,
                     "startColumn": 4,
-                    "startOffset": 109215,
+                    "startOffset": 109214,
                     "endLine": 1420,
                     "endColumn": 12,
-                    "endOffset": 109354
+                    "endOffset": 109353
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15564,9 +15571,9 @@
                 "to": {
                     "startLine": 1421,
                     "startColumn": 4,
-                    "startOffset": 109359,
+                    "startOffset": 109358,
                     "endColumn": 134,
-                    "endOffset": 109489
+                    "endOffset": 109488
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15576,9 +15583,9 @@
                 "to": {
                     "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 109494,
+                    "startOffset": 109493,
                     "endColumn": 111,
-                    "endOffset": 109601
+                    "endOffset": 109600
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15588,9 +15595,9 @@
                 "to": {
                     "startLine": 1423,
                     "startColumn": 4,
-                    "startOffset": 109606,
+                    "startOffset": 109605,
                     "endColumn": 127,
-                    "endOffset": 109729
+                    "endOffset": 109728
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15600,10 +15607,10 @@
                 "to": {
                     "startLine": 1424,
                     "startColumn": 4,
-                    "startOffset": 109734,
+                    "startOffset": 109733,
                     "endLine": 1425,
                     "endColumn": 12,
-                    "endOffset": 109865
+                    "endOffset": 109864
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15613,10 +15620,10 @@
                 "to": {
                     "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 109870,
+                    "startOffset": 109869,
                     "endLine": 1427,
                     "endColumn": 12,
-                    "endOffset": 110007
+                    "endOffset": 110006
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15626,10 +15633,10 @@
                 "to": {
                     "startLine": 1428,
                     "startColumn": 4,
-                    "startOffset": 110012,
+                    "startOffset": 110011,
                     "endLine": 1429,
                     "endColumn": 12,
-                    "endOffset": 110149
+                    "endOffset": 110148
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15639,9 +15646,9 @@
                 "to": {
                     "startLine": 1430,
                     "startColumn": 4,
-                    "startOffset": 110154,
+                    "startOffset": 110153,
                     "endColumn": 111,
-                    "endOffset": 110261
+                    "endOffset": 110260
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15651,9 +15658,9 @@
                 "to": {
                     "startLine": 1431,
                     "startColumn": 4,
-                    "startOffset": 110266,
+                    "startOffset": 110265,
                     "endColumn": 139,
-                    "endOffset": 110401
+                    "endOffset": 110400
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15663,10 +15670,10 @@
                 "to": {
                     "startLine": 1432,
                     "startColumn": 4,
-                    "startOffset": 110406,
+                    "startOffset": 110405,
                     "endLine": 1435,
                     "endColumn": 12,
-                    "endOffset": 110651
+                    "endOffset": 110650
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.prolificinteractive\\material-calendarview\\1.4.0\\res\\values\\values.xml"
@@ -15676,10 +15683,10 @@
                 "to": {
                     "startLine": 1436,
                     "startColumn": 4,
-                    "startOffset": 110656,
+                    "startOffset": 110655,
                     "endLine": 1438,
                     "endColumn": 12,
-                    "endOffset": 110831
+                    "endOffset": 110830
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.prolificinteractive\\material-calendarview\\1.4.0\\res\\values\\values.xml"
@@ -15689,10 +15696,10 @@
                 "to": {
                     "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 110836,
+                    "startOffset": 110835,
                     "endLine": 1441,
                     "endColumn": 12,
-                    "endOffset": 111011
+                    "endOffset": 111010
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.prolificinteractive\\material-calendarview\\1.4.0\\res\\values\\values.xml"
@@ -15702,9 +15709,9 @@
                 "to": {
                     "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 111016,
+                    "startOffset": 111015,
                     "endColumn": 67,
-                    "endOffset": 111079
+                    "endOffset": 111078
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15714,9 +15721,9 @@
                 "to": {
                     "startLine": 1443,
                     "startColumn": 4,
-                    "startOffset": 111084,
+                    "startOffset": 111083,
                     "endColumn": 72,
-                    "endOffset": 111152
+                    "endOffset": 111151
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15726,9 +15733,9 @@
                 "to": {
                     "startLine": 1444,
                     "startColumn": 4,
-                    "startOffset": 111157,
+                    "startOffset": 111156,
                     "endColumn": 73,
-                    "endOffset": 111226
+                    "endOffset": 111225
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15738,9 +15745,9 @@
                 "to": {
                     "startLine": 1445,
                     "startColumn": 4,
-                    "startOffset": 111231,
+                    "startOffset": 111230,
                     "endColumn": 72,
-                    "endOffset": 111299
+                    "endOffset": 111298
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15750,9 +15757,9 @@
                 "to": {
                     "startLine": 1446,
                     "startColumn": 4,
-                    "startOffset": 111304,
+                    "startOffset": 111303,
                     "endColumn": 73,
-                    "endOffset": 111373
+                    "endOffset": 111372
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15762,10 +15769,10 @@
                 "to": {
                     "startLine": 1447,
                     "startColumn": 4,
-                    "startOffset": 111378,
+                    "startOffset": 111377,
                     "endLine": 1448,
                     "endColumn": 12,
-                    "endOffset": 111519
+                    "endOffset": 111518
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15775,10 +15782,10 @@
                 "to": {
                     "startLine": 1449,
                     "startColumn": 4,
-                    "startOffset": 111524,
+                    "startOffset": 111523,
                     "endLine": 1450,
                     "endColumn": 12,
-                    "endOffset": 111663
+                    "endOffset": 111662
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15788,10 +15795,10 @@
                 "to": {
                     "startLine": 1451,
                     "startColumn": 4,
-                    "startOffset": 111668,
+                    "startOffset": 111667,
                     "endLine": 1452,
                     "endColumn": 12,
-                    "endOffset": 111801
+                    "endOffset": 111800
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15801,9 +15808,9 @@
                 "to": {
                     "startLine": 1453,
                     "startColumn": 4,
-                    "startOffset": 111806,
+                    "startOffset": 111805,
                     "endColumn": 65,
-                    "endOffset": 111867
+                    "endOffset": 111866
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15813,9 +15820,9 @@
                 "to": {
                     "startLine": 1454,
                     "startColumn": 4,
-                    "startOffset": 111872,
+                    "startOffset": 111871,
                     "endColumn": 89,
-                    "endOffset": 111957
+                    "endOffset": 111956
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15825,9 +15832,9 @@
                 "to": {
                     "startLine": 1455,
                     "startColumn": 4,
-                    "startOffset": 111962,
+                    "startOffset": 111961,
                     "endColumn": 75,
-                    "endOffset": 112033
+                    "endOffset": 112032
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15837,9 +15844,9 @@
                 "to": {
                     "startLine": 1456,
                     "startColumn": 4,
-                    "startOffset": 112038,
+                    "startOffset": 112037,
                     "endColumn": 103,
-                    "endOffset": 112137
+                    "endOffset": 112136
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15849,9 +15856,9 @@
                 "to": {
                     "startLine": 1457,
                     "startColumn": 4,
-                    "startOffset": 112142,
+                    "startOffset": 112141,
                     "endColumn": 89,
-                    "endOffset": 112227
+                    "endOffset": 112226
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15861,9 +15868,9 @@
                 "to": {
                     "startLine": 1458,
                     "startColumn": 4,
-                    "startOffset": 112232,
+                    "startOffset": 112231,
                     "endColumn": 101,
-                    "endOffset": 112329
+                    "endOffset": 112328
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15873,9 +15880,9 @@
                 "to": {
                     "startLine": 1459,
                     "startColumn": 4,
-                    "startOffset": 112334,
+                    "startOffset": 112333,
                     "endColumn": 107,
-                    "endOffset": 112437
+                    "endOffset": 112436
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15885,9 +15892,9 @@
                 "to": {
                     "startLine": 1460,
                     "startColumn": 4,
-                    "startOffset": 112442,
+                    "startOffset": 112441,
                     "endColumn": 107,
-                    "endOffset": 112545
+                    "endOffset": 112544
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15897,9 +15904,9 @@
                 "to": {
                     "startLine": 1461,
                     "startColumn": 4,
-                    "startOffset": 112550,
+                    "startOffset": 112549,
                     "endColumn": 99,
-                    "endOffset": 112645
+                    "endOffset": 112644
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15909,9 +15916,9 @@
                 "to": {
                     "startLine": 1462,
                     "startColumn": 4,
-                    "startOffset": 112650,
+                    "startOffset": 112649,
                     "endColumn": 79,
-                    "endOffset": 112725
+                    "endOffset": 112724
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15921,9 +15928,9 @@
                 "to": {
                     "startLine": 1463,
                     "startColumn": 4,
-                    "startOffset": 112730,
+                    "startOffset": 112729,
                     "endColumn": 91,
-                    "endOffset": 112817
+                    "endOffset": 112816
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15933,9 +15940,9 @@
                 "to": {
                     "startLine": 1464,
                     "startColumn": 4,
-                    "startOffset": 112822,
+                    "startOffset": 112821,
                     "endColumn": 97,
-                    "endOffset": 112915
+                    "endOffset": 112914
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15945,10 +15952,10 @@
                 "to": {
                     "startLine": 1465,
                     "startColumn": 4,
-                    "startOffset": 112920,
+                    "startOffset": 112919,
                     "endLine": 1466,
                     "endColumn": 12,
-                    "endOffset": 113025
+                    "endOffset": 113024
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15958,9 +15965,9 @@
                 "to": {
                     "startLine": 1467,
                     "startColumn": 4,
-                    "startOffset": 113030,
+                    "startOffset": 113029,
                     "endColumn": 77,
-                    "endOffset": 113103
+                    "endOffset": 113102
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15970,9 +15977,9 @@
                 "to": {
                     "startLine": 1468,
                     "startColumn": 4,
-                    "startOffset": 113108,
+                    "startOffset": 113107,
                     "endColumn": 105,
-                    "endOffset": 113209
+                    "endOffset": 113208
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15982,9 +15989,9 @@
                 "to": {
                     "startLine": 1469,
                     "startColumn": 4,
-                    "startOffset": 113214,
+                    "startOffset": 113213,
                     "endColumn": 91,
-                    "endOffset": 113301
+                    "endOffset": 113300
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -15994,9 +16001,9 @@
                 "to": {
                     "startLine": 1470,
                     "startColumn": 4,
-                    "startOffset": 113306,
+                    "startOffset": 113305,
                     "endColumn": 103,
-                    "endOffset": 113405
+                    "endOffset": 113404
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16006,9 +16013,9 @@
                 "to": {
                     "startLine": 1471,
                     "startColumn": 4,
-                    "startOffset": 113410,
+                    "startOffset": 113409,
                     "endColumn": 109,
-                    "endOffset": 113515
+                    "endOffset": 113514
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16018,10 +16025,10 @@
                 "to": {
                     "startLine": 1472,
                     "startColumn": 4,
-                    "startOffset": 113520,
+                    "startOffset": 113519,
                     "endLine": 1473,
                     "endColumn": 12,
-                    "endOffset": 113637
+                    "endOffset": 113636
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16031,10 +16038,10 @@
                 "to": {
                     "startLine": 1474,
                     "startColumn": 4,
-                    "startOffset": 113642,
+                    "startOffset": 113641,
                     "endLine": 1477,
                     "endColumn": 12,
-                    "endOffset": 113800
+                    "endOffset": 113799
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16044,10 +16051,10 @@
                 "to": {
                     "startLine": 1478,
                     "startColumn": 4,
-                    "startOffset": 113805,
+                    "startOffset": 113804,
                     "endLine": 1481,
                     "endColumn": 12,
-                    "endOffset": 113957
+                    "endOffset": 113956
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16057,9 +16064,9 @@
                 "to": {
                     "startLine": 1482,
                     "startColumn": 4,
-                    "startOffset": 113962,
+                    "startOffset": 113961,
                     "endColumn": 79,
-                    "endOffset": 114037
+                    "endOffset": 114036
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16069,9 +16076,9 @@
                 "to": {
                     "startLine": 1483,
                     "startColumn": 4,
-                    "startOffset": 114042,
+                    "startOffset": 114041,
                     "endColumn": 99,
-                    "endOffset": 114137
+                    "endOffset": 114136
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16081,9 +16088,9 @@
                 "to": {
                     "startLine": 1484,
                     "startColumn": 4,
-                    "startOffset": 114142,
+                    "startOffset": 114141,
                     "endColumn": 89,
-                    "endOffset": 114227
+                    "endOffset": 114226
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16093,9 +16100,9 @@
                 "to": {
                     "startLine": 1485,
                     "startColumn": 4,
-                    "startOffset": 114232,
+                    "startOffset": 114231,
                     "endColumn": 109,
-                    "endOffset": 114337
+                    "endOffset": 114336
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16105,9 +16112,9 @@
                 "to": {
                     "startLine": 1486,
                     "startColumn": 4,
-                    "startOffset": 114342,
+                    "startOffset": 114341,
                     "endColumn": 91,
-                    "endOffset": 114429
+                    "endOffset": 114428
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16117,10 +16124,10 @@
                 "to": {
                     "startLine": 1487,
                     "startColumn": 4,
-                    "startOffset": 114434,
+                    "startOffset": 114433,
                     "endLine": 1488,
                     "endColumn": 12,
-                    "endOffset": 114529
+                    "endOffset": 114528
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16130,10 +16137,10 @@
                 "to": {
                     "startLine": 1489,
                     "startColumn": 4,
-                    "startOffset": 114534,
+                    "startOffset": 114533,
                     "endLine": 1490,
                     "endColumn": 12,
-                    "endOffset": 114641
+                    "endOffset": 114640
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16143,10 +16150,10 @@
                 "to": {
                     "startLine": 1491,
                     "startColumn": 4,
-                    "startOffset": 114646,
+                    "startOffset": 114645,
                     "endLine": 1492,
                     "endColumn": 12,
-                    "endOffset": 114755
+                    "endOffset": 114754
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16156,10 +16163,10 @@
                 "to": {
                     "startLine": 1493,
                     "startColumn": 4,
-                    "startOffset": 114760,
+                    "startOffset": 114759,
                     "endLine": 1494,
                     "endColumn": 12,
-                    "endOffset": 114871
+                    "endOffset": 114870
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16169,10 +16176,10 @@
                 "to": {
                     "startLine": 1495,
                     "startColumn": 4,
-                    "startOffset": 114876,
+                    "startOffset": 114875,
                     "endLine": 1496,
                     "endColumn": 12,
-                    "endOffset": 114987
+                    "endOffset": 114986
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16182,9 +16189,9 @@
                 "to": {
                     "startLine": 1497,
                     "startColumn": 4,
-                    "startOffset": 114992,
+                    "startOffset": 114991,
                     "endColumn": 93,
-                    "endOffset": 115081
+                    "endOffset": 115080
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16194,9 +16201,9 @@
                 "to": {
                     "startLine": 1498,
                     "startColumn": 4,
-                    "startOffset": 115086,
+                    "startOffset": 115085,
                     "endColumn": 113,
-                    "endOffset": 115195
+                    "endOffset": 115194
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16206,9 +16213,9 @@
                 "to": {
                     "startLine": 1499,
                     "startColumn": 4,
-                    "startOffset": 115200,
+                    "startOffset": 115199,
                     "endColumn": 111,
-                    "endOffset": 115307
+                    "endOffset": 115306
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16218,10 +16225,10 @@
                 "to": {
                     "startLine": 1500,
                     "startColumn": 4,
-                    "startOffset": 115312,
+                    "startOffset": 115311,
                     "endLine": 1501,
                     "endColumn": 12,
-                    "endOffset": 115409
+                    "endOffset": 115408
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16231,10 +16238,10 @@
                 "to": {
                     "startLine": 1502,
                     "startColumn": 4,
-                    "startOffset": 115414,
+                    "startOffset": 115413,
                     "endLine": 1503,
                     "endColumn": 12,
-                    "endOffset": 115529
+                    "endOffset": 115528
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16244,10 +16251,10 @@
                 "to": {
                     "startLine": 1504,
                     "startColumn": 4,
-                    "startOffset": 115534,
+                    "startOffset": 115533,
                     "endLine": 1505,
                     "endColumn": 12,
-                    "endOffset": 115651
+                    "endOffset": 115650
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16257,9 +16264,9 @@
                 "to": {
                     "startLine": 1506,
                     "startColumn": 4,
-                    "startOffset": 115656,
+                    "startOffset": 115655,
                     "endColumn": 81,
-                    "endOffset": 115733
+                    "endOffset": 115732
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16269,9 +16276,9 @@
                 "to": {
                     "startLine": 1507,
                     "startColumn": 4,
-                    "startOffset": 115738,
+                    "startOffset": 115737,
                     "endColumn": 103,
-                    "endOffset": 115837
+                    "endOffset": 115836
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16281,9 +16288,9 @@
                 "to": {
                     "startLine": 1508,
                     "startColumn": 4,
-                    "startOffset": 115842,
+                    "startOffset": 115841,
                     "endColumn": 119,
-                    "endOffset": 115957
+                    "endOffset": 115956
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16293,9 +16300,9 @@
                 "to": {
                     "startLine": 1509,
                     "startColumn": 4,
-                    "startOffset": 115962,
+                    "startOffset": 115961,
                     "endColumn": 125,
-                    "endOffset": 116083
+                    "endOffset": 116082
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16305,9 +16312,9 @@
                 "to": {
                     "startLine": 1510,
                     "startColumn": 4,
-                    "startOffset": 116088,
+                    "startOffset": 116087,
                     "endColumn": 97,
-                    "endOffset": 116181
+                    "endOffset": 116180
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16317,9 +16324,9 @@
                 "to": {
                     "startLine": 1511,
                     "startColumn": 4,
-                    "startOffset": 116186,
+                    "startOffset": 116185,
                     "endColumn": 93,
-                    "endOffset": 116275
+                    "endOffset": 116274
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16329,9 +16336,9 @@
                 "to": {
                     "startLine": 1512,
                     "startColumn": 4,
-                    "startOffset": 116280,
+                    "startOffset": 116279,
                     "endColumn": 87,
-                    "endOffset": 116363
+                    "endOffset": 116362
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16341,9 +16348,9 @@
                 "to": {
                     "startLine": 1513,
                     "startColumn": 4,
-                    "startOffset": 116368,
+                    "startOffset": 116367,
                     "endColumn": 111,
-                    "endOffset": 116475
+                    "endOffset": 116474
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16353,9 +16360,9 @@
                 "to": {
                     "startLine": 1514,
                     "startColumn": 4,
-                    "startOffset": 116480,
+                    "startOffset": 116479,
                     "endColumn": 115,
-                    "endOffset": 116591
+                    "endOffset": 116590
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16365,9 +16372,9 @@
                 "to": {
                     "startLine": 1515,
                     "startColumn": 4,
-                    "startOffset": 116596,
+                    "startOffset": 116595,
                     "endColumn": 121,
-                    "endOffset": 116713
+                    "endOffset": 116712
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16377,9 +16384,9 @@
                 "to": {
                     "startLine": 1516,
                     "startColumn": 4,
-                    "startOffset": 116718,
+                    "startOffset": 116717,
                     "endColumn": 111,
-                    "endOffset": 116825
+                    "endOffset": 116824
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16389,10 +16396,10 @@
                 "to": {
                     "startLine": 1517,
                     "startColumn": 4,
-                    "startOffset": 116830,
+                    "startOffset": 116829,
                     "endLine": 1519,
                     "endColumn": 12,
-                    "endOffset": 117000
+                    "endOffset": 116999
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16402,9 +16409,9 @@
                 "to": {
                     "startLine": 1520,
                     "startColumn": 4,
-                    "startOffset": 117005,
+                    "startOffset": 117004,
                     "endColumn": 115,
-                    "endOffset": 117116
+                    "endOffset": 117115
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16414,9 +16421,9 @@
                 "to": {
                     "startLine": 1521,
                     "startColumn": 4,
-                    "startOffset": 117121,
+                    "startOffset": 117120,
                     "endColumn": 85,
-                    "endOffset": 117202
+                    "endOffset": 117201
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16426,9 +16433,9 @@
                 "to": {
                     "startLine": 1522,
                     "startColumn": 4,
-                    "startOffset": 117207,
+                    "startOffset": 117206,
                     "endColumn": 91,
-                    "endOffset": 117294
+                    "endOffset": 117293
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16438,10 +16445,10 @@
                 "to": {
                     "startLine": 1523,
                     "startColumn": 4,
-                    "startOffset": 117299,
+                    "startOffset": 117298,
                     "endLine": 1524,
                     "endColumn": 12,
-                    "endOffset": 117406
+                    "endOffset": 117405
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16451,10 +16458,10 @@
                 "to": {
                     "startLine": 1525,
                     "startColumn": 4,
-                    "startOffset": 117411,
+                    "startOffset": 117410,
                     "endLine": 1526,
                     "endColumn": 12,
-                    "endOffset": 117530
+                    "endOffset": 117529
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16464,9 +16471,9 @@
                 "to": {
                     "startLine": 1527,
                     "startColumn": 4,
-                    "startOffset": 117535,
+                    "startOffset": 117534,
                     "endColumn": 66,
-                    "endOffset": 117597
+                    "endOffset": 117596
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16476,10 +16483,10 @@
                 "to": {
                     "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 117602,
+                    "startOffset": 117601,
                     "endLine": 1529,
                     "endColumn": 12,
-                    "endOffset": 117723
+                    "endOffset": 117722
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16489,9 +16496,9 @@
                 "to": {
                     "startLine": 1530,
                     "startColumn": 4,
-                    "startOffset": 117728,
+                    "startOffset": 117727,
                     "endColumn": 67,
-                    "endOffset": 117791
+                    "endOffset": 117790
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16501,10 +16508,10 @@
                 "to": {
                     "startLine": 1531,
                     "startColumn": 4,
-                    "startOffset": 117796,
+                    "startOffset": 117795,
                     "endLine": 1532,
                     "endColumn": 12,
-                    "endOffset": 117919
+                    "endOffset": 117918
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16514,10 +16521,10 @@
                 "to": {
                     "startLine": 1533,
                     "startColumn": 4,
-                    "startOffset": 117924,
+                    "startOffset": 117923,
                     "endLine": 1534,
                     "endColumn": 12,
-                    "endOffset": 118063
+                    "endOffset": 118062
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16527,10 +16534,10 @@
                 "to": {
                     "startLine": 1535,
                     "startColumn": 4,
-                    "startOffset": 118068,
+                    "startOffset": 118067,
                     "endLine": 1536,
                     "endColumn": 12,
-                    "endOffset": 118191
+                    "endOffset": 118190
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16540,9 +16547,9 @@
                 "to": {
                     "startLine": 1537,
                     "startColumn": 4,
-                    "startOffset": 118196,
+                    "startOffset": 118195,
                     "endColumn": 68,
-                    "endOffset": 118260
+                    "endOffset": 118259
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16552,9 +16559,9 @@
                 "to": {
                     "startLine": 1538,
                     "startColumn": 4,
-                    "startOffset": 118265,
+                    "startOffset": 118264,
                     "endColumn": 94,
-                    "endOffset": 118355
+                    "endOffset": 118354
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16564,9 +16571,9 @@
                 "to": {
                     "startLine": 1539,
                     "startColumn": 4,
-                    "startOffset": 118360,
+                    "startOffset": 118359,
                     "endColumn": 114,
-                    "endOffset": 118470
+                    "endOffset": 118469
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16576,9 +16583,9 @@
                 "to": {
                     "startLine": 1540,
                     "startColumn": 4,
-                    "startOffset": 118475,
+                    "startOffset": 118474,
                     "endColumn": 112,
-                    "endOffset": 118583
+                    "endOffset": 118582
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16588,9 +16595,9 @@
                 "to": {
                     "startLine": 1541,
                     "startColumn": 4,
-                    "startOffset": 118588,
+                    "startOffset": 118587,
                     "endColumn": 98,
-                    "endOffset": 118682
+                    "endOffset": 118681
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16600,9 +16607,9 @@
                 "to": {
                     "startLine": 1542,
                     "startColumn": 4,
-                    "startOffset": 118687,
+                    "startOffset": 118686,
                     "endColumn": 108,
-                    "endOffset": 118791
+                    "endOffset": 118790
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16612,9 +16619,9 @@
                 "to": {
                     "startLine": 1543,
                     "startColumn": 4,
-                    "startOffset": 118796,
+                    "startOffset": 118795,
                     "endColumn": 110,
-                    "endOffset": 118902
+                    "endOffset": 118901
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16624,9 +16631,9 @@
                 "to": {
                     "startLine": 1544,
                     "startColumn": 4,
-                    "startOffset": 118907,
+                    "startOffset": 118906,
                     "endColumn": 110,
-                    "endOffset": 119013
+                    "endOffset": 119012
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16636,9 +16643,9 @@
                 "to": {
                     "startLine": 1545,
                     "startColumn": 4,
-                    "startOffset": 119018,
+                    "startOffset": 119017,
                     "endColumn": 100,
-                    "endOffset": 119114
+                    "endOffset": 119113
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16648,9 +16655,9 @@
                 "to": {
                     "startLine": 1546,
                     "startColumn": 4,
-                    "startOffset": 119119,
+                    "startOffset": 119118,
                     "endColumn": 104,
-                    "endOffset": 119219
+                    "endOffset": 119218
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16660,10 +16667,10 @@
                 "to": {
                     "startLine": 1547,
                     "startColumn": 4,
-                    "startOffset": 119224,
+                    "startOffset": 119223,
                     "endLine": 1548,
                     "endColumn": 12,
-                    "endOffset": 119331
+                    "endOffset": 119330
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16673,10 +16680,10 @@
                 "to": {
                     "startLine": 1549,
                     "startColumn": 4,
-                    "startOffset": 119336,
+                    "startOffset": 119335,
                     "endLine": 1550,
                     "endColumn": 12,
-                    "endOffset": 119461
+                    "endOffset": 119460
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16686,9 +16693,9 @@
                 "to": {
                     "startLine": 1551,
                     "startColumn": 4,
-                    "startOffset": 119466,
+                    "startOffset": 119465,
                     "endColumn": 90,
-                    "endOffset": 119552
+                    "endOffset": 119551
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16698,9 +16705,9 @@
                 "to": {
                     "startLine": 1552,
                     "startColumn": 4,
-                    "startOffset": 119557,
+                    "startOffset": 119556,
                     "endColumn": 122,
-                    "endOffset": 119675
+                    "endOffset": 119674
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16710,10 +16717,10 @@
                 "to": {
                     "startLine": 1553,
                     "startColumn": 4,
-                    "startOffset": 119680,
+                    "startOffset": 119679,
                     "endLine": 1554,
                     "endColumn": 12,
-                    "endOffset": 119787
+                    "endOffset": 119786
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16723,9 +16730,9 @@
                 "to": {
                     "startLine": 1555,
                     "startColumn": 4,
-                    "startOffset": 119792,
+                    "startOffset": 119791,
                     "endColumn": 85,
-                    "endOffset": 119873
+                    "endOffset": 119872
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16735,9 +16742,9 @@
                 "to": {
                     "startLine": 1556,
                     "startColumn": 4,
-                    "startOffset": 119878,
+                    "startOffset": 119877,
                     "endColumn": 103,
-                    "endOffset": 119977
+                    "endOffset": 119976
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16747,10 +16754,10 @@
                 "to": {
                     "startLine": 1557,
                     "startColumn": 4,
-                    "startOffset": 119982,
+                    "startOffset": 119981,
                     "endLine": 1558,
                     "endColumn": 12,
-                    "endOffset": 120085
+                    "endOffset": 120084
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16760,10 +16767,10 @@
                 "to": {
                     "startLine": 1559,
                     "startColumn": 4,
-                    "startOffset": 120090,
+                    "startOffset": 120089,
                     "endLine": 1560,
                     "endColumn": 12,
-                    "endOffset": 120185
+                    "endOffset": 120184
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16773,10 +16780,10 @@
                 "to": {
                     "startLine": 1561,
                     "startColumn": 4,
-                    "startOffset": 120190,
+                    "startOffset": 120189,
                     "endLine": 1562,
                     "endColumn": 12,
-                    "endOffset": 120303
+                    "endOffset": 120302
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16786,10 +16793,10 @@
                 "to": {
                     "startLine": 1563,
                     "startColumn": 4,
-                    "startOffset": 120308,
+                    "startOffset": 120307,
                     "endLine": 1564,
                     "endColumn": 12,
-                    "endOffset": 120407
+                    "endOffset": 120406
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16799,10 +16806,10 @@
                 "to": {
                     "startLine": 1565,
                     "startColumn": 4,
-                    "startOffset": 120412,
+                    "startOffset": 120411,
                     "endLine": 1566,
                     "endColumn": 12,
-                    "endOffset": 120511
+                    "endOffset": 120510
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16812,10 +16819,10 @@
                 "to": {
                     "startLine": 1567,
                     "startColumn": 4,
-                    "startOffset": 120516,
+                    "startOffset": 120515,
                     "endLine": 1568,
                     "endColumn": 12,
-                    "endOffset": 120637
+                    "endOffset": 120636
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16825,9 +16832,9 @@
                 "to": {
                     "startLine": 1569,
                     "startColumn": 4,
-                    "startOffset": 120642,
+                    "startOffset": 120641,
                     "endColumn": 87,
-                    "endOffset": 120725
+                    "endOffset": 120724
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16837,9 +16844,9 @@
                 "to": {
                     "startLine": 1570,
                     "startColumn": 4,
-                    "startOffset": 120730,
+                    "startOffset": 120729,
                     "endColumn": 107,
-                    "endOffset": 120833
+                    "endOffset": 120832
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16849,9 +16856,9 @@
                 "to": {
                     "startLine": 1571,
                     "startColumn": 4,
-                    "startOffset": 120838,
+                    "startOffset": 120837,
                     "endColumn": 99,
-                    "endOffset": 120933
+                    "endOffset": 120932
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16861,9 +16868,9 @@
                 "to": {
                     "startLine": 1572,
                     "startColumn": 4,
-                    "startOffset": 120938,
+                    "startOffset": 120937,
                     "endColumn": 89,
-                    "endOffset": 121023
+                    "endOffset": 121022
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16873,9 +16880,9 @@
                 "to": {
                     "startLine": 1573,
                     "startColumn": 4,
-                    "startOffset": 121028,
+                    "startOffset": 121027,
                     "endColumn": 109,
-                    "endOffset": 121133
+                    "endOffset": 121132
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16885,9 +16892,9 @@
                 "to": {
                     "startLine": 1574,
                     "startColumn": 4,
-                    "startOffset": 121138,
+                    "startOffset": 121137,
                     "endColumn": 83,
-                    "endOffset": 121217
+                    "endOffset": 121216
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16897,9 +16904,9 @@
                 "to": {
                     "startLine": 1575,
                     "startColumn": 4,
-                    "startOffset": 121222,
+                    "startOffset": 121221,
                     "endColumn": 83,
-                    "endOffset": 121301
+                    "endOffset": 121300
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16909,9 +16916,9 @@
                 "to": {
                     "startLine": 1576,
                     "startColumn": 4,
-                    "startOffset": 121306,
+                    "startOffset": 121305,
                     "endColumn": 53,
-                    "endOffset": 121355
+                    "endOffset": 121354
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16921,9 +16928,9 @@
                 "to": {
                     "startLine": 1577,
                     "startColumn": 4,
-                    "startOffset": 121360,
+                    "startOffset": 121359,
                     "endColumn": 63,
-                    "endOffset": 121419
+                    "endOffset": 121418
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16933,9 +16940,9 @@
                 "to": {
                     "startLine": 1578,
                     "startColumn": 4,
-                    "startOffset": 121424,
+                    "startOffset": 121423,
                     "endColumn": 105,
-                    "endOffset": 121525
+                    "endOffset": 121524
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16945,9 +16952,9 @@
                 "to": {
                     "startLine": 1579,
                     "startColumn": 4,
-                    "startOffset": 121530,
+                    "startOffset": 121529,
                     "endColumn": 109,
-                    "endOffset": 121635
+                    "endOffset": 121634
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16957,9 +16964,9 @@
                 "to": {
                     "startLine": 1580,
                     "startColumn": 4,
-                    "startOffset": 121640,
+                    "startOffset": 121639,
                     "endColumn": 83,
-                    "endOffset": 121719
+                    "endOffset": 121718
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"
@@ -16969,9 +16976,9 @@
                 "to": {
                     "startLine": 1581,
                     "startColumn": 4,
-                    "startOffset": 121724,
+                    "startOffset": 121723,
                     "endColumn": 119,
-                    "endOffset": 121839
+                    "endOffset": 121838
                 },
                 "from": {
                     "file": "C:\\Users\\ofl7_000\\AndroidStudioProjects\\AustinAllergyAlert\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml"

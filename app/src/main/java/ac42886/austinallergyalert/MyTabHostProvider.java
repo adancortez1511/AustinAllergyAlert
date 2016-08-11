@@ -47,8 +47,8 @@ public class MyTabHostProvider extends TabHostProvider
         transGradientDrawable.setDither(true);
 
         homeTab = new Tab(context, category);
-        homeTab.setIcon(R.drawable.home_sel);
-        homeTab.setIconSelected(R.drawable.home_sel);
+        homeTab.setIcon(R.drawable.home);
+        homeTab.setIconSelected(R.drawable.home);
         homeTab.setBtnText("Home");
         homeTab.setBtnTextColor(Color.WHITE);
         homeTab.setSelectedBtnTextColor(Color.BLACK);
@@ -59,8 +59,8 @@ public class MyTabHostProvider extends TabHostProvider
         homeTab.setIntent(new Intent(context, AustinAllergyAlert.class));
 
         calendarTab = new Tab(context, category);
-        calendarTab.setIcon(R.drawable.menu_sel);
-        calendarTab.setIconSelected(R.drawable.menu_sel);
+        calendarTab.setIcon(R.drawable.calendar);
+        calendarTab.setIconSelected(R.drawable.calendar);
         calendarTab.setBtnText("Calendar");
         calendarTab.setBtnTextColor(Color.WHITE);
         calendarTab.setSelectedBtnTextColor(Color.BLACK);
@@ -71,8 +71,8 @@ public class MyTabHostProvider extends TabHostProvider
         calendarTab.setIntent(new Intent(context, CalendarActivity.class));
 
         graphDataTab = new Tab(context, category);
-        graphDataTab.setIcon(R.drawable.home_sel);
-        graphDataTab.setIconSelected(R.drawable.home_sel);
+        graphDataTab.setIcon(R.drawable.chart_line);
+        graphDataTab.setIconSelected(R.drawable.chart_line);
         graphDataTab.setBtnText("Graph");
         graphDataTab.setBtnTextColor(Color.WHITE);
         graphDataTab.setSelectedBtnTextColor(Color.BLACK);
@@ -83,8 +83,8 @@ public class MyTabHostProvider extends TabHostProvider
         graphDataTab.setIntent(new Intent(context, GraphData.class));
 
         notesTab = new Tab(context, category);
-        notesTab.setIcon(R.drawable.more_sel);
-        notesTab.setIconSelected(R.drawable.more_sel);
+        notesTab.setIcon(R.drawable.ic_create);
+        notesTab.setIconSelected(R.drawable.ic_create);
         notesTab.setBtnText("Notes");
         notesTab.setBtnTextColor(Color.WHITE);
         notesTab.setSelectedBtnTextColor(Color.BLACK);
